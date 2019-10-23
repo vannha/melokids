@@ -23,6 +23,10 @@ function melokids_instagram( $username ) {
         if ( $proxy = apply_filters( 'wpiw_proxy', false ) ) {
             $url = $proxies[ array_rand( $proxies ) ] . urlencode( $url );
         }
+        $remote = wp_remote_get( $url, array(
+                'user-agent' => 'Instagram/' . $wp_version . '; ' . home_url()
+            ) );
+            var_dump($remote);
         if ( false === ( $instagram = get_transient( 'wpiw-01-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ) ) ) ) {
             $remote = wp_remote_get( $url, array(
                 'user-agent' => 'Instagram/' . $wp_version . '; ' . home_url()
