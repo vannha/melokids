@@ -27,7 +27,7 @@ function melokids_instagram( $username ) {
             $remote = wp_remote_get( $url, array(
                 'user-agent' => 'Instagram/' . $wp_version . '; ' . home_url()
             ) );
-            var_dump($remote['body']);
+            var_dump($remote);
             if ( is_wp_error( $remote ) ) {
                 return new WP_Error( 'site_down', esc_html__( 'Unable to communicate with Instagram.', 'wp-instagram-widget' ) );
             }
