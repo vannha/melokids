@@ -20,6 +20,7 @@ function melokids_instagram( $username ) {
 
         $remote = wp_remote_get( $url );
         var_dump($remote); 
+        die();
         if ( is_wp_error( $remote ) ) {
             return new WP_Error( 'site_down', esc_html__( 'Unable to communicate with Instagram.', 'melokids' ) );
         }
