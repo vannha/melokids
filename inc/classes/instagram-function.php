@@ -25,7 +25,7 @@ function melokids_instagram( $username ) {
         }
             
         $instagram = get_transient( 'wpiw-01-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ) );
-        var_dump($instagram );
+        //var_dump($instagram);
         if ( false === $instagram  ) {
             $remote = wp_remote_get( $url, array(
                 'user-agent' => 'Instagram/' . $wp_version . '; ' . home_url()
