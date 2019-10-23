@@ -19,7 +19,7 @@ function melokids_instagram( $username ) {
     if ( false === ( $instagram = get_transient( 'insta-a10-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ) ) ) ) {
 
         $remote = wp_remote_get( $url );
-        var_dump($remote);
+        var_dump($remote); 
         if ( is_wp_error( $remote ) ) {
             return new WP_Error( 'site_down', esc_html__( 'Unable to communicate with Instagram.', 'melokids' ) );
         }
