@@ -77,7 +77,7 @@ function melokids_instagram( $username ) {
         // do not set an empty transient - should help catch private or empty accounts.
         if ( ! empty( $instagram ) ) {
             $instagram = base64_ef4_encode( serialize( $instagram ) );
-            //set_transient( 'insta-a10-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ), $instagram, apply_filters( 'null_instagram_cache_time', HOUR_IN_SECONDS * 2 ) );
+            set_transient( 'insta-a10-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ), $instagram, apply_filters( 'null_instagram_cache_time', HOUR_IN_SECONDS * 2 ) );
         }
     }
     if ( ! empty( $instagram ) ) {
