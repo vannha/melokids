@@ -1,0 +1,146 @@
+/**
+ * YITH Wishlist
+*/
+body {
+	#yith-wcwl-popup-message{
+		top: 0;
+		left: auto;
+		right: 20px;
+		background: #4accb0;
+		color: $white;
+		border: none;
+		border-radius: 0;
+		line-height: 1;
+		[dir="rtl"] & {
+			right: auto;
+			left: 20px;
+		}
+	}
+	&.logged-in #yith-wcwl-popup-message{
+		top: 50px;
+	}
+}
+.yith-wcwl-add-to-wishlist{
+	margin: 0;
+	padding: 0;
+}
+
+.yith-wcwl-add-button > a i{
+	margin: 0;
+}
+.add_to_wishlist{
+	&.loading{
+		@include opacity(0.7);
+		i{
+			@include animation('a 2s infinite linear');
+			&:before{
+				content: "\f021";
+			}
+		}
+	}
+}
+
+.yith-wcwl-wishlistaddedbrowse,
+.yith-wcwl-wishlistexistsbrowse{
+	a i:before{
+		content: "\f004";
+		font-family: 'FontAwesome';
+	}
+}
+
+form.cart {
+	.yith-wcwl-add-to-wishlist{
+		display: inline-block;
+	}
+}
+
+/* WooSmart Plugin */
+.woosmart-icon{
+	> button,
+	> a{
+		font-size: 0;
+		border: none;
+		outline: none;
+		background: transparent;
+		cursor: pointer;
+		&:before{
+			font-family: $FontAwesome;
+			font-size: 16px;
+			margin: 0;
+		}
+		&.wooscp-btn{
+			&:before{
+				content: "\f074";
+			}
+			&.wooscp-btn-added:before{
+				content: "\f00c";
+				margin-right: 0;
+			}
+		}
+		&.woosq-btn{
+			&:before{
+				content: "\f06e";
+			}
+		}
+		&.woosw-btn{
+			&:before{
+				content: "\f004";
+			}
+			&.woosw-added:before{
+				font-family: $FontAwesomeR;
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.woosmart-btn{
+	> button,
+	> a {
+		border: none;
+		line-height: 62px;
+		white-space: nowrap;
+		font-size: 14px;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		font-family: $EdmonsB;
+		color: $HeadingColor;
+		cursor: pointer;
+		background: transparent;
+		padding: 0 25px;
+		@include transition();
+		&:hover{
+			background: $primary_color;
+			color: $white;
+		}
+
+		&:before{
+			font-family: $FontAwesome;
+			font-size: 16px;
+			margin: 0;
+		}
+		&.wooscp-btn{
+			&:before{
+				content: "\f074\00a0\00a0";
+			}
+			&.wooscp-btn-added:before{
+				content: "\f00c\00a0\00a0";
+				margin-right: 0;
+			}
+		}
+		&.woosq-btn{
+			&:before{
+				content: "\f06e\00a0\00a0";
+			}
+		}
+		&.woosw-btn{
+			&:before{
+				content: "\f004\00a0\00a0";
+			}
+			&.woosw-added:before{
+				font-family: $FontAwesomeR;
+				margin-right: 0;
+			}
+		}
+	}
+}

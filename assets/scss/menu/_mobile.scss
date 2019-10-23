@@ -1,0 +1,32 @@
+/* Mobile Nav */
+@media (max-width: $screen-xl-min - 1){
+	#zk-navigation{
+		display: none;
+		position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 100%;
+	    background: $dropdown_bg_color;
+	}
+	#zk-navigation-left,
+	#zk-navigation-right{
+		display: none;
+	}
+	.zk-main-nav{
+		> li{
+			padding: 8px 0;
+		}
+		.sub-menu{
+			display: none;
+			visibility: visible;
+		}
+	}
+}
+@media (max-width: $screen-lg-min){
+	.sub-megamenu{
+		.container{
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}

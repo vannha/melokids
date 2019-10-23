@@ -1,0 +1,149 @@
+.entry-single{
+	overflow: hidden;
+	.entry-header{
+		margin-bottom: 42px;
+	}
+	.entry-title{
+		font-family: $EdmonsR;
+		letter-spacing: 1.4px;
+		@media (min-width: $screen-lg-min){
+			font-size:35px;
+		}
+	}
+}
+
+.entry-content{
+	margin-bottom: 25px;
+}
+.single-tags-share,
+.entry-author,
+.single-post-navigation,
+#comments{
+	border-top: $MainBorder;
+	padding-top: 30px;
+}
+.single-tags-share {
+	margin-top: 4px;
+	&:empty{
+		display: none;
+	}
+}
+.entry-share{
+	.title + span{
+		margin-left: 20px;
+	}
+}
+.rtl {
+	.entry-share{
+		.title + span{
+			margin-left: 0;
+			margin-right: 20px;
+		}
+	}
+}
+.entry-author{
+	padding-top: 70px;
+	padding-bottom: 55px;
+	@media (min-width: 1440px){
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+}
+.author-social{
+	margin: 14px -10px 0;
+	a{
+		color: #CCCCCC;
+		font-size: 14px;
+		padding: 10px;
+		display: inline-block;
+		&:hover{
+			color: $primary_color;
+		}
+	}
+}
+.author-name{
+	font-family: $EdmonsB;
+	padding-top: 14px;
+	margin-bottom: 13px;
+}
+.author-bio{
+	color: $primary_color;
+}
+.single-post-navigation{
+	margin-top: 8px;
+	> .row{
+		margin-top: -15px;
+		margin-bottom: -15px;
+		> div{
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+	h4{
+		margin: 0;
+	}
+	+ #comments{
+		margin-top: 30px;
+	}
+	.nav-text{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	@media ( max-width: $screen-sm-max){
+		.col-sm-2{
+			display: none;
+		}
+	}
+}
+
+// Related 
+.related-title{
+	text-transform: uppercase;
+	font-family: $EdmonsB;
+	letter-spacing: 5px;
+	padding: 77px 0 24px;
+}
+#zk-single-post-related{
+	.entry-media{
+		margin-bottom: 30px;
+	}
+	.entry-header{
+		margin-bottom: 15px;
+	}
+	.entry-title{
+		font-size: 23px;
+		letter-spacing: 2.3px;
+		margin-top: 0;
+	}
+}
+
+
+.post-gallery-grid,
+.post-gallery-masonry{
+	+ .overlay{
+		display: none;
+	}
+}
+.single-post {
+	#zk-single-post-related{
+		margin-bottom: 100px;
+	}
+	article.type-post{
+		overflow:hidden;
+	}
+	.entry-media img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+}
+
+// Single Page 
+.single-page {
+	#zk-single-post-related{
+		margin-bottom: 100px;
+	}
+	article.type-page{
+		overflow: hidden;
+	}
+}

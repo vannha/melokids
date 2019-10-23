@@ -1,0 +1,8 @@
+body[class*="ms-viewing-"] .zk-main,
+body[class*="ms-viewing-"] .zk-main > *,
+body[class*="ms-viewing-"] .zk-main > * > *,
+.row-multiscroll,
+.row-multiscroll > *,
+.row-multiscroll > * > *{
+	position: inherit;
+}

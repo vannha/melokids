@@ -1,0 +1,21 @@
+/* RSS */
+.widget_rss{
+	> ul > li{
+		margin-bottom: 15px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.rsswidget{
+		font-weight: 700;
+	}
+	.rss-date{
+		display: block;
+		font-style: italic;
+		font-size: 80%;
+		color: $MetaColor;
+	}
+	cite{
+		color: $primary_color;
+	}
+}

@@ -1,0 +1,55 @@
+.zk-mfp-popup{
+	&.mfp-bg{
+		background: rgba($mfp-overlay-color, $mfp-overlay-opacity);
+	}
+	&:not(.zk-mfp-gallery){
+		.mfp-container {
+			top: 5%;
+			bottom: 5%;
+			right: 0;
+			left: 0;
+			width: auto;
+			height: auto;
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+		.mfp-content{
+			padding: 30px;
+			max-width: $screen-xl-min;
+			margin-left: auto;
+			margin-right: auto;
+			background: $white;
+		}
+	}
+	&.zk-mfp-search{
+		.mfp-content{
+			padding: 0;
+			background: transparent;
+			form[class*="search"] input.search-field[type="search"]{
+				border: none;
+				border-bottom: 2px solid $white;
+				color: $white;
+				font-size: 20px;
+				background: transparent;
+				@include css3-prefix('box-shadow','none');
+			}
+			form[class*="search"] input.search-field[type="search"]::-webkit-input-placeholder{
+				color: $white;
+			}
+			form[class*="search"] input.search-field[type="search"]:-moz-placeholder{
+				color: $white;
+			}
+			form[class*="search"] input.search-field[type="search"]:-ms-input-placeholder{
+				color: $white;
+			}
+			form[class*="search"] button[type="submit"]:after,
+			form[class*="search"] label:after{
+				color: $white;
+			}
+		}
+	}
+}
+
+.mfp-figure { 
+  @include animation(zoomIn .3s both);
+}

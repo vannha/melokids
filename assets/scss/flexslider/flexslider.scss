@@ -1,0 +1,22 @@
+@import 'variations';
+@import 'thumbnail';
+@import 'direction_nav';
+@import 'control_nav';
+@import 'responsive';
+
+.flexslider-wrap,
+.flexslider{
+	position: relative;
+	overflow: hidden;
+}
+.flex-disabled{
+	display: none !important;
+}
+
+.flex-viewport{
+	&.flex-vertical{
+		> *{
+			max-width: 100%;
+		}
+	}
+}

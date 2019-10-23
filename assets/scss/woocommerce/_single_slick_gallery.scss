@@ -1,0 +1,128 @@
+.slick-gallery{
+	position: relative;
+	&.slick-h{
+		.large-thumb{
+			margin-bottom: 23px;
+			.slick-arrow{
+				top: auto;
+				bottom: 0;
+				@include transform(translate(0,0));
+				//@include opacity(1);
+				background: rgba($white, 0.5);
+				&:before{
+					color: rgba($HeadingColor, 1);
+				}
+				&:hover{
+					background: rgba($white, 1);			
+					&:before{
+						color: $black;
+					}
+				}
+			}
+		}
+		.small-thumb{
+			.slick-list{
+				margin-left: -7px;
+				margin-right: -7px;
+			}
+			.slick-slide{
+				margin: 7px;
+			}
+		}
+	}
+	&.slick-v{
+		.zk-product-gallery{
+			@include d-flex();
+		}
+		.gallery-thumb-wrap{
+		    &.large-thumb{
+		    	&.slick-slider{
+		    		.slick-prev{
+		    			left: 20px;
+		    			[dir="rtl"] & {
+            				left: auto;
+            				right: 20px;
+        				}
+		    		}
+		    		.slick-next{
+		    			right: 20px;
+		    			[dir="rtl"] & {
+		    				right: auto;
+		    				left: 20px;
+		    			}
+		    		}
+		    	}
+		    }
+		    &.small-thumb {
+		    	&.slick-vertical{
+		    		.slick-prev{
+		    			top: 20px;
+		    		}
+		    		.slick-next{
+		    			bottom: 20px;
+		    		}
+		    	}
+		    }
+		}
+		
+	}
+	.woocommerce-product-gallery__trigger {
+		position: absolute;
+		top: .5em;
+		right: .5em;
+		font-size: 2em;
+		z-index: 9;
+		width: 36px;
+		height: 36px;
+		background: #fff;
+		text-indent: -9999px;
+		border-radius: 100%;
+		box-sizing: content-box;
+
+		&:before {
+			content: "";
+			display: block;
+			width: 10px;
+			height: 10px;
+			border: 2px solid #000;
+			border-radius: 100%;
+			position: absolute;
+			top: 9px;
+			left: 9px;
+			box-sizing: content-box;
+		}
+
+		&:after {
+			content: "";
+			display: block;
+			width: 2px;
+			height: 8px;
+			background: #000;
+			border-radius: 6px;
+			position: absolute;
+			top: 19px;
+			left: 22px;
+			transform: rotate(-45deg);
+			box-sizing: content-box;
+		}
+	}
+	.gallery-thumb-wrap {
+		margin: 0;
+	}
+
+	.small-thumb {
+		.slick-slide img{
+			@include opacity(0.5);
+			@include transition();
+		}
+		.slick-slide:hover img,
+		.slick-current img{
+			/* padding: 5px; */
+			@include opacity(1);
+			/* @include box-shadow(0, 0, 1px, 0, $accent_color); */
+		}
+	}
+}
+.gallery-large-wrap{
+	position: relative;
+}

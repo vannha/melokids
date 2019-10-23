@@ -1,0 +1,50 @@
+/* Boxed */
+.zk-boxed{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	width: $boxed_width;
+}
+
+.zk-page{
+	overflow-x: hidden;
+}
+
+/* Grid */
+
+/* Carousel */
+.zk-carousel-item{
+	> * {
+		margin-bottom: 30px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+/* CSS MouseWheel */
+$mousewheel_scroll_bar_w: 34px;
+.zk-mousewheel{
+	overflow: hidden;
+	height: 100%;
+	max-height: 100vh;
+	.zk-mousewheel-inner{
+		overflow-x: hidden;
+		overflow-y: scroll;
+		width: calc( 100% + #{$mousewheel_scroll_bar_w});
+		padding-right: $mousewheel_scroll_bar_w;
+		max-height: 100vh;
+		select,
+		table{
+			width: calc(100% - #{$mousewheel_scroll_bar_w});
+		}
+		[dir="rtl"] &{
+			padding-right: 0;
+			padding-left: $mousewheel_scroll_bar_w;
+		}
+	}
+}
+
+
+.mlk-col-footer{
+    background: #99a9b4;
+}

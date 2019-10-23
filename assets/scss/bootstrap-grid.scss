@@ -1,0 +1,85 @@
+/*!
+ * Bootstrap Grid v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@at-root {
+  @-ms-viewport { width: device-width; } // stylelint-disable-line at-rule-no-vendor-prefix
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/code";
+
+@import "bootstrap/mixins/breakpoints";
+@import "bootstrap/mixins/grid-framework";
+@import "bootstrap/mixins/grid";
+@import "bootstrap/mixins/hover";
+@import "bootstrap/mixins/text-hide";
+@import "bootstrap/mixins/text-emphasis";
+@import "bootstrap/mixins/text-truncate";
+@import "bootstrap/mixins/clearfix";
+
+@import "bootstrap/grid";
+@import "bootstrap/utilities/display";
+@import "bootstrap/utilities/flex";
+@import "bootstrap/utilities/text";
+@import "bootstrap/utilities/clearfix";
+@import "bootstrap/utilities/sizing";
+
+
+.col-auto{
+	max-width: 100%;
+}
+
+$customs_gutters: (
+	0 : 0,
+	10 : 10px,
+	15 : 15px,
+	20 : 20px,
+	25 : 25px,
+	30 : 30px,
+	35 : 35px,
+	40 : 40px,
+	50 : 50px,
+	60 : 60px,
+	70 : 70px,
+	80 : 80px,
+	90 : 90px,
+	100 : 100px
+);
+@each $gutters , $gutters-value in $customs_gutters{
+	.gutters-#{$gutters}{
+		margin-left: ($gutters-value / -2);
+		margin-right: ($gutters-value / -2);
+		> [class*='col']{
+			padding-left: ($gutters-value / 2);
+			padding-right: ($gutters-value / 2);
+		}
+	}
+}
+
+// Width and Height with breakponits
+@each $breakpoint in map-keys($grid-breakpoints) {
+	$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+	@include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+		@each $prop, $abbrev in (width: w, height: h) {
+		  @each $size, $length in $sizes {
+		    .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length ; }
+		  }
+		}
+	}
+}

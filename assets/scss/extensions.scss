@@ -1,0 +1,53 @@
+
+/* Share this */
+body .st-logo{
+	display: none !important;
+}
+
+//
+.mfp-hide{
+	display: none;
+}
+
+// Google re-Captcha
+.gglcptch_recaptcha > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Rev Slider 
+.rev-btn{
+	@include transition(all 300ms linear 0ms !important);
+}
+
+// Woo WishList 
+@media (max-width: $screen-sm-max){
+	.woosw-content-items{
+		display: block;
+		max-width: 100%;
+		tbody{
+			display: block;
+			max-width: 100%;
+		}
+		tr, td, th{
+			display: block;
+			width: 100% !important;
+			text-align: center;
+		}
+		td{
+			padding: 10px !important;
+		}
+		.woosw-content-item--image {
+			img{
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+		}
+		.woosw-content-item--add p > a{
+			display: inline-block !important;
+		}
+	}
+	.woosw-content-bot-inner{
+		font-size: 90% !important;
+	}
+}

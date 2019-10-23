@@ -1,0 +1,23 @@
+/* MeloKids User Tools */
+.zk-usertools{
+	font-family: $EdmonsM;
+	font-size: $XSmallSize;
+	letter-spacing: 2px;
+	.ut-link{
+		padding-top: 14px;
+		padding-bottom: 13px;
+		display: inline-block;
+		&.no-title{
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+	&.color-grey{
+		.ut-link{
+			color: $body_font_color;
+			&:hover{
+				color: $HeadingColor;
+			}
+		}
+	}
+}

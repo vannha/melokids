@@ -1,0 +1,22 @@
+/* image */
+img{
+	max-width: 100%;
+	display: block;
+	vertical-align: top;
+	&:not(.zoomImg){
+		@include transition();
+	}
+	&[style="visibility:hidden"]{
+		display: none;
+	}
+}
+.img-fit,
+.image-fit{
+	@include image-fit();
+}
+
+@media (max-width: $screen-sm-max){
+	img{
+		//width: 100%;
+	}
+}

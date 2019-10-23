@@ -1,0 +1,18 @@
+$flex_opacity: 0.5;
+
+// Icon
+$flex_icon_font: $FontAwesome;
+$flex_next_icon: '\f061';
+$flex_prev_icon: '\f060';
+$flex_v_next_icon: '\f063';
+$flex_v_prev_icon: '\f062';
+
+$flex_direction_size: 40px;
+$flex_direction_color: $primary_color;
+$flex_direction_hover_color: $white;
+$flex_direction_bg: transparent;
+$flex_direction_hover_bg: $accent_color;
+// Paging 
+$flex_paging_bg: rgba(#000, 0.5);
+$flex_paging_hover_bg: rgba(#000, 0.7);
+$flex_paging_active_bg: rgba(#000, 0.9);

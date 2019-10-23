@@ -1,0 +1,15 @@
+.woocommerce-thankyou-order-received{
+	font-size: 30px;
+	font-family: $EdmonsM;
+	color: $HeadingColor;
+}
+
+.woocommerce-thankyou-order-details{
+	list-style: none;
+	margin-bottom: 50px;
+	li:before{
+		content: "\f30b\00a0\00a0";
+		font-family: $FontAwesome;
+		color: $accent_color;
+	}
+}

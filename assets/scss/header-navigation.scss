@@ -1,0 +1,65 @@
+/* Some variation used in this file only */
+$lv1_height: 100px;
+$lv1_space : 70px;
+
+$lv2_space: 8px 15px;
+
+/*=================*/
+#zk-navigation,
+#zk-navigation-left,
+.zk-navigation-right,
+#zk-navigation-right{
+	position: static;
+}
+.zk-main-nav{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-family: $EdmonsM;
+	.sub-menu{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		visibility: hidden;
+		z-index: 1;
+		background-color: $dropdown_bg_color;
+		font-family: $EdmonsR;
+		li{
+			padding: $lv2_space;
+		}
+	}
+}
+.zk-header-menu-item,
+.zk-menu-item{
+	overflow: hidden;
+	position: relative;
+}
+.menu-title,
+.menu-desc{
+	display: block;
+}
+
+.menu-desc{
+	font-size: 85%;
+	font-weight: normal;
+	text-transform: none;
+	font-family: $EdmonsR;
+}
+.menu-title:empty + .menu-desc{
+	font-size: 100%;
+	font-family: $EdmonsM;
+}
+.zk-toggle{
+	width: 30px;
+	height: 30px;
+	text-align: right;
+}
+.rtl .zk-toggle{
+	text-align: left;
+}
+
+@import "menu/elements.scss";
+@import "menu/megamenu.scss";
+@import "menu/desktop.scss";
+@import "menu/mobile.scss";
+@import "menu/colors.scss";

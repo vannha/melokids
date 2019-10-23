@@ -1,0 +1,138 @@
+/* Color */
+$white:					#fff;
+$black:					#000;
+$red:					red;
+$grey_color: 			#666;
+$light_grey_color: 		#f9f9f9;
+$green_color: 			#8CC63E;
+$available_color: 		#7db701;
+$link_color:			#4a4a4a;
+$link_color_hover:		$accent_color;
+
+$accent_color2 : 		$green_color;
+
+/* Font Size */
+$LargeSize:		$body_font_size + 3px;
+$MediumSize:	$body_font_size + 1px;
+$SmallSize:		$body_font_size - 1px;
+$XSmallSize:	$body_font_size - 2px;
+
+/* Typography */
+$FontAwesome:				'Font Awesome 5 Pro';
+$FontAwesomeR:				'FontAwesome';
+$ExtraFont:					$extra_font;
+$ExtraFont2:				$extra_font2;
+$EdmonsB:					'edmondsansbold';
+$EdmonsM:					'edmondsansmedium';
+$EdmonsR:					'edmondsansregular';
+
+
+$HeadingColor: 				#4a4a4a;
+$HeadingColorHover: 		$accent_color;
+$HeadingFont:				$ExtraFont;
+
+$h1Size:		$body_font_size * 2.25;
+$h2Size:		$body_font_size * 1.875;
+$h3Size:		$body_font_size * 1.5625;
+$h4Size:		$body_font_size * 1.25;
+$h5Size:		$body_font_size * 1.125;
+$h6Size:		$body_font_size;
+
+$cls_h1Size:		72px;
+$cls_h2Size:		60px;
+$cls_h3Size:		48px;
+$cls_h4Size:		40px;
+$cls_h5Size:		36px;
+$cls_h6Size:		32px;
+
+/* Border */
+$MainBorder:				1px solid #E7E7E7;
+$MainBorder2:				2px solid #E7E7E7;
+$MainBorder3:				3px solid #E7E7E7;
+$MainBorderW:			    1px;
+$MainBorderColor:			#E7E7E7;
+
+/* Meta */
+$MetaFont: 				$body_font_family;
+$MetaColor: 			#9B9B9B;
+$MetaFontSize:			$SmallSize;
+
+/* Header */
+$header_h :    				$header_height;
+$header_w :    				$header_width;
+$header_shadow :			2px 2px 3px #e5e5e5;
+$logo_w :					$header_logo_w;
+
+/* Form */
+$form_field_font_family: 	$ExtraFont;
+$form_field_font_size: 		$SmallSize;
+$form_field_color: 			$HeadingColor;
+$form_field_bg:				#F8F8F8;
+$form_field_border: 		1px solid $form_field_bg;
+$form_field_radius: 		0px;
+$form_field_inside_space:	11px 20px;
+$placeholder_color: 		$body_font_color;
+
+/* Overlay */
+$overlay_bg: 	 rgba(#fff, 1);
+$overlay_color:  $primary_color;
+
+/* Socials Color */
+$facebook_color:  	 #4990E2;
+$google_color: 	  	 #ff4c4c;
+$twitter_color:  	 #2CC7F0;
+$youtube_color:  	 #E9152F;
+$rss_color:			 #faa33d;
+$skype_color: 		 #41BBE9;
+$yahoo_color: 		 #ab47ac;
+$dribbble_color: 	 #ff70b7;
+$flickr_color:       #ff48a3;
+$linkedin_color: 	 #4c94db;
+$vimeo_color: 		 #35c6ea;
+$pinterest_color: 	 #e13138;
+$github_color: 	     #3f91cb;
+$instagram_color:    #db944c;
+$tumblr_color: 		 #426d9b;
+$behance_color: 	 #1879fd;
+$stumbleupon_color:  #ff5c30;
+$dropbox_color: 	 #17a3eb;
+$soundcloud_color: 	 #ff7e30;
+$lastfm_color: 	 	 #f34320;
+$deviantart_color: 	 #6a8a7b;
+$digg_color: 	 	 #75788d;
+$xing_color: 	 	 #1a8e8c;
+$share_color: 	 	 #25a774;
+$wordpress_color: 	 #2592c3;
+$delicious_color: 	 #ff9233;
+$reddit_color: 	 	 #377bda;
+$apple_color: 	 	 #b3b5b8;
+$vk_color: 	 		 #4778ac;
+
+$status_color:		#ffc000;
+
+/* Header */
+$break_header_h: $header_height / 2;
+
+/**
+ * Responsive Size
+ * Based on Boostrap Grid 4.x
+ * @source https://getbootstrap.com/docs/4.1/layout/grid/#grid-options
+*/
+$screen-xxl-min: 1600px;
+$screen-xl-min: 1200px;
+
+/* Large */
+$screen-lg-max:	1199px;
+$screen-lg-min:	992px;
+
+/* Medium Screen */
+$screen-md-max:	991px;
+$screen-md-min:	768px;
+
+/* Small Screen */
+$screen-sm-max: 767px;
+$screen-sm-min: 576px;
+
+/* Extra Small Screen */
+$screen-xs-max: 575px;
+

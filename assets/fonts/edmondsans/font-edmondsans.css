@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'edmondsansbold';
+    src: url('edmondsans-bold_3-webfont.woff2') format('woff2'),
+         url('edmondsans-bold_3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'edmondsansmedium';
+    src: url('edmondsans-medium_3-webfont.woff2') format('woff2'),
+         url('edmondsans-medium_3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'edmondsansregular';
+    src: url('edmondsans-regular_3-webfont.woff2') format('woff2'),
+         url('edmondsans-regular_3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

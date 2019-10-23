@@ -1,0 +1,21 @@
+/* Calendar */
+.widget_calendar{
+	.calendar_wrap{
+		text-align: center;
+	}
+	#today{
+		background: $accent_color;
+		color: $white;
+		a{
+			display: block;
+			color: $white;
+			&:hover{
+				color: $white;
+			}
+		}
+	}
+	th,
+	td{
+		text-align: center;
+	}
+}

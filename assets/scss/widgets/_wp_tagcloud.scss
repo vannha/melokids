@@ -1,0 +1,33 @@
+/* tags cloud */
+.tagcloud {
+	margin: -5px;
+	@include d-flex();
+	align-items: center;
+	> a{
+		border: $MainBorder;
+		padding: 5px;
+		line-height: 1;
+		margin: 5px;
+		@include transition();
+		&:hover{
+			border-color: $link_color_hover;
+		}
+	}
+}
+.theme-style{
+	.tagcloud{
+		margin: -8px -15px;
+		a{
+			color: $body_font_color;
+			border: none;
+			margin: 0;
+			padding:  8px 15px;
+			position: relative;
+			@include transition();
+			&:hover{
+				color: $HeadingColor;
+				font-family: $EdmonsB;
+			}
+		}
+	}
+}

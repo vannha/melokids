@@ -1,0 +1,207 @@
+/* MeloKids Fancy Image */
+.zk-fancyimg{
+	.overlay-link{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		img{
+			@include image-fit();
+		}
+	}
+	.content{
+		position: relative;
+		@include d-flex();
+	}
+	.content-inner{
+		position: relative;
+		z-index: 1;
+	}
+	&.layout-1{
+		text-align: center;
+		h4{
+			text-transform: uppercase;
+			letter-spacing: 2.5px;
+			font-family: $EdmonsM;
+			margin-top: 25px;
+		}
+	}
+	&.layout-2{
+
+	}
+	&.layout-4,
+	&.layout-5{
+		.p-price{
+			font-size: 20px;
+			color: $accent_color;
+			font-family: $EdmonsB;
+			margin-left: -5px;
+			margin-right: -5px;
+			align-items: center;
+			@include d-flex();
+			del,
+			ins{
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+			del{
+				order: 2;
+				font-size: $body_font_size;
+				color: $body_font_color;
+			}
+			ins{
+				background: transparent;
+			}
+		}
+		.content{
+			> * {
+				z-index: 1;
+				flex: 0 0 100%;
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+		&:hover {
+			.add_to_cart_inline{
+				padding-bottom: 30px;
+			}
+		}
+	}
+	&.layout-4{
+		.el-title{
+			margin-bottom: 10px;
+		}
+		.content{
+			padding: 85px 35px 50px;
+			@media (min-width: $screen-md-min){
+				padding: 85px 70px 50px;
+			}
+		}
+	}
+	&.layout-5{
+		.el-title{
+			margin-bottom: 30px;
+		}
+		.content{
+			padding: 65px 35px 50px;
+		}
+	}
+	
+	&.layout-6{
+		.content-inner{
+			background: $white;
+			flex: 0 0 90%;
+			max-width: 90%;
+			padding: 35px 15px;
+			@media (min-width: $screen-md-min){
+				flex: 0 0 60%;
+				max-width: 60%;
+				padding: 35px 45px;
+			}
+		}
+		.el-title{
+			text-transform: uppercase;
+			font-family: $EdmonsM;
+			letter-spacing: 3.6px;
+		}
+		.brand-name{
+			border-bottom: 1px solid $link_color;
+			&:hover{
+				border-color: $link_color_hover;
+			}
+		}
+	}
+	&.layout-7{
+		.content-inner{
+			color: $white;
+		}
+		a{
+			color: $white;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+		.el-title{
+			text-transform: uppercase;
+			font-family: $EdmonsM;
+			letter-spacing: 3.6px;
+		}
+		.content{
+			> * {
+				z-index: 1;
+				flex: 0 0 100%;
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+		.content-inner{
+			padding-top: 13%;
+		}
+		.el-title-image + .el-desc{
+			padding-top: 10px;
+		}
+		.add_to_cart_inline{
+			padding-bottom: 10%;
+		}
+		&:hover {
+			.add_to_cart_inline{
+				padding-bottom: 15%;
+			}
+		}
+	}
+	&.layout-8{
+		.content-inner{
+			background: $white;
+			margin: 0 0 30px;
+			padding: 35px 15px;
+			flex: 0 0 72%;
+			@media (min-width: $screen-md-min){
+				padding: 35px 30px;
+			}
+		}
+		.el-title{
+			text-transform: uppercase;
+			font-family: $EdmonsM;
+			letter-spacing: 3.6px;
+		}
+		.brand-name{
+			border-bottom: 1px solid $link_color;
+			&:hover{
+				border-color: $link_color_hover;
+			}
+		}
+	}
+	.img-wrap{
+		display: inline-block;
+		position: relative;
+	}
+	.overlay{
+		background: rgba($primary_color, 0.95);
+		color: $white;
+		a{
+			text-transform: uppercase;
+			font-family: $EdmonsB;
+			font-size: 14px;
+			letter-spacing: 3px;
+			color: $white;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+	.add_to_cart_inline{
+		@include transition();
+	}
+	.simple-link{
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 3px;
+		line-height: 1;
+		display: block;
+		font-family: $EdmonsB;
+	}
+	&:hover img.overlay{
+		@include transform(scale(1.1));
+	}
+}

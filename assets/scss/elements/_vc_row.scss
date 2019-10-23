@@ -1,0 +1,36 @@
+// Add image full left / right
+.row-full-image-left,
+.row-full-image-right{
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.row-full-image-left{
+	left: 0;
+	[dir="rtl"] &{
+		left: auto;
+		right: 0;
+	}
+}
+.row-full-image-right{
+	right: 0;
+	[dir="rtl"] &{
+		right: auto;
+		left: 0;
+	}
+}
+@each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+	// Allow columns to stretch full width below their breakpoints
+	.row-full#{$infix}{
+		visibility: visible;
+	}
+	@include media-breakpoint-up($breakpoint, $grid-breakpoints	) {
+      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+      .row-full#{$infix} {
+        position: absolute;
+		top: 0;
+		bottom: 0;
+      }
+    }
+}

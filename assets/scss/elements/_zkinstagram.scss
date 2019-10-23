@@ -1,0 +1,75 @@
+/* MeloKids Instagram */
+.zk-instagram{
+	position: relative;
+	.user{
+		z-index: 1;
+		@include transition();
+		a{
+			display: block;
+			padding: 19px 20px 21px;
+			background: $white;
+
+			@media( min-width: $screen-md-min){
+				min-width: 506px;
+			}
+		}
+		.author-text{
+			font-size: 25px;
+			font-family: $EdmonsB;
+			letter-spacing: 5px;
+			color: $HeadingColor;
+			display: block;
+		}
+		.name{
+			color: #777777;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+		@media (min-width: $screen-xl-min){
+			@include center-align();
+		}
+	}
+
+	&:hover .user{
+		@media (min-width: $screen-xl-min){
+			bottom: 0;
+			top: auto;
+			@include transform(translate(-50%, 0));
+		}
+	}
+	.instagram-item{
+		> a{
+			display: block;
+			text-align: center;
+		}
+		img{
+			width: 100%;
+			@include transition();
+		}
+		&:hover{
+			img{
+				@include opacity(0.21);
+				@include transform(scale(1.1));
+			}
+		}
+		@media (max-width: $screen-sm-min){
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+	}
+	.overlay{
+		background: transparent;
+		color: $primary_color;
+		font-size: 30px;
+		.overlay-inner > span{
+			padding: 0 15px;
+		}
+		a{
+			color: $primary_color;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+}

@@ -1,0 +1,137 @@
+.masonry-size{
+	width: 10px;
+	visibility: hidden;
+	@include opacity(0);
+}
+.entry-header,
+.entry-media,
+.entry-tags,
+.entry-share{
+	margin-bottom: 22px;
+	&:empty{
+		display: none;
+	}
+}
+.entry-media{
+	position: relative;
+	overflow: hidden;
+}
+.entry-excerpt{
+	margin-bottom: 24px;
+}
+
+.entry-title{
+	margin: 0;
+	&.meta-before{
+		margin-top: 12px;
+	}
+	&.meta-after{
+		margin-bottom: 12px;
+	}
+}
+
+.entry-meta{
+	color: $MetaColor;
+	font-size: $MetaFontSize;
+	letter-spacing: 1px;
+}
+
+.entry-readmore,
+.view-all{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: $EdmonsB;
+	font-size: $XSmallSize;
+	font-weight: 700;
+	color: #99A9B4;
+	a{
+		color: #99A9B4;
+		&:hover{
+			color: $accent_color;
+		}
+	}
+}
+
+/* Post Format */
+.entry-media{
+	.open-popup{
+		width: 50px;
+		height: 50px;
+		line-height: 46px;
+		border: 2px solid $white;
+		background: $white;
+		text-align: center;
+		font-size: 20px;
+		color: $primary_color;
+		&:hover{
+			color: $white;
+			background: $primary_color;
+		}
+	}
+	.media-link{
+		display: block;
+		overflow: hidden;
+		position: relative;
+	}
+}
+.entry-link-inner,
+.entry-quote-inner{
+	position: relative;
+	padding: 50px 15px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	@include d-flex();
+	align-items: center;
+	justify-content: center;
+	color: $white;
+	&:before{
+		content: '';
+		@include overlay();
+		background: rgba($primary_color, 0.4);
+	}
+	> *{
+		position: relative;
+		z-index: 2;
+	}
+}
+/* Loop List */
+.entry-list {
+	&:after{
+		content: '';
+		display: block;
+		width: calc(100% - 40px);
+		margin: 20px 20px;
+		border-top: $MainBorder;
+	}
+	&:last-child:after{
+		display: none;
+	}
+	.emtry-media{
+		margin-bottom: 0;
+	}
+	.entry-header{
+		padding-top: 2px;
+	}
+	.entry-title{
+		letter-spacing: 1px;
+	}
+	@media (min-width: 1440px){
+		.col-xl-5 {
+		    flex: 0 0 480px;
+		    max-width: 480px;
+		}
+		.col-xl-7{
+			flex: 0 0 calc(100% - 480px);
+			max-width: calc(100% - 480px);
+		}
+	}
+}
+/* Loop Grid */
+.zk-blog{
+	&.zk-grid{
+		+ .pagination{
+			margin-top: 90px;
+		}
+	}
+}

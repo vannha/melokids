@@ -1,0 +1,22 @@
+blockquote{
+	font-size:128.57143%;
+	font-weight:700;
+	font-style:italic;
+	line-height:167%;
+	position:relative;
+	padding:0 0 0 45px;
+	margin:48px 0 48px 61px;
+	border:none;
+}
+blockquote:before{
+	content:"\201C";
+	display:inline-block;
+	font-size:457.11111%;
+	font-style:normal;
+	font-weight:400;
+	line-height:.75;
+	color:#343c96;
+	position:absolute;
+	left:0;
+	top:0;
+}

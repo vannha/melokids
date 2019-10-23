@@ -1,0 +1,28 @@
+/* All widget  */
+$arrow1: '';
+$arrow2: '';
+$search_icon_w: 50px;
+
+.widget{
+	margin-bottom: 30px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+	.children,
+	.sub-menu{
+		display: none;
+	}
+}
+.wg-title,
+.wgtitle{
+	margin: 0 0 30px 0;
+}
+
+@import "widgets/accordion_menu";
+@import "widgets/wp_calendar";
+@import "widgets/wp_recent_comment";
+@import "widgets/wp_recent_post";
+@import "widgets/wp_rss";
+@import "widgets/wp_search";
+@import "widgets/wp_tagcloud";
+@import "widgets/zk_recent_post";

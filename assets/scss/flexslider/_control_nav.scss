@@ -1,0 +1,92 @@
+.flex-control-nav {
+  list-style: none;
+  padding: 0;
+  margin-left: -5px;
+  margin-right: -5px;
+  justify-content: center;
+  @include d-flex();
+  li{
+    max-width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    *{
+      cursor: pointer;
+    }
+  }
+  > * > * {
+    cursor: pointer;
+  }
+}
+/* Paging */
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: $flex_paging_bg;
+  cursor: pointer;
+  text-indent: -9999px;
+  @include css3-prefix('box-shadow','inset 0 0 3px rgba(0, 0, 0, 0.3)');
+  @include border-radius(50%);
+  &:hover{
+    background: $flex_paging_hover_bg;
+  }
+  &.flex-active {
+    background: $flex_paging_active_bg;
+    cursor: default;
+  }
+}
+/* Thumbnail */
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  -moz-user-select: none;
+  @include opacity($flex_opacity);
+  &:hover,
+  &.flex-active {
+    @include opacity(1);
+  }
+  &.flex-active{
+    cursor: default;
+  }
+}
+.flex-control-thumb{
+  cursor: pointer;
+  @include transition();
+  @include opacity($flex_opacity);
+  &:hover,
+  &.flex-active-slide{
+    @include opacity(1);
+  }
+  &.flex-active-slide{
+    cursor: default;
+  }
+}
+
+/* Play / Pause */
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+.flex-pauseplay a:before {
+  font-family: $FontAwesome;
+  font-size: 20px;
+  display: inline-block;
+  content: '\f004';
+}
+.flex-pauseplay a:hover {
+  opacity: 1;
+}
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}

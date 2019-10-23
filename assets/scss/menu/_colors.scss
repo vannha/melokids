@@ -1,0 +1,85 @@
+/**
+ * Menu color 
+*/
+/* Default */
+.header-default{
+	.desktop-nav{
+		> .menu-item {
+			&.parent > a{
+				padding-right: 0;
+				padding-left: 0;
+			}
+			&.current-menu-ancestor > a,
+			> a,
+			> .zk-toggle{
+				color: $menu_default_link_color;
+			}
+			/* Level 1 Hover*/
+			&:hover {
+				> a,
+				> .zk-toggle{
+					color: $menu_default_link_color_hover;
+				}
+			}
+			/* Level 1 Actived */
+			&.current-menu-item,
+			&.current-menu-ancestor{
+				> a{
+					color: $menu_default_link_color_active;
+				}
+			}
+		}
+	}
+}
+/* Ontop */
+.header-ontop{
+	.desktop-nav{
+		> .menu-item {
+			&.current-menu-ancestor > a,
+			> a,
+			> .zk-toggle{
+				color: $menu_ontop_link_color;
+			}
+			/* Level 1 Hover*/
+			&:hover {
+				> a,
+				> .zk-toggle{
+					color: $menu_ontop_link_color_hover;
+				}
+			}
+			/* Level 1 Actived */
+			&.current-menu-item,
+			&.current-menu-ancestor{
+				> a{
+					color: $menu_ontop_link_color_active;
+				}
+			}
+		}
+	}
+}
+/* Sticky */
+.header-sticky{
+	.desktop-nav{
+		> .menu-item {
+			&.current-menu-ancestor > a,
+			> a,
+			> .zk-toggle{
+				color: $menu_sticky_link_color;
+			}
+			/* Level 1 Hover*/
+			&:hover {
+				> a,
+				> .zk-toggle{
+					color: $menu_sticky_link_color_hover;
+				}
+			}
+			/* Level 1 Actived */
+			&.current-menu-item,
+			&.current-menu-ancestor{
+				> a{
+					color: $menu_sticky_link_color_active;
+				}
+			}
+		}
+	}
+}

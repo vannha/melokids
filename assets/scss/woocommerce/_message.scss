@@ -1,0 +1,59 @@
+
+$message_bottom_space: 70px;
+$message_bg: #8fae1b ;
+$info_bg: #1e85be;
+$error_bg: #b81c23;
+
+$msg_icon_size: 30px;
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error{
+	margin-bottom: $message_bottom_space;
+	padding-left: #{$msg_icon_size + 20px};
+	position: relative;
+	list-style: none;
+	@include clearfix();
+	
+	&:before{
+		content: "\f058";
+		font-family: $FontAwesome;
+		width: $msg_icon_size;
+		height: $msg_icon_size;
+		line-height: $msg_icon_size;
+		display: inline-block;
+		text-align: center;
+		background: $message_bg;
+		color: $white;
+		position: absolute;
+		top: 0;
+		left: 0;
+		@include border-radius(3px);
+	}
+	.msg-viewcart{
+		float: right;
+		margin-left: 30px;
+		[dir="rtl"] &{
+			float: left;
+			margin-right: 30px;
+		}
+	}
+
+	/* RTL */
+	[dir="rtl"] &{
+		padding-left: 0;
+		padding-right: #{$msg_icon_size + 20px};
+		&:before{
+			left: auto;
+			right: 0;
+		}
+	}
+}
+.woocommerce-info:before{
+	background: $info_bg;
+	content: "\f129";
+}
+.woocommerce-error:before{
+	content: "\f00d";
+	background: $error_bg;
+}

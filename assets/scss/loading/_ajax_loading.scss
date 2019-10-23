@@ -1,0 +1,48 @@
+.zk-ajaxloading{
+	min-height: 300px;
+	position: relative;
+	.zk-ajaxloading-inner{
+		width: 60px;
+		height: 60px;
+		line-height: 1;
+		@include center-align();
+		&:before{
+			content:'\f110';
+			font-size: 60px;
+			line-height: 1;
+			font-family: $FontAwesomeR;
+			color: $accent_color;
+			position: absolute;
+			@include animation(a 2s infinite linear);
+		}
+	}
+}
+.loading{
+	position: relative;
+	max-height: 400px;
+	overflow: hidden;
+	&:before{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		content: "";
+		display: block;
+		background: rgba(0,0,0,0.3);
+		z-index: 1;
+	}
+	&:after{
+		content:'\f110';
+		font-size: 60px;
+		line-height: 1;
+		font-family: $FontAwesomeR;
+		color: $white;
+		z-index: 2;
+		@include center-align();
+		@include animation(a 2s infinite linear);
+	}
+}
+.ajax_add_to_cart.loading:after{
+	display: none;
+}

@@ -1,0 +1,86 @@
+.widget:not(.theme-style){
+	.wc-widget-filter{
+		&:before,
+		&:after,
+		.filter-icon{
+			display: none;
+		}
+	}
+}
+.theme-style {
+	.woocommerce-widget-layered-nav-list{
+		margin: -5px !important;
+		align-items: center;
+		@include d-flex();
+		li{
+			padding: 5px;
+			flex: 0 0 auto;
+		    width: auto;
+		    max-width: 100%;
+		    line-height: 0;
+		    &:hover,
+			&.chosen {
+				.wc-widget-filter{
+					@include css3-prefix('box-shadow', '0 0 2px rgba(0,0,0,0.2)');
+				}
+				.filter-icon-size{
+					border-color: $link_color_hover;
+				}
+			}
+		}
+	}
+	.wc-widget-filter{
+		border: 2px solid transparent;
+    	&.wc-filter-color{
+			@include border-radius(50%);
+    	}
+	}
+	.filter-icon{
+		width: 30px;
+		height: 30px;
+		display: block;
+    	vertical-align: top;
+    	line-height: 0;
+    	text-align: center;
+		background-position: center;
+		background-size: cover;
+	}
+	.filter-icon-color{
+		width: 24px;
+    	height: 24px;
+    	line-height: 24px;
+		@include border-radius(50%);
+	}
+    .filter-icon-brand{
+    	width: 50px;
+    	height: 50px;
+    }
+    .filter-icon-size{
+    	border: 1px solid $link_color;
+    	line-height: 28px;
+    }
+	.filter-title,
+	.filter-count{
+		display: none;
+	}
+	.filter-by-price,
+	.filter-by-rating{
+		line-height: normal;
+		padding: 5px 10px;
+	}
+}
+
+// Filter by Brand
+.widget.filter-by-brand {
+	overflow: hidden;
+	.woocommerce-widget-layered-nav-list{
+		max-height: 300px;
+		overflow-x: hidden;
+		width: calc(100% + 50px);
+		padding-right: 50px;
+		[dir="rtl"] &{
+			padding-right: 0;
+			padding-left: 50px;
+		}
+	}
+}

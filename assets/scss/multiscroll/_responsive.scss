@@ -1,0 +1,29 @@
+.ms-responsive .ms-hide{
+    display: none;
+}
+@media (min-width: $screen-lg-min){
+	body[class*="ms-viewing-"]{
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		height: 100vh;
+	}
+	.ocms-left,
+	.ocms-right{
+		position: absolute;
+		width: 50%;
+	}
+	.ocms-left{
+		left: 0;
+	}
+	.ocms-right{
+		right: 1px;
+	}
+}
+@media (max-width: $screen-md-max){
+	.ms-tableCell{
+		&:empty{
+			display: none;
+		}
+	}
+}

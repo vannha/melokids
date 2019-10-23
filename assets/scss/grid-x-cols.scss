@@ -1,0 +1,44 @@
+
+$grid-x-columns : (
+	'1\/5' : 20%,
+	'2\/5' : 40%,
+	'3\/5' : 60%,
+	'4\/5' : 80%,
+	'1\/7' : 14.2857143%,
+	'1\/8' : 12.5%
+);
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+	$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+	@include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+		@each $column, $column-value in $grid-x-columns{
+			.col#{$infix}-#{$column}{
+				flex: 0 0 $column-value;
+				max-width: $column-value;
+			}
+		}
+		// Offset
+		@each $column, $column-value in $grid-x-columns{
+			.offset#{$infix}-#{$column}{
+				margin-left: $column-value;
+			}
+		}
+		// RTL Offset 
+		@each $column, $column-value in $grid-x-columns{
+			.rtl .offset#{$infix}-#{$column}{
+				margin-right: $column-value;
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+
+.zk-grid{
+	margin-top: -20px;
+	margin-bottom: -20px;
+	> *{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}

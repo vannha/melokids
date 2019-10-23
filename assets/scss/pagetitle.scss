@@ -1,0 +1,74 @@
+#zk-page-title-wrapper{
+	position: relative;
+	overflow: hidden;
+	padding: 104px 0 33px;
+	margin-bottom: 60px;
+	background-color: #EEF2F4;
+
+	.pt-img{
+		@media (min-width: $screen-lg-min){
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			&.full-right{
+				right: 0;
+			}
+			&.full-left{
+				left: 0;
+			}
+			img{
+				@include image-fit();
+			}
+		}
+		@media (max-width: $screen-md-max){
+			margin-top: -104px;
+			margin-bottom: 30px;
+		}
+	}
+}
+.zk-page-title-overlay{
+	@include overlay();
+}
+.zk-page-title-inner{
+	position: relative;
+	z-index: 2;
+}
+#zk-page-title {
+	+ .space{
+		@media (min-width: $screen-lg-min){
+			height: 115px;
+		}
+	}
+}
+.zk-page-title-text{
+	font-family: $EdmonsB;
+	text-transform: uppercase;
+	color: #99A9B4;
+	@media (min-width: $screen-lg-min){
+		font-size: 45px;
+		line-height: 75px;
+		letter-spacing: 10px;
+	}
+}
+
+#zk-breadcrumb{
+	color: $MetaColor;
+	a{
+		color: $MetaColor;
+		&:hover{
+			color: $primary_color;
+		}
+	}
+	.separator{
+		margin: 0 7px;
+	}
+}
+
+// Blog default
+.blog{
+	@media (min-width: $screen-lg-min){
+		#zk-page-title + .space {
+		    height: 65px;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+/* Header Layout */
+.zk-header-custom{
+	.zk-header-inner{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (min-width: $screen-xl-min) {
+	.body-header-4{
+		padding-left: $header_w;
+		&.rtl{
+			padding-left: auto;
+			padding-right: $header_w;
+		}
+	}
+	.zk-header-4{
+		position: absolute !important;
+		top: 0;
+		width: $header_w !important;
+		min-height: 100vh;
+		&.sticky-on{
+			position: fixed !important;
+		}
+		.desktop-nav{
+			> .menu-item{
+				height: auto;
+				width: 100%;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			.menu-item{
+				.sub-menu{
+					top: 0;
+					left: calc(100% + 50px);
+				}
+				&:hover{
+					> .sub-menu{
+						top: 0;
+						left: 100%;
+					}
+				}
+			}
+		}
+	}
+	.logged-in{
+		.zk-header-4{
+			top: 32px;
+		}
+	}
+}
+
+@media (max-width: $screen-xl-min){
+	#zk-header-custom-mobile-content{
+		display: none;
+	}
+}

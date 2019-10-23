@@ -1,0 +1,33 @@
+.melokids-recentpost{
+	.zk-recent-item{
+		margin-bottom: 52px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.post-media {
+		&.space-right{
+			float: left;
+			padding-right: 16px;
+		}
+		&.space-left{
+			float: right;
+			padding-left: 16px;
+		}
+		+ .item-content{
+			@include transform(translateY(-5px));
+		}
+	}
+	.item-content{
+		@include d-flex();
+	}
+	.entry-meta{
+		margin-bottom: 7px;
+	}
+	.entry-title{
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		font-family: $EdmonsB;
+    	@include multiLineEllipsis($h6Size, 1.4, 2);
+	}
+}

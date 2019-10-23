@@ -1,0 +1,7016 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MeloKids\n"
+"POT-Creation-Date: 2019-01-11 17:29+0700\n"
+"PO-Revision-Date: 2019-01-11 17:29+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:15
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:67
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:68
+msgid "Primary Menu Left"
+msgstr ""
+
+#: functions.php:69
+msgid "Primary Menu Right"
+msgstr ""
+
+#: functions.php:163
+msgid "Medium Large"
+msgstr ""
+
+#: functions.php:317
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:319
+msgid ""
+"Appears on posts and pages except the optional Page Builder template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:328
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:330
+msgid "Appears in WooCommerce Archive page"
+msgstr ""
+
+#: functions.php:337
+msgid "WooCommerce Filters"
+msgstr ""
+
+#: functions.php:339
+msgid "Appears in WooCommerce Filter area. Leave blank to use our default"
+msgstr ""
+
+#: functions.php:348
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:350
+msgid "Appears in Left/Right handside when click Bars icon"
+msgstr ""
+
+#: functions.php:359
+msgid "Header Tools"
+msgstr ""
+
+#: functions.php:361
+msgid "Appears in right side of the site when you click on Header TooLs icon"
+msgstr ""
+
+#: inc/avatar.php:17
+msgid "MeloKids Avatar"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:393
+#: inc/classes/class-tgm-plugin-activation.php:920
+#: inc/classes/class-tgm-plugin-activation.php:2625
+#: inc/classes/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:394
+#: inc/classes/class-tgm-plugin-activation.php:3250
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:395
+#: inc/classes/class-tgm-plugin-activation.php:3043
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1026
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1026
+#: inc/classes/class-tgm-plugin-activation.php:1029
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1029
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1213
+#: inc/classes/class-tgm-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2365
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2368
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2384
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2387
+msgid "External Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2390
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2407
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2411
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2413
+msgid "Active"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2419
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2422
+msgid "Requires Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2425
+msgid "Update recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2434
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2488
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2492
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2574
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2582
+msgid "Installed version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2602
+msgid "Available version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2625
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2639 vc_elements/zksocial.php:36
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2640
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2644
+msgid "Version"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3598
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3606
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/instagram-function.php:24
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: inc/classes/instagram-function.php:28
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: inc/classes/instagram-function.php:36 inc/classes/instagram-function.php:44
+#: inc/classes/instagram-function.php:48
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: inc/classes/instagram-function.php:60
+msgid "Instagram Image"
+msgstr ""
+
+#: inc/classes/instagram-function.php:92
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: inc/core-functions.php:225 inc/core-options.php:11 inc/core-options.php:73
+#: inc/core-options.php:221 inc/core-options.php:278 inc/core-options.php:352
+#: inc/core-options.php:433 inc/core-options.php:526 inc/core-options.php:633
+#: inc/core-options.php:741 inc/core-options.php:790 inc/core-options.php:834
+#: inc/core-options.php:885 inc/core-options.php:903 inc/core-options.php:921
+#: inc/core-options.php:1235 inc/meta-options.php:269 inc/meta-options.php:293
+#: inc/meta-options.php:333 inc/widgets/widget-instagram.php:152
+#: inc/widgets/widget-recentpost.php:219 vc_customs/vc_customs.php:75
+#: vc_customs/vc_customs.php:440 vc_customs/vc_customs.php:477
+#: vc_customs/vc_customs.php:513 vc_customs/vc_customs.php:548
+#: vc_customs/vc_customs.php:613 vc_customs/vc_customs.php:647
+#: vc_customs/vc_customs.php:700 vc_customs/vc_customs.php:808
+#: vc_customs/vc_customs.php:1430 vc_customs/vc_customs.php:1440
+#: vc_customs/vc_customs.php:1449 vc_customs/vc_customs.php:1459
+#: vc_customs/vc_customs.php:1715 vc_customs/vc_customs.php:1728
+#: vc_customs/vc_customs.php:1760 vc_customs/vc_customs.php:1785
+#: vc_customs/vc_customs.php:1804 vc_customs/vc_customs.php:1824
+#: vc_customs/vc_customs.php:1846 vc_elements/zkbutton.php:54
+#: vc_elements/zkbutton.php:68 vc_elements/zkbutton.php:111
+#: vc_elements/zkcountdown.php:50 vc_elements/zkcounter.php:15
+#: vc_elements/zkcounter.php:47 vc_elements/zkfancybox.php:91
+#: vc_elements/zkfancybox.php:213 vc_elements/zkheading.php:34
+#: vc_elements/zkheading.php:84 vc_elements/zkheading.php:97
+#: vc_elements/zkheading.php:235 vc_elements/zkheading.php:248
+#: vc_elements/zkhoverbox.php:52 vc_elements/zkhoverbox.php:59
+#: vc_elements/zkhoverbox.php:77 vc_elements/zkhoverbox.php:91
+#: vc_elements/zkinstagram.php:15 vc_elements/zkposts.php:69
+#: vc_elements/zkposts_grid.php:71 vc_elements/zkposts_masonry.php:71
+#: vc_elements/zkpricing.php:108 vc_elements/zkproductscarousel.php:34
+#: vc_elements/zkshop.php:43 vc_elements/zksocial.php:25
+#: vc_elements/zktestimonial.php:38 vc_elements/zkuserstools.php:122
+#: vc_elements/zkuserstools.php:139
+msgid "Default"
+msgstr ""
+
+#: inc/core-functions.php:226 inc/core-options.php:12
+#: vc_customs/vc_customs.php:1937
+msgid "None"
+msgstr ""
+
+#: inc/core-functions.php:267
+#, php-format
+msgid ""
+"Please %sClick Here%s to add post type called %s first. And make sure you "
+"have post with SLUG called: %s"
+msgstr ""
+
+#: inc/core-functions.php:633
+msgid "Our Blog"
+msgstr ""
+
+#: inc/core-functions.php:636
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/core-functions.php:639
+msgid "404"
+msgstr ""
+
+#: inc/core-functions.php:656
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/core-functions.php:659
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/core-functions.php:661
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/core-functions.php:661
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/core-functions.php:663
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/core-functions.php:663
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/core-functions.php:666
+msgid "Asides"
+msgstr ""
+
+#: inc/core-functions.php:668
+msgid "Galleries"
+msgstr ""
+
+#: inc/core-functions.php:670
+msgid "Images"
+msgstr ""
+
+#: inc/core-functions.php:672
+msgid "Videos"
+msgstr ""
+
+#: inc/core-functions.php:674
+msgid "Quotes"
+msgstr ""
+
+#: inc/core-functions.php:676
+msgid "Links"
+msgstr ""
+
+#: inc/core-functions.php:678
+msgid "Statuses"
+msgstr ""
+
+#: inc/core-functions.php:680
+msgid "Audios"
+msgstr ""
+
+#: inc/core-functions.php:682
+msgid "Chats"
+msgstr ""
+
+#: inc/core-functions.php:1340
+msgid "Pages:"
+msgstr ""
+
+#: inc/core-functions.php:1353
+#, php-format
+msgid "&copy; %s %s by %s. All Rights Reserved."
+msgstr ""
+
+#: inc/core-functions.php:1353
+msgid "Zooka Studio"
+msgstr ""
+
+#: inc/core-options.php:57
+msgid "No contact forms found"
+msgstr ""
+
+#: inc/core-options.php:77 inc/core-options.php:238 inc/core-options.php:353
+#: inc/core-options.php:359 inc/core-options.php:527 inc/core-options.php:534
+#: inc/core-options.php:634 inc/core-options.php:641 inc/core-options.php:745
+#: inc/core-options.php:911 inc/meta-options.php:334
+msgid "Yes"
+msgstr ""
+
+#: inc/core-options.php:78 inc/core-options.php:239 inc/core-options.php:354
+#: inc/core-options.php:360 inc/core-options.php:528 inc/core-options.php:535
+#: inc/core-options.php:635 inc/core-options.php:642 inc/core-options.php:746
+#: inc/core-options.php:912 inc/meta-options.php:335
+msgid "No"
+msgstr ""
+
+#: inc/core-options.php:83
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/core-options.php:84
+msgid "make your site is boxed?"
+msgstr ""
+
+#: inc/core-options.php:91
+msgid "Boxed Background"
+msgstr ""
+
+#: inc/core-options.php:92
+msgid "Choose background style boxed area"
+msgstr ""
+
+#: inc/core-options.php:102
+msgid "Boxed width"
+msgstr ""
+
+#: inc/core-options.php:103
+msgid "This option just applied for screen larger than value you enter here!"
+msgstr ""
+
+#: inc/core-options.php:118
+msgid "Body Background"
+msgstr ""
+
+#: inc/core-options.php:119 inc/core-options.php:760 inc/core-options.php:983
+#: inc/theme-options.php:641 inc/theme-options.php:672
+msgid "Choose background style"
+msgstr ""
+
+#: inc/core-options.php:127
+msgid "Body Padding"
+msgstr ""
+
+#: inc/core-options.php:128
+msgid "Choose padding for BODY tag"
+msgstr ""
+
+#: inc/core-options.php:137
+msgid "Body Margin"
+msgstr ""
+
+#: inc/core-options.php:138
+msgid "Choose margin for BODY tag"
+msgstr ""
+
+#: inc/core-options.php:164 inc/core-options.php:168
+msgid "Header Banner"
+msgstr ""
+
+#: inc/core-options.php:169
+msgid "Choose header banner"
+msgstr ""
+
+#: inc/core-options.php:170
+#, php-format
+msgid ""
+"To use this Option please %sClick Here%s to add your custom header banner "
+"layout first."
+msgstr ""
+
+#: inc/core-options.php:195 inc/core-options.php:200
+msgid "Header Top"
+msgstr ""
+
+#: inc/core-options.php:201
+msgid "Choose header top"
+msgstr ""
+
+#: inc/core-options.php:202
+#, php-format
+msgid ""
+"To use this Option please %sClick Here%s to add your custom header top "
+"layout first."
+msgstr ""
+
+#: inc/core-options.php:241 inc/core-options.php:924
+#: vc_customs/vc_customs.php:514 vc_customs/vc_customs.php:614
+#: vc_customs/vc_customs.php:1169 vc_elements/zkbutton.php:71
+#: vc_elements/zkcounter.php:18 vc_elements/zkposts.php:72
+#: vc_elements/zkposts_grid.php:74 vc_elements/zkposts_masonry.php:74
+#: vc_elements/zkuserstools.php:125
+msgid "Center"
+msgstr ""
+
+#: inc/core-options.php:242 inc/core-options.php:925
+#: vc_customs/vc_customs.php:444 vc_elements/zkuserstools.php:126
+msgid "Justify"
+msgstr ""
+
+#: inc/core-options.php:247 inc/core-options.php:939
+msgid "Layouts"
+msgstr ""
+
+#: inc/core-options.php:248
+msgid "select a layout for header"
+msgstr ""
+
+#: inc/core-options.php:254 inc/core-options.php:295
+msgid "Header Width"
+msgstr ""
+
+#: inc/core-options.php:255
+msgid "Make header content full width?"
+msgstr ""
+
+#: inc/core-options.php:263 inc/core-options.php:971
+#: vc_elements/zkclients.php:21 vc_elements/zkcounter.php:12
+#: vc_elements/zkfancybox.php:41 vc_elements/zkpricing.php:127
+#: vc_elements/zkprocess.php:21 vc_elements/zkteam.php:22
+#: vc_elements/zktestimonial.php:22 vc_elements/zkuserstools.php:119
+msgid "Content Align"
+msgstr ""
+
+#: inc/core-options.php:264
+msgid "content alignments"
+msgstr ""
+
+#: inc/core-options.php:272
+msgid "Header Type"
+msgstr ""
+
+#: inc/core-options.php:273
+msgid "Choose your header"
+msgstr ""
+
+#: inc/core-options.php:274
+msgid "If you choose Header Custom, all config for header will lost!"
+msgstr ""
+
+#: inc/core-options.php:279 inc/post-format.php:48
+#: vc_customs/vc_customs.php:1749 vc_elements/zkheading.php:100
+#: vc_elements/zkheading.php:251 vc_elements/zksocial.php:39
+msgid "Custom"
+msgstr ""
+
+#: inc/core-options.php:285
+msgid "Custom Header"
+msgstr ""
+
+#: inc/core-options.php:286
+msgid "Choose custom Header"
+msgstr ""
+
+#: inc/core-options.php:287
+#, php-format
+msgid ""
+"To use this Option please %sClick Here%s to add your custom header first."
+msgstr ""
+
+#: inc/core-options.php:296
+msgid "Add width for header!"
+msgstr ""
+
+#: inc/core-options.php:304
+msgid "Header Height"
+msgstr ""
+
+#: inc/core-options.php:305
+msgid "Add height for header."
+msgstr ""
+
+#: inc/core-options.php:315
+msgid "Header Menu"
+msgstr ""
+
+#: inc/core-options.php:316
+msgid "Choose the menu will show on header."
+msgstr ""
+
+#: inc/core-options.php:324
+msgid "Header Menu Left"
+msgstr ""
+
+#: inc/core-options.php:325
+msgid "Choose the menu will show in left handside of LOGO."
+msgstr ""
+
+#: inc/core-options.php:333
+msgid "Header Menu Right"
+msgstr ""
+
+#: inc/core-options.php:334
+msgid "Choose the menu will show in right handside if LOGO."
+msgstr ""
+
+#: inc/core-options.php:367
+msgid "Show Search"
+msgstr ""
+
+#: inc/core-options.php:368
+msgid "Show/Hide search icon"
+msgstr ""
+
+#: inc/core-options.php:388
+msgid "Show Cart"
+msgstr ""
+
+#: inc/core-options.php:389
+msgid "Show/Hide cart icon"
+msgstr ""
+
+#: inc/core-options.php:402
+msgid "Show Tools"
+msgstr ""
+
+#: inc/core-options.php:403
+msgid "Show/Hide tool icon"
+msgstr ""
+
+#: inc/core-options.php:404
+#, php-format
+msgid ""
+"When this options is YES, you need to add a widget to %sHeader Tools%s area "
+"via %sWidget Manager%s"
+msgstr ""
+
+#: inc/core-options.php:411
+msgid "Show Tools on screen"
+msgstr ""
+
+#: inc/core-options.php:412
+msgid "Tools icon show on what screen display"
+msgstr ""
+
+#: inc/core-options.php:417
+msgid "Extra Small"
+msgstr ""
+
+#: inc/core-options.php:418 inc/widgets/widget-instagram.php:188
+#: vc_customs/vc_customs.php:1729
+msgid "Small"
+msgstr ""
+
+#: inc/core-options.php:419 inc/post-format.php:44
+#: vc_customs/vc_customs.php:1730 vc_customs/vc_customs.php:1745
+msgid "Medium"
+msgstr ""
+
+#: inc/core-options.php:420 inc/post-format.php:45
+#: inc/widgets/widget-instagram.php:189 vc_customs/vc_customs.php:1731
+#: vc_customs/vc_customs.php:1746
+msgid "Large"
+msgstr ""
+
+#: inc/core-options.php:421 vc_customs/vc_customs.php:1732
+msgid "Extra Large"
+msgstr ""
+
+#: inc/core-options.php:438
+msgid "Hide"
+msgstr ""
+
+#: inc/core-options.php:439
+msgid "Donate Archive Page"
+msgstr ""
+
+#: inc/core-options.php:440
+msgid "Internal Link"
+msgstr ""
+
+#: inc/core-options.php:441
+msgid "External Link"
+msgstr ""
+
+#: inc/core-options.php:447
+msgid "Show Donate Button"
+msgstr ""
+
+#: inc/core-options.php:448
+msgid "Show/Hide donate button"
+msgstr ""
+
+#: inc/core-options.php:455 inc/core-options.php:463
+msgid "Donate Button Link"
+msgstr ""
+
+#: inc/core-options.php:456
+msgid "Choose an exiting page"
+msgstr ""
+
+#: inc/core-options.php:464
+msgid "Enter your url"
+msgstr ""
+
+#: inc/core-options.php:472
+msgid "Donate Button Label"
+msgstr ""
+
+#: inc/core-options.php:473
+msgid "Enter Label for button"
+msgstr ""
+
+#: inc/core-options.php:476 inc/theme-functions.php:308
+#: inc/theme-functions.php:326
+msgid "Donate Now"
+msgstr ""
+
+#: inc/core-options.php:489
+msgid "Show Sidebar Area"
+msgstr ""
+
+#: inc/core-options.php:490
+msgid "Show/Hide sidebar area"
+msgstr ""
+
+#: inc/core-options.php:491
+#, php-format
+msgid ""
+"When this options is YES, you need to add a widget to %sSidebar Menu%s area "
+"via %sWidget Manager%s"
+msgstr ""
+
+#: inc/core-options.php:504
+msgid "Show Social"
+msgstr ""
+
+#: inc/core-options.php:505
+msgid "Show/Hide social icon in Header area"
+msgstr ""
+
+#: inc/core-options.php:506
+#, php-format
+msgid ""
+"When this option is YES, you need to manage social icon in %sSocial Link%s"
+msgstr ""
+
+#: inc/core-options.php:539 inc/core-options.php:647 inc/theme-options.php:427
+msgid "Logo Image"
+msgstr ""
+
+#: inc/core-options.php:540 inc/core-options.php:648 inc/meta-options.php:84
+#: inc/theme-options.php:428
+msgid "Select an image file for your logo."
+msgstr ""
+
+#: inc/core-options.php:551 inc/theme-options.php:515
+msgid "Header on Top"
+msgstr ""
+
+#: inc/core-options.php:552
+msgid "enable on top header."
+msgstr ""
+
+#: inc/core-options.php:560 inc/core-options.php:669 inc/theme-options.php:464
+#: vc_customs/vc_customs.php:594
+msgid "Background Color"
+msgstr ""
+
+#: inc/core-options.php:561 inc/core-options.php:670 inc/theme-options.php:465
+msgid "choose Background color style."
+msgstr ""
+
+#: inc/core-options.php:574 inc/core-options.php:683 inc/theme-options.php:475
+msgid "Background Image"
+msgstr ""
+
+#: inc/core-options.php:575 inc/core-options.php:684 inc/theme-options.php:476
+msgid "choose Background image style."
+msgstr ""
+
+#: inc/core-options.php:586 inc/core-options.php:695 inc/theme-options.php:219
+#: inc/theme-options.php:484 inc/theme-options.php:553
+#: inc/theme-options.php:977 inc/theme-options.php:1032
+msgid "Typography"
+msgstr ""
+
+#: inc/core-options.php:587 inc/core-options.php:608 inc/core-options.php:696
+#: inc/core-options.php:717 inc/theme-options.php:485 inc/theme-options.php:503
+msgid "This option just applied for Menu first level"
+msgstr ""
+
+#: inc/core-options.php:607 inc/core-options.php:716 inc/core-options.php:1075
+#: inc/theme-options.php:502 inc/theme-options.php:567
+msgid "Link Color"
+msgstr ""
+
+#: inc/core-options.php:659 inc/theme-options.php:525
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/core-options.php:660
+msgid "enable sticky header."
+msgstr ""
+
+#: inc/core-options.php:752
+msgid "Main ContentWidth"
+msgstr ""
+
+#: inc/core-options.php:753
+msgid "Make content area has full width?"
+msgstr ""
+
+#: inc/core-options.php:759 inc/core-options.php:982 inc/theme-options.php:542
+#: inc/theme-options.php:640 inc/theme-options.php:671
+#: inc/theme-options.php:1011 inc/theme-options.php:1067
+msgid "Background"
+msgstr ""
+
+#: inc/core-options.php:767 inc/core-options.php:1006 inc/theme-options.php:648
+#: inc/theme-options.php:679
+msgid "Padding"
+msgstr ""
+
+#: inc/core-options.php:768 inc/theme-options.php:649 inc/theme-options.php:680
+msgid "Choose space for: Top, Right, Bottom, Left"
+msgstr ""
+
+#: inc/core-options.php:794 inc/core-options.php:838 inc/core-options.php:1148
+#: inc/core-options.php:1221 inc/theme-options.php:721
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/core-options.php:795 inc/core-options.php:839 inc/core-options.php:1149
+#: inc/core-options.php:1222 inc/theme-options.php:722
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/core-options.php:796 inc/core-options.php:840 inc/core-options.php:1150
+#: inc/core-options.php:1223 inc/theme-options.php:723
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/core-options.php:802
+msgid "Page layout"
+msgstr ""
+
+#: inc/core-options.php:803
+msgid "This layout apply for page template layout"
+msgstr ""
+
+#: inc/core-options.php:810 inc/core-options.php:854 inc/core-options.php:1156
+#: inc/core-options.php:1262 inc/theme-options.php:729
+msgid "Sidebar"
+msgstr ""
+
+#: inc/core-options.php:811
+msgid "select a widget area for page"
+msgstr ""
+
+#: inc/core-options.php:845 inc/core-options.php:880 inc/meta-options.php:264
+msgid "Single Layout"
+msgstr ""
+
+#: inc/core-options.php:846
+msgid "Choose a layout for single post page"
+msgstr ""
+
+#: inc/core-options.php:855
+msgid "select a widget area for single post page"
+msgstr ""
+
+#: inc/core-options.php:875
+msgid "Single Portfolio"
+msgstr ""
+
+#: inc/core-options.php:881 inc/meta-options.php:265
+msgid "Choose default layout for single Portfolio page"
+msgstr ""
+
+#: inc/core-options.php:907 inc/core-options.php:1239
+msgid "Theme Default"
+msgstr ""
+
+#: inc/core-options.php:922 vc_customs/vc_customs.php:441
+#: vc_elements/zkbutton.php:69 vc_elements/zkbutton.php:96
+#: vc_elements/zkcounter.php:16 vc_elements/zkposts.php:70
+#: vc_elements/zkposts_grid.php:72 vc_elements/zkposts_masonry.php:72
+#: vc_elements/zkuserstools.php:123
+msgid "Left"
+msgstr ""
+
+#: inc/core-options.php:923 vc_customs/vc_customs.php:442
+#: vc_elements/zkbutton.php:70 vc_elements/zkbutton.php:97
+#: vc_elements/zkcounter.php:17 vc_elements/zkposts.php:71
+#: vc_elements/zkposts_grid.php:73 vc_elements/zkposts_masonry.php:73
+#: vc_elements/zkuserstools.php:124
+msgid "Right"
+msgstr ""
+
+#: inc/core-options.php:931
+msgid "Enable Page Title"
+msgstr ""
+
+#: inc/core-options.php:940
+msgid "select a layout for page title"
+msgstr ""
+
+#: inc/core-options.php:949
+msgid "Page Title Image"
+msgstr ""
+
+#: inc/core-options.php:950
+msgid "Select an image file to show page title."
+msgstr ""
+
+#: inc/core-options.php:959
+msgid "Page Title Width"
+msgstr ""
+
+#: inc/core-options.php:960
+msgid "Make page title content full width?"
+msgstr ""
+
+#: inc/core-options.php:972
+msgid "choose text align for page title"
+msgstr ""
+
+#: inc/core-options.php:993
+msgid "Overlay Background"
+msgstr ""
+
+#: inc/core-options.php:994
+msgid "Choose overlay background color"
+msgstr ""
+
+#: inc/core-options.php:1007
+msgid "Enter padding"
+msgstr ""
+
+#: inc/core-options.php:1019 inc/core-options.php:1114
+msgid "Margin"
+msgstr ""
+
+#: inc/core-options.php:1020
+msgid "Enter margin"
+msgstr ""
+
+#: inc/core-options.php:1038 inc/meta-options.php:163
+msgid "Typography for Title"
+msgstr ""
+
+#: inc/core-options.php:1048 inc/meta-options.php:184
+msgid "Typography for Subtitle"
+msgstr ""
+
+#: inc/core-options.php:1065
+msgid "Typography for Breadcrumb"
+msgstr ""
+
+#: inc/core-options.php:1101 inc/core-options.php:1105
+msgid "Footer"
+msgstr ""
+
+#: inc/core-options.php:1106
+msgid "Choose footer"
+msgstr ""
+
+#: inc/core-options.php:1107
+#, php-format
+msgid ""
+"To use this Option please %sClick Here%s to add your custom footer layout "
+"first."
+msgstr ""
+
+#: inc/core-options.php:1115
+msgid "Enter footer outer space"
+msgstr ""
+
+#: inc/core-options.php:1137 inc/require-plugins.php:35
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/core-options.php:1138
+msgid "Config your shop page"
+msgstr ""
+
+#: inc/core-options.php:1144
+msgid "Products layout"
+msgstr ""
+
+#: inc/core-options.php:1145
+msgid ""
+"This layout apply for products page: Recent, Category, Tag, Author, Search "
+"result, Taxonomy, ..."
+msgstr ""
+
+#: inc/core-options.php:1157 inc/theme-options.php:730
+msgid "select a widget area for archive page"
+msgstr ""
+
+#: inc/core-options.php:1165 inc/theme-options.php:738
+msgid "Content Layouts"
+msgstr ""
+
+#: inc/core-options.php:1166 inc/theme-options.php:739
+msgid "select a layout for content"
+msgstr ""
+
+#: inc/core-options.php:1169 inc/post-format.php:140 inc/theme-options.php:742
+#: vc_elements/zkclients.php:94 vc_elements/zkposts.php:98
+#: vc_elements/zkposts_masonry.php:102 vc_elements/zkprocess.php:51
+#: vc_elements/zkteam.php:268 vc_elements/zktestimonial.php:137
+msgid "Grid"
+msgstr ""
+
+#: inc/core-options.php:1170 inc/theme-options.php:743
+msgid "List"
+msgstr ""
+
+#: inc/core-options.php:1176
+msgid "Grid Column"
+msgstr ""
+
+#: inc/core-options.php:1177
+msgid "Choose columns you want to show on Grid Layout"
+msgstr ""
+
+#: inc/core-options.php:1180 inc/post-format.php:152 inc/theme-options.php:754
+msgid "Two"
+msgstr ""
+
+#: inc/core-options.php:1181 inc/post-format.php:153 inc/theme-options.php:755
+msgid "Three"
+msgstr ""
+
+#: inc/core-options.php:1182 inc/post-format.php:154 inc/theme-options.php:756
+msgid "Four"
+msgstr ""
+
+#: inc/core-options.php:1183 inc/post-format.php:155 inc/theme-options.php:757
+msgid "Six"
+msgstr ""
+
+#: inc/core-options.php:1190 vc_elements/zkproductscarousel.php:21
+#: vc_elements/zkshop.php:20
+msgid "Products per page"
+msgstr ""
+
+#: inc/core-options.php:1191
+msgid "Choose number product you want to show on each page"
+msgstr ""
+
+#: inc/core-options.php:1200 inc/theme-options.php:763
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/core-options.php:1201 inc/theme-options.php:764
+msgid "Enter the number of word you want to show in excerpt"
+msgstr ""
+
+#: inc/core-options.php:1202 inc/theme-options.php:765
+msgid ""
+"Enter numeric only, do not include decimal or comma please. Enter '0' to "
+"remove excerpt text"
+msgstr ""
+
+#: inc/core-options.php:1227
+msgid "Woo Default"
+msgstr ""
+
+#: inc/core-options.php:1228
+msgid "Style 1 (Horizontal)"
+msgstr ""
+
+#: inc/core-options.php:1229
+msgid "Style 2 (Vertical)"
+msgstr ""
+
+#: inc/core-options.php:1247
+msgid "Single Product"
+msgstr ""
+
+#: inc/core-options.php:1254
+msgid "Product layout"
+msgstr ""
+
+#: inc/core-options.php:1255
+msgid "This layout apply for single product page"
+msgstr ""
+
+#: inc/core-options.php:1263
+msgid "select a widget area for single product page"
+msgstr ""
+
+#: inc/core-options.php:1273 inc/meta-options.php:288 inc/post-format.php:134
+msgid "Gallery Layout"
+msgstr ""
+
+#: inc/core-options.php:1274
+msgid "Select Gallery Layout For Product Page"
+msgstr ""
+
+#: inc/core-options.php:1281
+msgid "Related products"
+msgstr ""
+
+#: inc/core-options.php:1282
+msgid "Show related product"
+msgstr ""
+
+#: inc/core-options.php:1288
+msgid "Related items"
+msgstr ""
+
+#: inc/core-options.php:1289
+msgid "Enter the number of product you want to show"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:14
+msgid "MeloKids Headers Banner"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:15 inc/custom-post/custom-post.php:21
+msgid "MeloKids Header Banner"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:16
+msgid "All Header Banner"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:17
+msgid "Add New MeloKids Header Banner"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:76
+msgid "MeloKids Headers Top"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:77 inc/custom-post/custom-post.php:83
+msgid "MeloKids Header Top"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:78
+msgid "All Header Top"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:79
+msgid "Add New MeloKids Header Top"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:136 inc/custom-post/custom-post.php:137
+#: inc/custom-post/custom-post.php:143
+msgid "MeloKids Custom Header"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:138
+msgid "All Custom Header"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:139
+msgid "Add New MeloKids Custom Header"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:206 inc/custom-post/custom-post.php:213
+msgid "MeloKids Footers"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:207
+msgid "MeloKids Footer"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:208
+msgid "All Footer"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:209
+msgid "Add New MeloKids Footer"
+msgstr ""
+
+#: inc/custom-post/custom-post.php:252
+msgid "Click to open"
+msgstr ""
+
+#: inc/custom-post/like-posts.php:64 inc/custom-post/like-posts.php:108
+msgid "Like this?"
+msgstr ""
+
+#: inc/custom-post/like-posts.php:65 inc/custom-post/like-posts.php:109
+msgid "You already liked this!"
+msgstr ""
+
+#: inc/custom-post/like-posts.php:68 inc/custom-post/like-posts.php:112
+msgid "Like"
+msgstr ""
+
+#: inc/custom-post/like-posts.php:69 inc/custom-post/like-posts.php:113
+msgid "Likes"
+msgstr ""
+
+#: inc/custom-post/like-posts.php:70 inc/custom-post/like-posts.php:114
+msgid "Liked!"
+msgstr ""
+
+#: inc/custom-post/like-posts.php:163
+msgid "Views"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:8 inc/custom-post/porfolio.php:10
+#: inc/custom-post/porfolio.php:15
+msgid "MeloKids Portfolios"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:9
+msgid "MeloKids Portfolio"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:11
+msgid "All Portfolios"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:17
+msgid "Add your porfolios"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:46 inc/custom-post/porfolio.php:51
+#: inc/custom-post/porfolio.php:55
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:47
+msgid "Portfolio Category"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:146
+msgid "Client"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:149
+msgid "URL"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:152 inc/meta-options.php:317
+#: vc_elements/zkproductscarousel.php:36 vc_elements/zkshop.php:45
+msgid "Date"
+msgstr ""
+
+#: inc/custom-post/porfolio.php:154 inc/woo/_hook_single.php:276
+#, fuzzy
+msgid "Category"
+msgstr ""
+"#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: inc/meta-options.php:48
+msgid "Page Setting"
+msgstr ""
+
+#: inc/meta-options.php:55 inc/meta-options.php:252 inc/theme-options.php:132
+#: vc_elements/zkfancybox.php:16 vc_elements/zkfancybox.php:25
+#: vc_elements/zkfancybox.php:37 vc_elements/zkfancybox.php:50
+#: vc_elements/zkfancybox.php:57
+msgid "General"
+msgstr ""
+
+#: inc/meta-options.php:62
+msgid "Page Layout"
+msgstr ""
+
+#: inc/meta-options.php:70 inc/theme-options.php:404
+msgid "Header"
+msgstr ""
+
+#: inc/meta-options.php:77 inc/theme-options.php:421
+msgid "Logo"
+msgstr ""
+
+#: inc/meta-options.php:83
+msgid "Add custom logo for this page"
+msgstr ""
+
+#: inc/meta-options.php:89
+msgid "Show Logo On Desktop"
+msgstr ""
+
+#: inc/meta-options.php:90
+msgid "Show/Hide logo of this page on desktop view"
+msgstr ""
+
+#: inc/meta-options.php:96
+msgid "Logo Size"
+msgstr ""
+
+#: inc/meta-options.php:97
+msgid "Custom logo size on this page"
+msgstr ""
+
+#: inc/meta-options.php:104
+msgid "Logo Spacing"
+msgstr ""
+
+#: inc/meta-options.php:105
+msgid "Custom logo spacing on this page"
+msgstr ""
+
+#: inc/meta-options.php:116
+msgid "Header Attribute"
+msgstr ""
+
+#: inc/meta-options.php:124
+msgid "Header OnTop"
+msgstr ""
+
+#: inc/meta-options.php:131
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/meta-options.php:138 inc/theme-options.php:586
+msgid "Page Title & BC"
+msgstr ""
+
+#: inc/meta-options.php:146
+msgid "Page Title"
+msgstr ""
+
+#: inc/meta-options.php:155
+msgid "Custom Page Title"
+msgstr ""
+
+#: inc/meta-options.php:156
+msgid "This text will replace default title"
+msgstr ""
+
+#: inc/meta-options.php:157 inc/meta-options.php:178
+msgid "Hit ENTER to add line break! Hit double ENTER to add paragraph!"
+msgstr ""
+
+#: inc/meta-options.php:176
+msgid "Custom Page Subtitle"
+msgstr ""
+
+#: inc/meta-options.php:177
+msgid "This text will show as description of page title"
+msgstr ""
+
+#: inc/meta-options.php:198 inc/theme-options.php:607
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/meta-options.php:205 inc/theme-options.php:621
+#: vc_elements/zkfancyimg.php:53 vc_elements/zkfancyimg.php:61
+#: vc_elements/zkfancyimg.php:69 vc_elements/zkfancyimg.php:76
+#: vc_elements/zkfancyimg.php:87 vc_elements/zkfancyimg.php:97
+#: vc_elements/zkfancyimg.php:108 vc_elements/zkfancyimg.php:119
+#: vc_elements/zkfancyimg.php:139
+msgid "Content"
+msgstr ""
+
+#: inc/meta-options.php:206 inc/theme-options.php:622
+msgid "Main Content Settings"
+msgstr ""
+
+#: inc/meta-options.php:223
+msgid "Post Setting"
+msgstr ""
+
+#: inc/meta-options.php:231
+msgid "Post Layout"
+msgstr ""
+
+#: inc/meta-options.php:245
+msgid "Portfolio Options"
+msgstr ""
+
+#: inc/meta-options.php:260
+msgid "Add subtitle"
+msgstr ""
+
+#: inc/meta-options.php:261
+msgid "Add your subtitle"
+msgstr ""
+
+#: inc/meta-options.php:276
+msgid "Gallery"
+msgstr ""
+
+#: inc/meta-options.php:284 inc/post-format.php:183
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: inc/meta-options.php:285 inc/post-format.php:184
+msgid ""
+"Create a new Gallery by selecting existing or uploading new images using the "
+"WordPress native uploader"
+msgstr ""
+
+#: inc/meta-options.php:289
+msgid "Choose a gallery layout for single Portfolio page"
+msgstr ""
+
+#: inc/meta-options.php:301
+msgid "Additional Infomations"
+msgstr ""
+
+#: inc/meta-options.php:309
+msgid "A&J Co."
+msgstr ""
+
+#: inc/meta-options.php:310 vc_elements/zkclients.php:54
+#: vc_elements/zkclients.php:62
+msgid "Clients"
+msgstr ""
+
+#: inc/meta-options.php:311
+msgid "Enter client name"
+msgstr ""
+
+#: inc/meta-options.php:316
+msgid "Click to enter a date"
+msgstr ""
+
+#: inc/meta-options.php:318
+msgid "Enter Date"
+msgstr ""
+
+#: inc/meta-options.php:324
+msgid "Client Site"
+msgstr ""
+
+#: inc/meta-options.php:325
+msgid "Enter client site"
+msgstr ""
+
+#: inc/meta-options.php:329
+msgid "Recent Project"
+msgstr ""
+
+#: inc/meta-options.php:330
+msgid "Show/Hide recent project"
+msgstr ""
+
+#: inc/meta-options.php:350
+msgid "Product Options"
+msgstr ""
+
+#: inc/post-format.php:43 inc/widgets/widget-instagram.php:187
+#: vc_customs/vc_customs.php:1450 vc_customs/vc_customs.php:1744
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/post-format.php:46 vc_customs/vc_customs.php:1747
+msgid "Post Thumbnail"
+msgstr ""
+
+#: inc/post-format.php:47 vc_customs/vc_customs.php:1748
+#: vc_elements/zkbutton.php:55
+msgid "Full"
+msgstr ""
+
+#: inc/post-format.php:57
+msgid "Post Format"
+msgstr ""
+
+#: inc/post-format.php:71
+msgid "Select Video Type"
+msgstr ""
+
+#: inc/post-format.php:72
+msgid ""
+"Local video or video-sharing website like: Youtube, Video, Daily Motion, ..."
+msgstr ""
+
+#: inc/post-format.php:74 inc/post-format.php:111
+msgid "Upload"
+msgstr ""
+
+#: inc/post-format.php:75 inc/post-format.php:99
+msgid "Embed Video"
+msgstr ""
+
+#: inc/post-format.php:84
+msgid "Local Video"
+msgstr ""
+
+#: inc/post-format.php:85
+msgid "Upload video media using the WordPress native uploader"
+msgstr ""
+
+#: inc/post-format.php:92
+msgid "Video Thumb"
+msgstr ""
+
+#: inc/post-format.php:93
+msgid "Upload thumb media using the WordPress native uploader"
+msgstr ""
+
+#: inc/post-format.php:100
+msgid ""
+"Load video from video-sharing website like: Youtube, Vimeo, Daily Motion,... "
+"Ex: https://www.youtube.com/watch?v=lMJXxhRFO1k"
+msgstr ""
+
+#: inc/post-format.php:101 inc/post-format.php:129
+msgid "What Sites Can You Embed From? please look at:"
+msgstr ""
+
+#: inc/post-format.php:101 inc/post-format.php:129
+msgid "WordPress Embeds"
+msgstr ""
+
+#: inc/post-format.php:102
+msgid "ex: https://www.youtube.com/watch?v=lMJXxhRFO1k"
+msgstr ""
+
+#: inc/post-format.php:108
+msgid "Select Audio Type"
+msgstr ""
+
+#: inc/post-format.php:109
+msgid "Local audio or audio-sharing website like: SoundCloud,..."
+msgstr ""
+
+#: inc/post-format.php:112 inc/post-format.php:127
+msgid "Embed Audio"
+msgstr ""
+
+#: inc/post-format.php:120
+msgid "Audio Media"
+msgstr ""
+
+#: inc/post-format.php:121
+msgid "Upload audio media using the WordPress native uploader"
+msgstr ""
+
+#: inc/post-format.php:128
+msgid ""
+"Load audio from audio-sharing website like: SoundCloud,... Ex: https://"
+"soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz"
+msgstr ""
+
+#: inc/post-format.php:130
+msgid ""
+"ex: https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-"
+"gnealz"
+msgstr ""
+
+#: inc/post-format.php:135
+msgid "Choose default layout your gallery to show"
+msgstr ""
+
+#: inc/post-format.php:139
+msgid "Slideshow"
+msgstr ""
+
+#: inc/post-format.php:141 vc_elements/zkposts.php:100
+msgid "Masonry"
+msgstr ""
+
+#: inc/post-format.php:147
+msgid "Grid Columns"
+msgstr ""
+
+#: inc/post-format.php:148
+msgid "Choose columns you want to show"
+msgstr ""
+
+#: inc/post-format.php:151 inc/theme-options.php:753
+msgid "One"
+msgstr ""
+
+#: inc/post-format.php:161
+msgid "Gallery Size"
+msgstr ""
+
+#: inc/post-format.php:162
+msgid "Choose image size for gallery to show"
+msgstr ""
+
+#: inc/post-format.php:169
+msgid "Gallery Size Custom"
+msgstr ""
+
+#: inc/post-format.php:170
+msgid "Enter custom size for gallery to show"
+msgstr ""
+
+#: inc/post-format.php:171
+msgid ""
+"Alternatively enter size in pixels (Example: 200x100 (Width x Height)). You "
+"can enter multiple image size separate by comma (Example: 200x100, 300x200, "
+"large, medium_large, medium, thumbnail, full)"
+msgstr ""
+
+#: inc/post-format.php:189
+msgid "Quote Title"
+msgstr ""
+
+#: inc/post-format.php:194
+msgid "Quote Content"
+msgstr ""
+
+#: inc/post-format.php:200
+msgid "Your Text"
+msgstr ""
+
+#: inc/post-format.php:206
+msgid "Your Link"
+msgstr ""
+
+#: inc/require-plugins.php:6
+msgid "EF4 Framework"
+msgstr ""
+
+#: inc/require-plugins.php:12
+msgid "EF4 Import/Export"
+msgstr ""
+
+#: inc/require-plugins.php:18
+msgid "Visual Composer"
+msgstr ""
+
+#: inc/require-plugins.php:24
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/require-plugins.php:30
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/theme-functions.php:209 vc_templates/zkusertools.php:102
+msgctxt "placeholder"
+msgid "Type something to search ..."
+msgstr ""
+
+#: inc/theme-functions.php:210 vc_templates/zkusertools.php:103
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/theme-functions.php:376
+msgid "Open Menu"
+msgstr ""
+
+#: inc/theme-functions.php:542
+msgid "No Comments"
+msgstr ""
+
+#: inc/theme-functions.php:544
+msgid "Comments"
+msgstr ""
+
+#: inc/theme-functions.php:546
+msgid "1 Comment"
+msgstr ""
+
+#: inc/theme-functions.php:565
+msgid "Share this"
+msgstr ""
+
+#: inc/theme-functions.php:612
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: inc/theme-functions.php:671
+msgid "Share this post"
+msgstr ""
+
+#: inc/theme-functions.php:690 inc/theme-options.php:828
+#: vc_templates/zkheading.php:175 vc_templates/zkprocess.php:74
+#: vc_templates/zkteam.php:91
+msgid "Read More"
+msgstr ""
+
+#: inc/theme-functions.php:913
+msgid "Related Articles"
+msgstr ""
+
+#: inc/theme-functions.php:1029 inc/theme-functions.php:1038
+#: inc/theme-functions.php:1074
+msgid "Prev Post"
+msgstr ""
+
+#: inc/theme-functions.php:1049 inc/theme-functions.php:1058
+#: inc/theme-functions.php:1086
+msgid "Next Post"
+msgstr ""
+
+#: inc/theme-functions.php:1186
+msgid "Your Comment"
+msgstr ""
+
+#: inc/theme-functions.php:1206 inc/woo/_hook_single.php:521
+msgid "Your Name *"
+msgstr ""
+
+#: inc/theme-functions.php:1206 inc/woo/_hook_single.php:521
+#: vc_elements/zkteam.php:216
+msgid "Name"
+msgstr ""
+
+#: inc/theme-functions.php:1207 inc/woo/_hook_single.php:522
+msgid "Your Email *"
+msgstr ""
+
+#: inc/theme-functions.php:1207 inc/woo/_hook_single.php:522
+msgid "Email"
+msgstr ""
+
+#: inc/theme-functions.php:1219 inc/woo/_hook_single.php:547
+msgid "Your website"
+msgstr ""
+
+#: inc/theme-functions.php:1247 inc/woo/_hook_single.php:498
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/theme-functions.php:1258
+msgid "Edit"
+msgstr ""
+
+#: inc/theme-functions.php:1262
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/theme-options.php:146
+msgid "Extra"
+msgstr ""
+
+#: inc/theme-options.php:151
+msgid "Enable Page Loading"
+msgstr ""
+
+#: inc/theme-options.php:158
+msgid "Page Loadding Style"
+msgstr ""
+
+#: inc/theme-options.php:159
+msgid "Select Style Page Loadding."
+msgstr ""
+
+#: inc/theme-options.php:163
+msgid "Flip Box"
+msgstr ""
+
+#: inc/theme-options.php:164
+msgid "Double Bounce"
+msgstr ""
+
+#: inc/theme-options.php:165
+msgid "Wave"
+msgstr ""
+
+#: inc/theme-options.php:166
+msgid "Double Cube"
+msgstr ""
+
+#: inc/theme-options.php:167
+msgid "Scale Out"
+msgstr ""
+
+#: inc/theme-options.php:168
+msgid "Double Dots"
+msgstr ""
+
+#: inc/theme-options.php:169
+msgid "Three Circle Bounce"
+msgstr ""
+
+#: inc/theme-options.php:170
+msgid "Circle Loading"
+msgstr ""
+
+#: inc/theme-options.php:171
+msgid "Cube Grid"
+msgstr ""
+
+#: inc/theme-options.php:172
+msgid "Fading Circle"
+msgstr ""
+
+#: inc/theme-options.php:173
+msgid "Folding Cube"
+msgstr ""
+
+#: inc/theme-options.php:180
+msgid "Enable Back To Top"
+msgstr ""
+
+#: inc/theme-options.php:196
+msgid "Theme Color"
+msgstr ""
+
+#: inc/theme-options.php:200 vc_elements/zkheading.php:98
+#: vc_elements/zkheading.php:249
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-options.php:201
+msgid "Choose your primary color."
+msgstr ""
+
+#: inc/theme-options.php:206 vc_elements/zkheading.php:99
+#: vc_elements/zkheading.php:250
+msgid "Accent Color"
+msgstr ""
+
+#: inc/theme-options.php:207
+msgid "Choose your accent color."
+msgstr ""
+
+#: inc/theme-options.php:226
+msgid "Body Font"
+msgstr ""
+
+#: inc/theme-options.php:232 inc/theme-options.php:252
+#: inc/theme-options.php:264 inc/theme-options.php:276
+#: inc/theme-options.php:288 inc/theme-options.php:300
+#: inc/theme-options.php:312
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: inc/theme-options.php:243
+msgid "Heading"
+msgstr ""
+
+#: inc/theme-options.php:244
+msgid "Choose style for all heading style"
+msgstr ""
+
+#: inc/theme-options.php:251
+msgid "H1"
+msgstr ""
+
+#: inc/theme-options.php:253
+msgid ""
+"If not choose any option here, all style for h1 will applied by default "
+"theme style."
+msgstr ""
+
+#: inc/theme-options.php:263 vc_elements/zkposts_grid.php:134
+#: vc_elements/zkposts_masonry.php:161
+msgid "H2"
+msgstr ""
+
+#: inc/theme-options.php:265
+msgid ""
+"If not choose any option here, all style for h2 will applied by default "
+"theme style."
+msgstr ""
+
+#: inc/theme-options.php:275 vc_elements/zkposts_grid.php:135
+#: vc_elements/zkposts_masonry.php:162
+msgid "H3"
+msgstr ""
+
+#: inc/theme-options.php:277
+msgid ""
+"If not choose any option here, all style for h3 will applied by default "
+"theme style."
+msgstr ""
+
+#: inc/theme-options.php:287 vc_elements/zkposts_grid.php:136
+#: vc_elements/zkposts_masonry.php:163
+msgid "H4"
+msgstr ""
+
+#: inc/theme-options.php:289
+msgid ""
+"If not choose any option here, all style for h4 will applied by default "
+"theme style."
+msgstr ""
+
+#: inc/theme-options.php:299 vc_elements/zkposts_grid.php:137
+#: vc_elements/zkposts_masonry.php:164
+msgid "H5"
+msgstr ""
+
+#: inc/theme-options.php:301
+msgid ""
+"If not choose any option here, all style for h5 will applied by default "
+"theme style."
+msgstr ""
+
+#: inc/theme-options.php:311 vc_elements/zkposts_grid.php:138
+#: vc_elements/zkposts_masonry.php:165
+msgid "H6"
+msgstr ""
+
+#: inc/theme-options.php:313
+msgid ""
+"If not choose any option here, all style for h6 will applied by default "
+"theme style."
+msgstr ""
+
+#: inc/theme-options.php:331
+msgid "Extra Fonts"
+msgstr ""
+
+#: inc/theme-options.php:338
+msgid "Custom Font"
+msgstr ""
+
+#: inc/theme-options.php:350 inc/theme-options.php:377
+msgid "Choose a font for some special place."
+msgstr ""
+
+#: inc/theme-options.php:357 inc/theme-options.php:384
+msgid "Selector"
+msgstr ""
+
+#: inc/theme-options.php:358 inc/theme-options.php:385
+msgid "add html tags ID or class (body,a,.class-name,#id-name)"
+msgstr ""
+
+#: inc/theme-options.php:365
+msgid "Custom Font 2"
+msgstr ""
+
+#: inc/theme-options.php:410 vc_customs/vc_customs.php:809
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/theme-options.php:411
+msgid "Enable mega menu"
+msgstr ""
+
+#: inc/theme-options.php:434
+msgid "Logo Width"
+msgstr ""
+
+#: inc/theme-options.php:435
+msgid "Fixed width for logo!"
+msgstr ""
+
+#: inc/theme-options.php:448
+msgid "Attributes"
+msgstr ""
+
+#: inc/theme-options.php:458
+msgid "Header Default"
+msgstr ""
+
+#: inc/theme-options.php:536
+msgid "Dropdown & Mobile"
+msgstr ""
+
+#: inc/theme-options.php:537
+msgid "All style in this section will apply for Dropdown & Mobile Menu"
+msgstr ""
+
+#: inc/theme-options.php:543
+msgid "Choose background style."
+msgstr ""
+
+#: inc/theme-options.php:554
+msgid "Choose typography style."
+msgstr ""
+
+#: inc/theme-options.php:568
+msgid "Choose color for menu in Dropdown & Mobile"
+msgstr ""
+
+#: inc/theme-options.php:596
+msgid "Page title"
+msgstr ""
+
+#: inc/theme-options.php:635
+msgid "Content Area"
+msgstr ""
+
+#: inc/theme-options.php:666
+msgid "Sidebar Area"
+msgstr ""
+
+#: inc/theme-options.php:697
+msgid "Page Options"
+msgstr ""
+
+#: inc/theme-options.php:711
+msgid "Archives Options"
+msgstr ""
+
+#: inc/theme-options.php:717
+msgid "Archives page layout"
+msgstr ""
+
+#: inc/theme-options.php:718
+msgid ""
+"This layout apply for archives page: Recent Post, Category, Tag, Author, "
+"Search result, Taxonomy, ..."
+msgstr ""
+
+#: inc/theme-options.php:749
+msgid "Archives Column"
+msgstr ""
+
+#: inc/theme-options.php:750
+msgid "Choose columns you want to show on Archives Page"
+msgstr ""
+
+#: inc/theme-options.php:772 inc/theme-options.php:852
+#: vc_elements/zkinstagram.php:54 vc_elements/zkposts.php:144
+#: vc_elements/zkposts_grid.php:180 vc_elements/zkposts_masonry.php:207
+msgid "Show Author"
+msgstr ""
+
+#: inc/theme-options.php:773 inc/theme-options.php:853
+msgid "Show/Hide post author"
+msgstr ""
+
+#: inc/theme-options.php:779 inc/theme-options.php:859
+#: vc_elements/zkposts.php:152 vc_elements/zkposts_grid.php:188
+#: vc_elements/zkposts_masonry.php:215
+msgid "Show Date"
+msgstr ""
+
+#: inc/theme-options.php:780 inc/theme-options.php:860
+msgid "Show/Hide post date"
+msgstr ""
+
+#: inc/theme-options.php:786 inc/theme-options.php:866
+#: vc_elements/zkposts.php:161 vc_elements/zkposts_grid.php:197
+#: vc_elements/zkposts_masonry.php:224
+msgid "Show Category"
+msgstr ""
+
+#: inc/theme-options.php:787 inc/theme-options.php:867
+msgid "Show/Hide post categories"
+msgstr ""
+
+#: inc/theme-options.php:793 inc/theme-options.php:873
+msgid "Show tags"
+msgstr ""
+
+#: inc/theme-options.php:794 inc/theme-options.php:874
+msgid "Show/Hide post tags"
+msgstr ""
+
+#: inc/theme-options.php:800 inc/theme-options.php:880
+#: vc_elements/zkposts.php:169 vc_elements/zkposts_grid.php:205
+#: vc_elements/zkposts_masonry.php:232
+msgid "Show Comment"
+msgstr ""
+
+#: inc/theme-options.php:801 inc/theme-options.php:881
+msgid "Show/Hide post comment count"
+msgstr ""
+
+#: inc/theme-options.php:807 inc/theme-options.php:887
+msgid "Show Views"
+msgstr ""
+
+#: inc/theme-options.php:808 inc/theme-options.php:888
+msgid "Show/Hide post view count"
+msgstr ""
+
+#: inc/theme-options.php:814 inc/theme-options.php:894
+#: vc_elements/zkposts.php:185 vc_elements/zkposts_grid.php:221
+#: vc_elements/zkposts_masonry.php:248
+msgid "Show Like"
+msgstr ""
+
+#: inc/theme-options.php:815 inc/theme-options.php:895
+msgid "Show/Hide post Like count"
+msgstr ""
+
+#: inc/theme-options.php:821 vc_elements/zkposts.php:193
+#: vc_elements/zkposts_grid.php:229 vc_elements/zkposts_masonry.php:256
+msgid "Show Share"
+msgstr ""
+
+#: inc/theme-options.php:822
+msgid "Show/Hide share to"
+msgstr ""
+
+#: inc/theme-options.php:829
+msgid "Show/Hide Read More button"
+msgstr ""
+
+#: inc/theme-options.php:845
+msgid "Single Post"
+msgstr ""
+
+#: inc/theme-options.php:901
+msgid "Show share"
+msgstr ""
+
+#: inc/theme-options.php:902
+msgid ""
+"Show/Hide icon to social site, like: facebook, twitter, google plus and "
+"linkedin"
+msgstr ""
+
+#: inc/theme-options.php:909
+msgid "Show about author"
+msgstr ""
+
+#: inc/theme-options.php:910
+msgid "Show/Hide author information"
+msgstr ""
+
+#: inc/theme-options.php:917
+msgid "Show Next / Preview Post"
+msgstr ""
+
+#: inc/theme-options.php:918
+msgid "Show/Hide Next / Preview link to other post"
+msgstr ""
+
+#: inc/theme-options.php:925
+msgid "Show Related Post"
+msgstr ""
+
+#: inc/theme-options.php:926
+msgid "Show/Hide related post. Related post using Post Tag"
+msgstr ""
+
+#: inc/theme-options.php:932
+msgid "Show Comment List & Form"
+msgstr ""
+
+#: inc/theme-options.php:933
+msgid "Show/Hide post commented list & Comment Form"
+msgstr ""
+
+#: inc/theme-options.php:962
+msgid "Button Options"
+msgstr ""
+
+#: inc/theme-options.php:971
+msgid "Default Button"
+msgstr ""
+
+#: inc/theme-options.php:972
+msgid "Choose style for Default Button"
+msgstr ""
+
+#: inc/theme-options.php:978 inc/theme-options.php:1033
+msgid "all style for: font-family, font-size, ..."
+msgstr ""
+
+#: inc/theme-options.php:988 inc/theme-options.php:1043
+#: vc_customs/vc_customs.php:494 vc_customs/vc_customs.php:587
+#: vc_customs/vc_customs.php:674 vc_customs/vc_customs.php:718
+#: vc_elements/zkheading.php:94 vc_elements/zkheading.php:245
+msgid "Text Color"
+msgstr ""
+
+#: inc/theme-options.php:989 inc/theme-options.php:1044
+msgid "choose style for color text of button"
+msgstr ""
+
+#: inc/theme-options.php:996 inc/theme-options.php:1051
+msgid "Border"
+msgstr ""
+
+#: inc/theme-options.php:997
+msgid "Choose border style for default button"
+msgstr ""
+
+#: inc/theme-options.php:1003 inc/theme-options.php:1058
+msgid "Border Radius"
+msgstr ""
+
+#: inc/theme-options.php:1004
+msgid "This option will apply for button radius"
+msgstr ""
+
+#: inc/theme-options.php:1012 inc/theme-options.php:1068
+msgid "background style default"
+msgstr ""
+
+#: inc/theme-options.php:1018 inc/theme-options.php:1074
+msgid "background style on mouse over"
+msgstr ""
+
+#: inc/theme-options.php:1026
+msgid "Primary Button"
+msgstr ""
+
+#: inc/theme-options.php:1027
+msgid "Choose style for Primary Button"
+msgstr ""
+
+#: inc/theme-options.php:1052
+msgid "Choose border style for primary button"
+msgstr ""
+
+#: inc/theme-options.php:1059
+msgid "This option will apply for button radius: Top, Right, Bottom, Left"
+msgstr ""
+
+#: inc/theme-options.php:1083
+msgid "Social Link"
+msgstr ""
+
+#: inc/theme-options.php:1084
+msgid "Add your social network"
+msgstr ""
+
+#: inc/theme-options.php:1085
+msgid ""
+"IMPORTANT: if you want to add skype chat button, please use: htttp://skype."
+"your-skype-name, ex: http://skype.chinhjm, replace 'chinhjm' with your skype "
+"name"
+msgstr ""
+
+#: inc/theme-options.php:1091
+msgid "Title 1"
+msgstr ""
+
+#: inc/theme-options.php:1092 inc/theme-options.php:1115
+#: inc/theme-options.php:1138 inc/theme-options.php:1161
+#: inc/theme-options.php:1184 inc/theme-options.php:1207
+#: inc/theme-options.php:1230 inc/theme-options.php:1253
+#: inc/theme-options.php:1276 inc/theme-options.php:1299
+msgid "Enter title"
+msgstr ""
+
+#: inc/theme-options.php:1093 inc/theme-options.php:1116
+#: inc/theme-options.php:1139 inc/theme-options.php:1162
+#: inc/theme-options.php:1185 inc/theme-options.php:1208
+#: inc/theme-options.php:1231 inc/theme-options.php:1254
+#: inc/theme-options.php:1277 inc/theme-options.php:1300
+msgid "Example: Facebook"
+msgstr ""
+
+#: inc/theme-options.php:1098
+msgid "Link 1"
+msgstr ""
+
+#: inc/theme-options.php:1100 inc/theme-options.php:1123
+#: inc/theme-options.php:1146 inc/theme-options.php:1169
+#: inc/theme-options.php:1192 inc/theme-options.php:1215
+#: inc/theme-options.php:1238 inc/theme-options.php:1261
+#: inc/theme-options.php:1284 inc/theme-options.php:1307
+msgid "Enter your link"
+msgstr ""
+
+#: inc/theme-options.php:1101 inc/theme-options.php:1124
+#: inc/theme-options.php:1147 inc/theme-options.php:1170
+#: inc/theme-options.php:1193 inc/theme-options.php:1216
+#: inc/theme-options.php:1239 inc/theme-options.php:1262
+#: inc/theme-options.php:1285 inc/theme-options.php:1308
+msgid "Example: https://facebook.com"
+msgstr ""
+
+#: inc/theme-options.php:1106
+msgid "Icon 1"
+msgstr ""
+
+#: inc/theme-options.php:1108 inc/theme-options.php:1131
+#: inc/theme-options.php:1154 inc/theme-options.php:1177
+#: inc/theme-options.php:1200 inc/theme-options.php:1223
+#: inc/theme-options.php:1246 inc/theme-options.php:1269
+#: inc/theme-options.php:1292 inc/theme-options.php:1315
+msgid "Add class of your icon font"
+msgstr ""
+
+#: inc/theme-options.php:1109 inc/theme-options.php:1132
+#: inc/theme-options.php:1155 inc/theme-options.php:1178
+#: inc/theme-options.php:1201 inc/theme-options.php:1224
+#: inc/theme-options.php:1247 inc/theme-options.php:1270
+#: inc/theme-options.php:1293 inc/theme-options.php:1316
+msgid "Example: fa fa-facebook"
+msgstr ""
+
+#: inc/theme-options.php:1114
+msgid "Title 2"
+msgstr ""
+
+#: inc/theme-options.php:1121
+msgid "Link 2"
+msgstr ""
+
+#: inc/theme-options.php:1129
+msgid "Icon 2"
+msgstr ""
+
+#: inc/theme-options.php:1137
+msgid "Title 3"
+msgstr ""
+
+#: inc/theme-options.php:1144
+msgid "Link 3"
+msgstr ""
+
+#: inc/theme-options.php:1152
+msgid "Icon 3"
+msgstr ""
+
+#: inc/theme-options.php:1160
+msgid "Title 4"
+msgstr ""
+
+#: inc/theme-options.php:1167
+msgid "Link 4"
+msgstr ""
+
+#: inc/theme-options.php:1175
+msgid "Icon 4"
+msgstr ""
+
+#: inc/theme-options.php:1183
+msgid "Title 5"
+msgstr ""
+
+#: inc/theme-options.php:1190
+msgid "Link 5"
+msgstr ""
+
+#: inc/theme-options.php:1198
+msgid "Icon 5"
+msgstr ""
+
+#: inc/theme-options.php:1206
+msgid "Title 6"
+msgstr ""
+
+#: inc/theme-options.php:1213
+msgid "Link 6"
+msgstr ""
+
+#: inc/theme-options.php:1221
+msgid "Icon 6"
+msgstr ""
+
+#: inc/theme-options.php:1229
+msgid "Title 7"
+msgstr ""
+
+#: inc/theme-options.php:1236
+msgid "Link 7"
+msgstr ""
+
+#: inc/theme-options.php:1244
+msgid "Icon 7"
+msgstr ""
+
+#: inc/theme-options.php:1252
+msgid "Title 8"
+msgstr ""
+
+#: inc/theme-options.php:1259
+msgid "Link 8"
+msgstr ""
+
+#: inc/theme-options.php:1267
+msgid "Icon 8"
+msgstr ""
+
+#: inc/theme-options.php:1275
+msgid "Title 9"
+msgstr ""
+
+#: inc/theme-options.php:1282
+msgid "Link 9"
+msgstr ""
+
+#: inc/theme-options.php:1290
+msgid "Icon 9"
+msgstr ""
+
+#: inc/theme-options.php:1298
+msgid "Title 10"
+msgstr ""
+
+#: inc/theme-options.php:1305
+msgid "Link 10"
+msgstr ""
+
+#: inc/theme-options.php:1313
+msgid "Icon 10"
+msgstr ""
+
+#: inc/theme-options.php:1327
+msgid "Socials API"
+msgstr ""
+
+#: inc/theme-options.php:1332
+msgid "Google Maps"
+msgstr ""
+
+#: inc/theme-options.php:1334
+#, php-format
+msgid ""
+"Click here to <a href=\"%s\" target=\"_blank\">Get your google API key</a>"
+msgstr ""
+
+#: inc/theme-options.php:1338
+msgid "API Key"
+msgstr ""
+
+#: inc/theme-options.php:1346 vc_elements/zksocial.php:59
+msgid "Twitter"
+msgstr ""
+
+#: inc/theme-options.php:1347
+#, php-format
+msgid ""
+"These details are available in <a href=\"%s\" target=\"_blank\">Your Twitter "
+"dashboard</a>"
+msgstr ""
+
+#: inc/theme-options.php:1352
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+#: inc/theme-options.php:1358
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+#: inc/theme-options.php:1364
+msgid "Access Token"
+msgstr ""
+
+#: inc/theme-options.php:1370
+msgid "Access Token Secret"
+msgstr ""
+
+#: inc/theme-options.php:1378
+msgid "Instagram"
+msgstr ""
+
+#: inc/theme-options.php:1379
+msgid "Enter your Instagram user"
+msgstr ""
+
+#: inc/theme-options.php:1384
+msgid "User ID"
+msgstr ""
+
+#: inc/theme-options.php:1385
+msgid "Ex: https://www.instagram.com/zooka.studio/. Get zooka.studio"
+msgstr ""
+
+#: inc/widgets/class-widget-extends.php:53
+msgid "Hide widget title"
+msgstr ""
+
+#: inc/widgets/class-widget-extends.php:56
+msgid "CSS Class"
+msgstr ""
+
+#: inc/widgets/class-widget-helper.php:843
+msgid "Any Categories"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:13
+msgid "[MeloKids] Instagram"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:16
+msgid "Show Instagram Image"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:133 inc/widgets/widget-instagram.php:201
+#: vc_templates/zksocial.php:26
+msgid "Follow Us"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:147 inc/woo/widget-price-filter.php:39
+#: vc_customs/vc_customs.php:1879 vc_customs/vc_customs.php:1912
+#: vc_elements/zkcounter.php:67 vc_elements/zkcounter.php:148
+#: vc_elements/zkcounter.php:233 vc_elements/zkcounter.php:318
+#: vc_elements/zkcounter.php:403 vc_elements/zkcounter.php:488
+#: vc_elements/zkfancybox.php:12 vc_elements/zkfancyimg.php:65
+#: vc_elements/zkheading.php:66 vc_elements/zkheading.php:120
+#: vc_elements/zkheading.php:134 vc_elements/zkheading.php:143
+#: vc_elements/zkheading.php:151 vc_elements/zkheading.php:162
+#: vc_elements/zkheading.php:171 vc_elements/zkheading.php:192
+#: vc_elements/zkhoverbox.php:48 vc_elements/zkhoverbox.php:95
+#: vc_elements/zkprocess.php:91 vc_elements/zkproductscarousel.php:35
+#: vc_elements/zkshop.php:44 vc_elements/zkuserstools.php:17
+#: vc_elements/zkuserstools.php:70 vc_elements/zkuserstools.php:179
+#: vc_elements/zkuserstools.php:228
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:150 vc_elements/zkfancybox.php:220
+#: vc_elements/zkfancyimg.php:17 vc_elements/zkheading.php:45
+#: vc_elements/zkhoverbox.php:38 vc_elements/zknewsletter.php:12
+#: vc_elements/zkposts_masonry.php:99 vc_elements/zkpricing.php:117
+msgid "Layout Mode"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:157
+msgid "Number of photos"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:162
+msgid "Columns"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:164
+msgid "1"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:165 inc/widgets/widget-instagram.php:177
+msgid "2"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:166
+msgid "3"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:167
+msgid "4"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:168
+msgid "6"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:169
+msgid "12"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:174 vc_elements/zkinstagram.php:34
+msgid "Columns Space"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:176
+msgid "0"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:178
+msgid "10"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:179
+msgid "20"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:180
+msgid "30"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:185
+msgid "Photo size"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:190
+msgid "Original"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:195 inc/widgets/widget-recentpost.php:244
+msgid "Show Author:"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:200
+msgid "Author text"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:204
+msgid "Open author links in"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:206
+msgid "Current window (_self)"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:207
+msgid "New window (_blank)"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:212
+msgid "Show Like Count"
+msgstr ""
+
+#: inc/widgets/widget-instagram.php:216
+msgid "Show Comment Count"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:14
+msgid "A list of recent posts."
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:17
+msgid "[MeloKids] Posts"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:23 inc/widgets/widget-recentpost.php:198
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:149
+msgid "View More"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:154
+msgid "No post found!"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:214 inc/widgets/widget-taxonomies.php:172
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:217
+msgid "Layout:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:222
+msgid "Post Type:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:224
+msgid "Post"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:231
+msgid "Sort by:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:233 vc_elements/zkposts.php:56
+#: vc_elements/zkposts_grid.php:58 vc_elements/zkposts_masonry.php:58
+#: vc_elements/zkposts_special.php:51
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:234 vc_elements/zkposts.php:57
+#: vc_elements/zkposts_grid.php:59 vc_elements/zkposts_masonry.php:59
+#: vc_elements/zkposts_special.php:52
+msgid "Most Viewed"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:235
+msgid "Sticky post"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:236 vc_elements/zkposts.php:59
+#: vc_elements/zkposts_grid.php:61 vc_elements/zkposts_masonry.php:61
+#: vc_elements/zkposts_special.php:54
+msgid "Most Commented"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:240
+msgid "Show Image:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:248
+msgid "Show date:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:252
+msgid "Show Category:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:256
+msgid "Show Comment:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:260
+msgid "Show View:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:265
+msgid "Show Description:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:269
+msgid "Show View All Link:"
+msgstr ""
+
+#: inc/widgets/widget-recentpost.php:273
+msgid "Number of items to show:"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:34
+msgid "A list of taxonomies."
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:37
+msgid "[MeloKids] Taxonomies"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:82 inc/woo/_hook_shop_filters.php:296
+msgid "Categories"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:180
+msgid "Taxonomy:"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:200
+msgid "( Choose the"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:202
+msgid "you want to show. Leave Blank to show all! )"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:207
+msgid "Empty Taxonomy!"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:242
+msgid "Other Options"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:244
+msgid "Show post counts"
+msgstr ""
+
+#: inc/widgets/widget-taxonomies.php:247
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/widgets/wp-widget-categories-walker.php:62
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: inc/widgets/wp-widget-page-walker.php:66
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: inc/woo/_hook_cart.php:67
+msgid "Coupon code"
+msgstr ""
+
+#: inc/woo/_hook_cart.php:67
+msgid "Apply coupon"
+msgstr ""
+
+#: inc/woo/_hook_cart.php:104
+msgid "Update cart"
+msgstr ""
+
+#: inc/woo/_hook_cart.php:106
+msgid "Order Now"
+msgstr ""
+
+#: inc/woo/_hook_cart.php:119
+msgid "Continue Shopping"
+msgstr ""
+
+#: inc/woo/_hook_cart.php:139
+msgid "Clear Shopping Cart"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:31 inc/woo/_hook_checkout.php:43
+#: inc/woo/_hook_checkout.php:92
+msgid "First Name *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:32 inc/woo/_hook_checkout.php:44
+#: inc/woo/_hook_checkout.php:93
+msgid "Last Name *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:33 inc/woo/_hook_checkout.php:45
+#: inc/woo/_hook_checkout.php:94
+msgid "Company Name"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:34
+msgid "Email Address *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:35
+msgid "Phone *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:36 inc/woo/_hook_checkout.php:46
+msgid "Town / City *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:37 inc/woo/_hook_checkout.php:47
+msgid "Postcode/ Zip *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:38 inc/woo/_hook_checkout.php:48
+msgid "State/ Country *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:39 inc/woo/_hook_checkout.php:49
+msgid "Country *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:40 inc/woo/_hook_checkout.php:50
+msgid "Street address *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:55
+msgid "Order Notes"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:69
+msgid "Email Address"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:70
+msgctxt "placeholder"
+msgid "Email Address *"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:75
+msgid "Phone"
+msgstr ""
+
+#: inc/woo/_hook_checkout.php:76
+msgctxt "placeholder"
+msgid "Phone *"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:214
+msgid "Sale"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:229
+msgid "Click to enlarge"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:298
+msgid "Buy product"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:301
+msgid "View products"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:305
+msgid "Quick Buy"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:307 inc/woo/_hook_loop.php:314
+#: vc_templates/zkfancybox.php:18
+msgid "Read more"
+msgstr ""
+
+#: inc/woo/_hook_loop.php:311
+msgid "Select options"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:49
+msgid "Filter"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:78
+msgid "Arrivals"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:79
+msgid "Sales"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:80
+msgid "Bestseller"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:138
+msgid "Default sorting"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:139
+msgid "Sort by popularity"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:140
+msgid "Sort by average rating"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:141
+msgid "Sort by newness"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:142
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:143
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:150
+msgid "Relevance"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:168 vc_elements/zkposts.php:53
+#: vc_elements/zkposts_grid.php:55 vc_elements/zkposts_masonry.php:55
+#: vc_elements/zkposts_special.php:48
+msgid "Sort By"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:214
+msgid "Sort by On Sale"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:215
+msgid "Sort by Best Selling"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:231
+msgid "Prices"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:252
+msgid "Sizes"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:274
+msgid "Colors"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:317
+msgid "Brand"
+msgstr ""
+
+#: inc/woo/_hook_shop_filters.php:376
+msgid "Reset all filter"
+msgstr ""
+
+#: inc/woo/_hook_single.php:227
+msgid "Choose a"
+msgstr ""
+
+#: inc/woo/_hook_single.php:244
+msgid "In Stock"
+msgstr ""
+
+#: inc/woo/_hook_single.php:246
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/woo/_hook_single.php:264
+msgid "N/A"
+msgstr ""
+
+#: inc/woo/_hook_single.php:272 vc_customs/vc_customs.php:1879
+#: vc_customs/vc_customs.php:1907
+msgid "Sku"
+msgstr ""
+
+#: inc/woo/_hook_single.php:278
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woo/_hook_single.php:302 inc/woo/_hook_single.php:312
+msgid "Share"
+msgstr ""
+
+#: inc/woo/_hook_single.php:303
+msgid "Share to other"
+msgstr ""
+
+#: inc/woo/_hook_single.php:323
+msgid "Share to Twitter"
+msgstr ""
+
+#: inc/woo/_hook_single.php:333
+msgid "Share to Facebook"
+msgstr ""
+
+#: inc/woo/_hook_single.php:343
+msgid "Share to Google Plus"
+msgstr ""
+
+#: inc/woo/_hook_single.php:353
+msgid "Share to Pinterest"
+msgstr ""
+
+#: inc/woo/_hook_single.php:382
+msgid "Additional infos"
+msgstr ""
+
+#: inc/woo/_hook_single.php:452
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: inc/woo/_hook_single.php:460
+msgid "verified owner"
+msgstr ""
+
+#: inc/woo/_hook_single.php:529
+msgid "Your rating"
+msgstr ""
+
+#: inc/woo/_hook_single.php:530
+msgid "Rate&hellip;"
+msgstr ""
+
+#: inc/woo/_hook_single.php:531
+msgid "Perfect"
+msgstr ""
+
+#: inc/woo/_hook_single.php:532
+msgid "Good"
+msgstr ""
+
+#: inc/woo/_hook_single.php:533
+msgid "Average"
+msgstr ""
+
+#: inc/woo/_hook_single.php:534
+msgid "Not that bad"
+msgstr ""
+
+#: inc/woo/_hook_single.php:535
+msgid "Very poor"
+msgstr ""
+
+#: inc/woo/_hook_single.php:552
+msgid "Leave your thoughts here"
+msgstr ""
+
+#: inc/woo/_hook_single.php:552
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/woo/_hook_single.php:553
+msgid "Submit Now"
+msgstr ""
+
+#: inc/woo/_hook_single.php:557
+msgid "Your Review *"
+msgstr ""
+
+#: inc/woo/_hook_single.php:620
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/woo/_hook_single.php:626
+#, php-format
+msgid "%s has been added to your cart."
+msgid_plural "%s have been added to your cart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woo/_hook_single.php:630
+msgid "Continue shopping"
+msgstr ""
+
+#: inc/woo/_hook_single.php:632
+msgid "View cart"
+msgstr ""
+
+#: inc/woo/_wc_product_attributes.php:26
+msgid "Choosse a color"
+msgstr ""
+
+#: inc/woo/_wc_product_attributes.php:36
+msgid "Color Image"
+msgstr ""
+
+#: inc/woo/_wc_product_attributes.php:46 inc/woo/_wc_product_attributes.php:110
+msgid "Upload Image"
+msgstr ""
+
+#: inc/woo/_wc_product_attributes.php:47 inc/woo/_wc_product_attributes.php:111
+msgid "Remove Image"
+msgstr ""
+
+#: inc/woo/_wc_product_attributes.php:100
+msgid "Brand Logo"
+msgstr ""
+
+#: inc/woo/hook-extensions.php:140 inc/woo/hook-extensions.php:149
+msgid "Compare"
+msgstr ""
+
+#: inc/woo/hook-extensions.php:166
+msgid "Quick view"
+msgstr ""
+
+#: inc/woo/hook-extensions.php:186 inc/woo/hook-extensions.php:192
+msgid "Add to Wishlist"
+msgstr ""
+
+#: inc/woo/widget-price-filter.php:26
+msgid "[MeloKids] Price filter"
+msgstr ""
+
+#: inc/woo/widget-price-filter.php:28
+msgid "Price filter list"
+msgstr ""
+
+#: inc/woo/widget-price-filter.php:38
+msgid "Price filter"
+msgstr ""
+
+#: inc/woo/widget-price-filter.php:184
+msgid "All"
+msgstr ""
+
+#: inc/woo/widget-wc-layered-nav-filters.php:115
+#: inc/woo/widget-wc-layered-nav-filters.php:123
+#: inc/woo/widget-wc-layered-nav-filters.php:129
+#: inc/woo/widget-wc-layered-nav-filters.php:138
+msgid "Remove filter"
+msgstr ""
+
+#: inc/woo/widget-wc-layered-nav-filters.php:123
+#, php-format
+msgid "Min %s"
+msgstr ""
+
+#: inc/woo/widget-wc-layered-nav-filters.php:129
+#, php-format
+msgid "Max %s"
+msgstr ""
+
+#: inc/woo/widget-wc-layered-nav-filters.php:138
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:16
+msgid "arrow-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:17
+msgid "arrow-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:18
+msgid "arrow-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:19
+msgid "arrow-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:20
+msgid "arrows-vertical"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:21
+msgid "arrows-horizontal"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:22
+msgid "angle-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:23
+msgid "angle-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:24
+msgid "angle-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:25
+msgid "angle-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:26
+msgid "angle-double-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:27
+msgid "angle-double-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:28
+msgid "angle-double-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:29
+msgid "angle-double-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:30
+msgid "move"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:31
+msgid "fullscreen"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:32
+msgid "arrow-top-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:33
+msgid "arrow-top-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:34
+msgid "arrow-circle-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:35
+msgid "arrow-circle-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:36
+msgid "arrow-circle-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:37
+msgid "arrow-circle-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:38
+msgid "arrows-corner"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:39
+msgid "split-v"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:41
+msgid "split-v-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:42
+msgid "split-h"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:43
+msgid "hand-point-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:44
+msgid "hand-point-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:45
+msgid "hand-point-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:46
+msgid "hand-point-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:47
+msgid "back-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:48
+msgid "back-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:49
+msgid "exchange-vertical"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:50
+msgid "wand"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:51
+msgid "save"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:52
+msgid "save-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:54
+msgid "direction"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:55
+msgid "direction-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:56
+msgid "user"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:57
+msgid "link"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:58
+msgid "unlink"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:59
+msgid "trash"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:60
+msgid "target"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:61
+msgid "tag"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:62
+msgid "desktop"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:63
+msgid "tablet"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:64
+msgid "mobile"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:65
+msgid "email"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:66
+msgid "star"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:67
+msgid "spray"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:68
+msgid "signal"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:69
+msgid "shopping-cart"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:70
+msgid "shopping-cart-full"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:71
+msgid "settings"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:72
+msgid "search"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:73
+msgid "zoom-in"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:74
+msgid "zoom-out"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:75
+msgid "cut"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:76
+msgid "ruler"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:77
+msgid "ruler-alt-2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:78
+msgid "ruler-pencil"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:79
+msgid "ruler-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:80
+msgid "bookmark"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:81
+msgid "bookmark-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:82
+msgid "reload"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:83
+msgid "plus"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:84
+msgid "minus"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:85
+msgid "close"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:86
+msgid "pin"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:87
+msgid "pencil"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:89
+msgid "pencil-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:90
+msgid "paint-roller"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:91
+msgid "paint-bucket"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:92
+msgid "na"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:93
+msgid "medall"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:94
+msgid "medall-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:95
+msgid "marker"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:96
+msgid "marker-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:98
+msgid "lock"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:99
+msgid "unlock"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:100
+msgid "location-arrow"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:101
+msgid "layout"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:102
+msgid "layers"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:103
+msgid "layers-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:104
+msgid "key"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:105
+msgid "image"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:106
+msgid "heart"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:107
+msgid "heart-broken"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:108
+msgid "hand-stop"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:109
+msgid "hand-open"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:110
+msgid "hand-drag"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:111
+msgid "flag"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:112
+msgid "flag-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:113
+msgid "flag-alt-2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:114
+msgid "eye"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:115
+msgid "import"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:116
+msgid "export"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:117
+msgid "cup"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:118
+msgid "crown"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:119
+msgid "comments"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:120
+msgid "comment"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:121
+msgid "comment-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:122
+msgid "thought"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:123
+msgid "clip"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:125
+msgid "check"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:126
+msgid "check-box"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:127
+msgid "camera"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:128
+msgid "announcement"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:129
+msgid "brush"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:130
+msgid "brush-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:131
+msgid "palette"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:132
+msgid "briefcase"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:133
+msgid "bolt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:134
+msgid "bolt-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:135
+msgid "blackboard"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:136
+msgid "bag"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:137
+msgid "world"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:138
+msgid "wheelchair"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:139
+msgid "car"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:140
+msgid "truck"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:141
+msgid "timer"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:142
+msgid "ticket"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:143
+msgid "thumb-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:144
+msgid "thumb-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:146
+msgid "stats-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:147
+msgid "stats-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:148
+msgid "shine"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:149
+msgid "shift-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:150
+msgid "shift-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:152
+msgid "shift-right-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:153
+msgid "shift-left-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:154
+msgid "shield"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:155
+msgid "notepad"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:156
+msgid "server"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:158
+msgid "pulse"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:159
+msgid "printer"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:160
+msgid "power-off"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:161
+msgid "plug"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:162
+msgid "pie-chart"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:164
+msgid "panel"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:165
+msgid "package"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:166
+msgid "music"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:167
+msgid "music-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:168
+msgid "mouse"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:169
+msgid "mouse-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:170
+msgid "money"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:171
+msgid "microphone"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:172
+msgid "menu"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:173
+msgid "menu-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:174
+msgid "map"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:175
+msgid "map-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:177
+msgid "location-pin"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:179
+msgid "light-bulb"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:180
+msgid "info"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:181
+msgid "infinite"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:182
+msgid "id-badge"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:183
+msgid "hummer"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:184
+msgid "home"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:185
+msgid "help"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:186
+msgid "headphone"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:187
+msgid "harddrives"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:188
+msgid "harddrive"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:189
+msgid "gift"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:190
+msgid "game"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:191
+msgid "filter"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:192
+msgid "files"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:193
+msgid "file"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:194
+msgid "zip"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:195
+msgid "folder"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:196
+msgid "envelope"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:199
+msgid "dashboard"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:200
+msgid "cloud"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:201
+msgid "cloud-up"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:202
+msgid "cloud-down"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:203
+msgid "clipboard"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:204
+msgid "calendar"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:205
+msgid "book"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:206
+msgid "bell"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:207
+msgid "basketball"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:208
+msgid "bar-chart"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:209
+msgid "bar-chart-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:212
+msgid "archive"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:213
+msgid "anchor"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:215
+msgid "alert"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:216
+msgid "alarm-clock"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:217
+msgid "agenda"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:218
+msgid "write"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:220
+msgid "wallet"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:221
+msgid "video-clapper"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:222
+msgid "video-camera"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:223
+msgid "vector"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:225
+msgid "support"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:226
+msgid "stamp"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:227
+msgid "slice"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:228
+msgid "shortcode"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:229
+msgid "receipt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:230
+msgid "pin2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:231
+msgid "pin-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:232
+msgid "pencil-alt2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:233
+msgid "eraser"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:234
+msgid "more"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:235
+msgid "more-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:236
+msgid "microphone-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:237
+msgid "magnet"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:238
+msgid "line-double"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:239
+msgid "line-dotted"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:240
+msgid "line-dashed"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:242
+msgid "ink-pen"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:243
+msgid "info-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:244
+msgid "help-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:245
+msgid "headphone-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:247
+msgid "gallery"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:248
+msgid "face-smile"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:249
+msgid "face-sad"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:250
+msgid "credit-card"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:251
+msgid "comments-smiley"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:252
+msgid "time"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:253
+msgid "share"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:254
+msgid "share-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:255
+msgid "rocket"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:257
+msgid "new-window"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:259
+msgid "rss"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:261
+msgid "rss-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:262
+msgid "control-stop"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:263
+msgid "control-shuffle"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:264
+msgid "control-play"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:265
+msgid "control-pause"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:266
+msgid "control-forward"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:267
+msgid "control-backward"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:268
+msgid "volume"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:269
+msgid "control-skip-forward"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:270
+msgid "control-skip-backward"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:271
+msgid "control-record"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:272
+msgid "control-eject"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:273
+msgid "paragraph"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:274
+msgid "uppercase"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:276
+msgid "underline"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:277
+msgid "ti-text"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:278
+msgid "Italic"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:279
+msgid "smallcap"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:280
+msgid "list"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:281
+msgid "list-ol"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:282
+msgid "align-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:283
+msgid "align-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:284
+msgid "align-justify"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:285
+msgid "align-center"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:286
+msgid "quote-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:287
+msgid "quote-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:288
+msgid "layout-width-full"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:289
+msgid "layout-width-default"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:290
+msgid "layout-width-default-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:291
+msgid "layout-tab"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:292
+msgid "layout-tab-window"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:293
+msgid "layout-tab-v"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:294
+msgid "layout-tab-min"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:295
+msgid "layout-slider"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:296
+msgid "layout-slider-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:297
+msgid "layout-sidebar-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:298
+msgid "layout-sidebar-none"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:299
+msgid "layout-sidebar-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:300
+msgid "layout-placeholder"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:301
+msgid "layout-menu"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:302
+msgid "layout-menu-v"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:303
+msgid "layout-menu-separated"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:304
+msgid "layout-menu-full"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:305
+msgid "layout-media-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:306
+msgid "layout-media-right-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:307
+msgid "layout-media-overlay"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:308
+msgid "layout-media-overlay-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:309
+msgid "layout-media-overlay-alt-2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:310
+msgid "layout-media-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:311
+msgid "layout-media-left-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:312
+msgid "layout-media-center"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:313
+msgid "layout-media-center-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:314
+msgid "layout-list-thumb"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:315
+msgid "layout-list-thumb-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:316
+msgid "layout-list-post"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:317
+msgid "layout-list-large-image"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:318
+msgid "layout-line-solid"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:319
+msgid "layout-grid4"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:320
+msgid "layout-grid3"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:321
+msgid "layout-grid2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:322
+msgid "layout-grid2-thumb"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:323
+msgid "layout-cta-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:324
+msgid "layout-cta-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:325
+msgid "layout-cta-center"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:326
+msgid "layout-cta-btn-right"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:327
+msgid "layout-cta-btn-left"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:328
+msgid "layout-column4"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:329
+msgid "layout-column3"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:330
+msgid "layout-column2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:331
+msgid "layout-accordion-separated"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:332
+msgid "layout-accordion-merged"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:333
+msgid "layout-accordion-list"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:334
+msgid "widgetized"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:335
+msgid "widget"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:336
+msgid "widget-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:337
+msgid "view-list"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:338
+msgid "view-list-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:339
+msgid "view-grid"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:340
+msgid "upload"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:341
+msgid "download"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:342
+msgid "loop"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:343
+msgid "layout-sidebar-2"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:344
+msgid "layout-grid4-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:345
+msgid "layout-grid3-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:346
+msgid "layout-grid2-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:347
+msgid "layout-column4-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:348
+msgid "layout-column3-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:349
+msgid "layout-column2-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:350
+msgid "flickr"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:351
+msgid "flickr-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:352
+msgid "instagram"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:353
+msgid "google"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:354
+msgid "github"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:356
+msgid "facebook"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:357
+msgid "dropbox"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:358
+msgid "dropbox-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:359
+msgid "dribbble"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:360
+msgid "apple"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:361
+msgid "android"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:362
+msgid "yahoo"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:363
+msgid "trello"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:364
+msgid "stack-overflow"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:365
+msgid "soundcloud"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:366
+msgid "sharethis"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:367
+msgid "sharethis-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:368
+msgid "reddit"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:370
+msgid "microsoft"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:371
+msgid "microsoft-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:372
+msgid "linux"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:373
+msgid "jsfiddle"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:374
+msgid "joomla"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:375
+msgid "html5"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:376
+msgid "css3"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:377
+msgid "drupal"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:378
+msgid "wordpress"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:379
+msgid "tumblr"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:380
+msgid "tumblr-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:381
+msgid "skype"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:382
+msgid "youtube"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:383
+msgid "vimeo"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:384
+msgid "vimeo-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:385
+msgid "twitter"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:386
+msgid "twitter-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:387
+msgid "linkedin"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:388
+msgid "pinterest"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:390
+msgid "pinterest-alt"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:391
+msgid "themify-logo"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:392
+msgid "themify-favicon"
+msgstr ""
+
+#: vc_customs/themify-icons/themify-icons.php:393
+msgid "themify-favicon-alt"
+msgstr ""
+
+#: vc_customs/vc_customs.php:437
+msgid "Text align"
+msgstr ""
+
+#: vc_customs/vc_customs.php:443
+msgid "center"
+msgstr ""
+
+#: vc_customs/vc_customs.php:465 vc_customs/vc_customs.php:536
+#: vc_customs/vc_customs.php:635
+msgid "Add close icon"
+msgstr ""
+
+#: vc_customs/vc_customs.php:468 vc_customs/vc_customs.php:539
+#: vc_customs/vc_customs.php:638
+msgid "Add close icon to top right corner of this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:470 vc_customs/vc_customs.php:482
+#: vc_customs/vc_customs.php:490 vc_customs/vc_customs.php:497
+#: vc_customs/vc_customs.php:541 vc_customs/vc_customs.php:553
+#: vc_customs/vc_customs.php:567 vc_customs/vc_customs.php:575
+#: vc_customs/vc_customs.php:583 vc_customs/vc_customs.php:590
+#: vc_customs/vc_customs.php:597 vc_customs/vc_customs.php:640
+#: vc_customs/vc_customs.php:652 vc_customs/vc_customs.php:662
+#: vc_customs/vc_customs.php:670 vc_customs/vc_customs.php:677
+#: vc_customs/vc_customs.php:705 vc_customs/vc_customs.php:714
+#: vc_customs/vc_customs.php:722 vc_customs/vc_customs.php:747
+#: vc_customs/vc_customs.php:763 vc_customs/vc_customs.php:779
+#: vc_customs/vc_customs.php:795 vc_customs/vc_customs.php:814
+#: vc_customs/vc_row_extends.php:20 vc_customs/vc_row_extends.php:30
+#: vc_customs/vc_row_extends.php:42 vc_customs/vc_row_extends.php:54
+#: vc_customs/vc_row_extends.php:62 vc_customs/vc_row_extends.php:72
+#: vc_customs/vc_row_extends.php:84 vc_customs/vc_row_extends.php:96
+msgid "MeloKids Custom"
+msgstr ""
+
+#: vc_customs/vc_customs.php:474
+msgid "Section Priority"
+msgstr ""
+
+#: vc_customs/vc_customs.php:478 vc_customs/vc_customs.php:549
+#: vc_customs/vc_customs.php:648 vc_customs/vc_customs.php:701
+msgid "On Top"
+msgstr ""
+
+#: vc_customs/vc_customs.php:479 vc_customs/vc_customs.php:550
+#: vc_customs/vc_customs.php:649
+msgid "Fixed Bottom"
+msgstr ""
+
+#: vc_customs/vc_customs.php:481
+msgid "Choose priority for this row"
+msgstr ""
+
+#: vc_customs/vc_customs.php:486
+msgid "Top/Bottom Space"
+msgstr ""
+
+#: vc_customs/vc_customs.php:489
+msgid "Choose top/bottom space for this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:496 vc_customs/vc_customs.php:589
+#: vc_customs/vc_customs.php:676 vc_customs/vc_customs.php:720
+msgid "Choose color for this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:501 vc_customs/vc_customs.php:601
+#: vc_customs/vc_customs.php:681 vc_customs/vc_customs.php:726
+msgid "Overlay Color"
+msgstr ""
+
+#: vc_customs/vc_customs.php:504 vc_customs/vc_customs.php:604
+#: vc_customs/vc_customs.php:684 vc_customs/vc_customs.php:729
+msgid "Choose overlay color."
+msgstr ""
+
+#: vc_customs/vc_customs.php:506 vc_customs/vc_customs.php:524
+#: vc_customs/vc_customs.php:606 vc_customs/vc_customs.php:624
+#: vc_customs/vc_customs.php:731 vc_customs/vc_customs.php:845
+#: vc_customs/vc_customs.php:849 vc_customs/vc_customs.php:854
+#: vc_customs/vc_customs.php:859 vc_customs/vc_customs.php:864
+#: vc_customs/vc_customs.php:879 vc_customs/vc_customs.php:883
+#: vc_customs/vc_customs.php:888 vc_customs/vc_customs.php:893
+#: vc_customs/vc_customs.php:898 vc_customs/vc_customs.php:935
+#: vc_customs/vc_customs.php:939 vc_customs/vc_customs.php:944
+msgid "Parallax"
+msgstr ""
+
+#: vc_customs/vc_customs.php:510 vc_customs/vc_customs.php:610
+msgid "Parallax Position"
+msgstr ""
+
+#: vc_customs/vc_customs.php:516 vc_customs/vc_customs.php:616
+msgid "Parallax image position"
+msgstr ""
+
+#: vc_customs/vc_customs.php:545 vc_customs/vc_customs.php:644
+msgid "Priority"
+msgstr ""
+
+#: vc_customs/vc_customs.php:552 vc_customs/vc_customs.php:651
+msgid "Choose priority for this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:557
+msgid "Full Width Stretch Content Style"
+msgstr ""
+
+#: vc_customs/vc_customs.php:566
+msgid "Choose Left/Right space for full width stretch content"
+msgstr ""
+
+#: vc_customs/vc_customs.php:571 vc_customs/vc_customs.php:657
+msgid "Vertical Space"
+msgstr ""
+
+#: vc_customs/vc_customs.php:574 vc_customs/vc_customs.php:661
+msgid "Choose vertical space for this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:579 vc_customs/vc_customs.php:666
+msgid "Horizontal Space"
+msgstr ""
+
+#: vc_customs/vc_customs.php:582
+msgid "Choose Horizontal space for this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:596
+msgid ""
+"Choose background color for this. NOTE: this option will be overide if you "
+"use custom background color in Design Options tab."
+msgstr ""
+
+#: vc_customs/vc_customs.php:669
+msgid "Choose horizontal space for this"
+msgstr ""
+
+#: vc_customs/vc_customs.php:686 vc_elements/zkfancybox.php:250
+#: vc_elements/zkheading.php:371 vc_elements/zkpricing.php:196
+#: vc_elements/zkuserstools.php:261
+msgid "Design Options"
+msgstr ""
+
+#: vc_customs/vc_customs.php:697
+msgid "Column Priority"
+msgstr ""
+
+#: vc_customs/vc_customs.php:703
+msgid "Choose priority for this column"
+msgstr ""
+
+#: vc_customs/vc_customs.php:709
+msgid "Column Space"
+msgstr ""
+
+#: vc_customs/vc_customs.php:712
+msgid "Choose custom column space for this column"
+msgstr ""
+
+#: vc_customs/vc_customs.php:745 vc_customs/vc_customs.php:761
+#: vc_customs/vc_customs.php:777 vc_customs/vc_customs.php:793
+msgid "Loading Delay"
+msgstr ""
+
+#: vc_customs/vc_customs.php:746 vc_customs/vc_customs.php:762
+#: vc_customs/vc_customs.php:778 vc_customs/vc_customs.php:794
+msgid "Enter delay time in milisecond"
+msgstr ""
+
+#: vc_customs/vc_customs.php:810
+msgid "Horizontal Small"
+msgstr ""
+
+#: vc_customs/vc_customs.php:811
+msgid "Horizontal Large"
+msgstr ""
+
+#: vc_customs/vc_customs.php:813
+msgid "Choose Menu Style"
+msgstr ""
+
+#: vc_customs/vc_customs.php:842 vc_customs/vc_customs.php:876
+#: vc_customs/vc_customs.php:933
+msgid "Fixed"
+msgstr ""
+
+#: vc_customs/vc_customs.php:843 vc_customs/vc_customs.php:877
+#: vc_customs/vc_customs.php:934
+msgid "Scroll Left"
+msgstr ""
+
+#: vc_customs/vc_customs.php:844 vc_customs/vc_customs.php:878
+msgid "Scroll Bottom Right"
+msgstr ""
+
+#: vc_customs/vc_customs.php:953
+msgid "Themify Icons"
+msgstr ""
+
+#: vc_customs/vc_customs.php:978
+msgid "[MeloKids] Default"
+msgstr ""
+
+#: vc_customs/vc_customs.php:979
+msgid "[MeloKids] Default Alt"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1018 vc_customs/vc_customs.php:1091
+msgid "Small Screen"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1031 vc_customs/vc_customs.php:1104
+msgid "Medium Screen"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1044 vc_customs/vc_customs.php:1117
+msgid "Large Screen"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1057 vc_customs/vc_customs.php:1130
+msgid "Extra Large Screen"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1143
+msgid "Number Row"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1144
+msgid "Choose number of row you want to show."
+msgstr ""
+
+#: vc_customs/vc_customs.php:1157
+msgid "Loop Items"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1181 vc_elements/zkposts_masonry.php:103
+msgid "Auto Width"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1193
+msgid "Auto Height"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1206
+msgid "Items Space"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1218
+msgid "Stage Padding"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1231
+msgid "Start Position"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1246
+msgid "Show Next/Preview button"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1257
+msgid "Nav Style"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1270
+msgid "Nav Position"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1284
+msgid "Show Dots"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1296
+msgid "Dots Style"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1313
+msgid "Dots Position"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1328
+msgid "Auto Play"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1340
+msgid "Smart Speed"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1343
+msgid "Speed scroll of each item"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1353
+msgid "Auto Play TimeOut"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1365
+msgid "Pause on mouse hover"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1378 vc_elements/zkfancybox.php:143
+#: vc_elements/zkhoverbox.php:64 vc_elements/zkhoverbox.php:118
+msgid "Animation In"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1396 vc_elements/zkhoverbox.php:82
+#: vc_elements/zkhoverbox.php:136
+msgid "Animation Out"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1431
+msgid "Vertical Inside"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1432
+msgid "Vertical Outside"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1441
+msgid "Dots In Nav"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1451
+msgid "Progress"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1460 vc_customs/vc_row_extends.php:5
+#: vc_elements/zkpricing.php:93
+msgid "Top"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1528
+msgid "Prev"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1528
+msgid "Next"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1600 vc_customs/vc_customs.php:1647
+#: vc_customs/vc_customs.php:1655 vc_elements/zkbutton.php:84
+#: vc_elements/zkbutton.php:104 vc_elements/zkbutton.php:118
+#: vc_elements/zkpricing.php:177
+msgid "Icon"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1628
+msgid "Themify Icon"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1667
+msgid "Select icon from library."
+msgstr ""
+
+#: vc_customs/vc_customs.php:1716
+msgid "Primary"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1717
+msgid "Default Alt"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1718
+msgid "Primary Alt"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1719 vc_elements/zkcounter.php:48
+#: vc_elements/zksocial.php:26 vc_elements/zkuserstools.php:140
+msgid "White"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1720
+msgid "Alt White"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1721
+msgid "Simple Link"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1761
+msgid "0px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1762
+msgid "10px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1763
+msgid "15px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1764
+msgid "20px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1765
+msgid "25px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1766
+msgid "30px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1767
+msgid "35px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1768
+msgid "40px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1769
+msgid "50px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1770
+msgid "60px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1771
+msgid "70px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1772
+msgid "80px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1773
+msgid "90px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1774
+msgid "100px"
+msgstr ""
+
+#: vc_customs/vc_customs.php:1879 vc_customs/vc_customs.php:1915
+msgid "Id"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:6
+msgid "Middle"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:7
+msgid "Bottom"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:10
+msgid "Large (992)"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:11
+msgid "Extra Large (1200)"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:18
+msgid "Add image on left"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:25 vc_customs/vc_row_extends.php:67
+msgid "Choose an image"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:35 vc_customs/vc_row_extends.php:77
+msgid "Vertical Align"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:47 vc_customs/vc_row_extends.php:89
+msgid "Apply on Screen"
+msgstr ""
+
+#: vc_customs/vc_row_extends.php:60
+msgid "Add image on right"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: vc_elements/zkbusinesstime.php:5 vc_elements/zkbutton.php:5
+#: vc_elements/zkcarousel.php:11 vc_elements/zkclients.php:5
+#: vc_elements/zkcountdown.php:6 vc_elements/zkcounter.php:7
+#: vc_elements/zkemptyspace.php:6 vc_elements/zkfancybox.php:7
+#: vc_elements/zkfancyimg.php:12 vc_elements/zkheading.php:15
+#: vc_elements/zkhoverbox.php:7 vc_elements/zkinstagram.php:5
+#: vc_elements/zknewsletter.php:7 vc_elements/zkposts.php:8
+#: vc_elements/zkposts_grid.php:10 vc_elements/zkposts_masonry.php:10
+#: vc_elements/zkposts_special.php:10 vc_elements/zkpricing.php:6
+#: vc_elements/zkprocess.php:6 vc_elements/zkproduct.php:15
+#: vc_elements/zkproductscarousel.php:15 vc_elements/zkshop.php:15
+#: vc_elements/zksocial.php:6 vc_elements/zktaxonomy.php:7
+#: vc_elements/zkteam.php:6 vc_elements/zktestimonial.php:6
+#: vc_elements/zkuserstools.php:102 vc_elements/zkvideo.php:6
+msgid "MeloKids"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:6
+msgid "Add your business time"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:12 vc_elements/zkbusinesstime.php:33
+#: vc_elements/zkbusinesstime.php:54 vc_elements/zkbusinesstime.php:75
+#: vc_elements/zkbusinesstime.php:96 vc_elements/zkbusinesstime.php:117
+#: vc_elements/zkbusinesstime.php:138
+msgid "Week Day"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:19 vc_elements/zkbusinesstime.php:40
+#: vc_elements/zkbusinesstime.php:61 vc_elements/zkbusinesstime.php:82
+#: vc_elements/zkbusinesstime.php:103 vc_elements/zkbusinesstime.php:124
+#: vc_elements/zkbusinesstime.php:145
+msgid "Open Hour"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:26 vc_elements/zkbusinesstime.php:47
+#: vc_elements/zkbusinesstime.php:68 vc_elements/zkbusinesstime.php:89
+#: vc_elements/zkbusinesstime.php:110 vc_elements/zkbusinesstime.php:131
+#: vc_elements/zkbusinesstime.php:152
+msgid "Close Hour"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:162 vc_elements/zkcarousel.php:24
+#: vc_elements/zkclients.php:36 vc_elements/zkfancybox.php:230
+#: vc_elements/zkfancyimg.php:41 vc_elements/zkhoverbox.php:23
+#: vc_elements/zkposts.php:88 vc_elements/zkposts_grid.php:90
+#: vc_elements/zkposts_masonry.php:90 vc_elements/zkposts_special.php:71
+#: vc_elements/zkprocess.php:39 vc_elements/zkproductscarousel.php:94
+#: vc_elements/zkteam.php:51 vc_elements/zktestimonial.php:64
+#: vc_elements/zkuserstools.php:154 vc_elements/zkvideo.php:122
+msgid "Element ID"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:164 vc_elements/zkcarousel.php:26
+#: vc_elements/zkclients.php:38 vc_elements/zkfancybox.php:235
+#: vc_elements/zkfancyimg.php:46 vc_elements/zkhoverbox.php:28
+#: vc_elements/zkposts.php:90 vc_elements/zkposts_grid.php:92
+#: vc_elements/zkposts_masonry.php:92 vc_elements/zkposts_special.php:73
+#: vc_elements/zkprocess.php:44 vc_elements/zkproductscarousel.php:96
+#: vc_elements/zkteam.php:53 vc_elements/zktestimonial.php:66
+#: vc_elements/zkuserstools.php:159 vc_elements/zkvideo.php:127
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:168 vc_elements/zkcarousel.php:30
+#: vc_elements/zkclients.php:42 vc_elements/zkcounter.php:57
+#: vc_elements/zkinstagram.php:101 vc_elements/zknewsletter.php:71
+#: vc_elements/zkposts.php:78 vc_elements/zkposts_grid.php:80
+#: vc_elements/zkposts_masonry.php:80 vc_elements/zkposts_special.php:61
+#: vc_elements/zkteam.php:57 vc_elements/zktestimonial.php:70
+msgid "Extra Class"
+msgstr ""
+
+#: vc_elements/zkbusinesstime.php:171 vc_elements/zkcarousel.php:33
+#: vc_elements/zkclients.php:45 vc_elements/zkheading.php:58
+#: vc_elements/zkinstagram.php:63 vc_elements/zkinstagram.php:104
+#: vc_elements/zknewsletter.php:74 vc_elements/zkposts.php:81
+#: vc_elements/zkposts_grid.php:83 vc_elements/zkposts_masonry.php:83
+#: vc_elements/zkposts_special.php:64 vc_elements/zkprocess.php:35
+#: vc_elements/zkteam.php:60 vc_elements/zktestimonial.php:73
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: vc_elements/zkbutton.php:6
+msgid "Theme button style"
+msgstr ""
+
+#: vc_elements/zkbutton.php:13 vc_elements/zknewsletter.php:59
+#: vc_elements/zkproduct.php:77
+msgid "Button Text"
+msgstr ""
+
+#: vc_elements/zkbutton.php:14
+msgid "Text on the button"
+msgstr ""
+
+#: vc_elements/zkbutton.php:20 vc_elements/zkheading.php:344
+#: vc_elements/zkproduct.php:62
+msgid "Button Type"
+msgstr ""
+
+#: vc_elements/zkbutton.php:27
+msgid "Button link"
+msgstr ""
+
+#: vc_elements/zkbutton.php:34
+msgid "Button Size"
+msgstr ""
+
+#: vc_elements/zkbutton.php:42
+msgid "Button Display"
+msgstr ""
+
+#: vc_elements/zkbutton.php:44
+msgid "Inline"
+msgstr ""
+
+#: vc_elements/zkbutton.php:45
+msgid "Block"
+msgstr ""
+
+#: vc_elements/zkbutton.php:52
+msgid "Button Width"
+msgstr ""
+
+#: vc_elements/zkbutton.php:66
+msgid "Button Align"
+msgstr ""
+
+#: vc_elements/zkbutton.php:82 vc_elements/zkcounter.php:126
+#: vc_elements/zkcounter.php:207 vc_elements/zkcounter.php:292
+#: vc_elements/zkcounter.php:377 vc_elements/zkcounter.php:462
+#: vc_elements/zkcounter.php:547 vc_elements/zkfancybox.php:66
+#: vc_elements/zkpricing.php:175 vc_elements/zkprocess.php:123
+#: vc_elements/zkuserstools.php:41 vc_elements/zkuserstools.php:82
+#: vc_elements/zkuserstools.php:203 vc_elements/zkuserstools.php:240
+msgid "Add Icon?"
+msgstr ""
+
+#: vc_elements/zkbutton.php:94
+msgid "Icon Position"
+msgstr ""
+
+#: vc_elements/zkbutton.php:109
+msgid "Icon Style"
+msgstr ""
+
+#: vc_elements/zkbutton.php:123
+msgid "Designs"
+msgstr ""
+
+#: vc_elements/zkcarousel.php:4
+msgid "ZK Carousel"
+msgstr ""
+
+#: vc_elements/zkcarousel.php:12
+msgid "Add fancy Carousel"
+msgstr ""
+
+#: vc_elements/zkclients.php:6
+msgid "Add clients image with custom link"
+msgstr ""
+
+#: vc_elements/zkclients.php:12 vc_elements/zknewsletter.php:78
+#: vc_elements/zkposts_grid.php:99 vc_elements/zkposts_masonry.php:110
+#: vc_elements/zkposts_masonry.php:124 vc_elements/zkprocess.php:12
+#: vc_elements/zkproduct.php:49 vc_elements/zksocial.php:11
+#: vc_elements/zkteam.php:13 vc_elements/zktestimonial.php:13
+#: vc_elements/zkuserstools.php:109
+msgid "Layout Template"
+msgstr ""
+
+#: vc_elements/zkclients.php:50
+msgid "Client image size"
+msgstr ""
+
+#: vc_elements/zkclients.php:58 vc_elements/zkteam.php:73
+msgid "Custom member image size"
+msgstr ""
+
+#: vc_elements/zkclients.php:59 vc_elements/zkfancybox.php:197
+#: vc_elements/zkpricing.php:79 vc_elements/zkteam.php:74
+msgid "Alternatively enter size in pixels (Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: vc_elements/zkclients.php:70
+msgid "Add Clients"
+msgstr ""
+
+#: vc_elements/zkclients.php:76
+msgid "Client Image"
+msgstr ""
+
+#: vc_elements/zkclients.php:82
+msgid "Link"
+msgstr ""
+
+#: vc_elements/zkclients.php:84
+msgid "Enter link for image."
+msgstr ""
+
+#: vc_elements/zkclients.php:91
+msgid "Layout type"
+msgstr ""
+
+#: vc_elements/zkclients.php:95 vc_elements/zkposts.php:99
+#: vc_elements/zkprocess.php:52 vc_elements/zkteam.php:269
+#: vc_elements/zktestimonial.php:138
+msgid "Carousel"
+msgstr ""
+
+#: vc_elements/zkclients.php:98 vc_elements/zkclients.php:103
+#: vc_elements/zkclients.php:110 vc_elements/zkposts.php:104
+#: vc_elements/zkposts.php:237 vc_elements/zkposts.php:244
+#: vc_elements/zkposts.php:263 vc_elements/zkposts.php:275
+#: vc_elements/zkposts.php:287 vc_elements/zkposts_grid.php:107
+#: vc_elements/zkposts_grid.php:111 vc_elements/zkposts_grid.php:124
+#: vc_elements/zkposts_masonry.php:106 vc_elements/zkposts_masonry.php:120
+#: vc_elements/zkposts_masonry.php:134 vc_elements/zkposts_masonry.php:138
+#: vc_elements/zkposts_masonry.php:151 vc_elements/zkposts_special.php:85
+#: vc_elements/zkprocess.php:56 vc_elements/zkprocess.php:60
+#: vc_elements/zkprocess.php:62 vc_elements/zkproduct.php:57
+#: vc_elements/zkproduct.php:69 vc_elements/zkproduct.php:80
+#: vc_elements/zkproductscarousel.php:107 vc_elements/zkteam.php:272
+#: vc_elements/zkteam.php:278 vc_elements/zkteam.php:285
+#: vc_elements/zktestimonial.php:141 vc_elements/zktestimonial.php:147
+#: vc_elements/zktestimonial.php:154
+msgid "Layout Settings"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:7
+msgid "Choose your time remaining"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:13
+msgid "Target Time For Countdown"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:14
+msgid ""
+"Choose your time remaining. Date and time format (yyyy/mm/dd hh:mm:ss). "
+"Default will is next : 2 week 0 days 8 hours 32 minutes 50 seconds"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:24
+msgid "Lable Time For Countdown"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:25
+msgid ""
+"Enter your time for label. Separated by Comma ','! IMPORTANT: You need fill "
+"all label value for: Year, Month, Week, Day, Hour, Minute, Second"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:40
+msgid "Format Time For Countdown"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:41
+msgid "Choose time format you want!"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:46 vc_elements/zkcounter.php:44
+#: vc_elements/zkfancybox.php:210 vc_elements/zksocial.php:23
+#: vc_elements/zktestimonial.php:35 vc_elements/zkuserstools.php:136
+msgid "Color Mode"
+msgstr ""
+
+#: vc_elements/zkcountdown.php:47
+msgid "Choose color mode."
+msgstr ""
+
+#: vc_elements/zkcounter.php:4
+msgid "MeloKids Counter"
+msgstr ""
+
+#: vc_elements/zkcounter.php:21 vc_elements/zkcounter.php:31
+#: vc_elements/zkcounter.php:40 vc_elements/zkcounter.php:53
+#: vc_elements/zkcounter.php:60 vc_elements/zkpricing.php:15
+#: vc_elements/zkpricing.php:23 vc_elements/zkpricing.php:31
+#: vc_elements/zkpricing.php:39 vc_elements/zkpricing.php:48
+#: vc_elements/zkpricing.php:113 vc_elements/zkpricing.php:123
+#: vc_elements/zkpricing.php:136
+msgid "Settings"
+msgstr ""
+
+#: vc_elements/zkcounter.php:25
+msgid "Counter Type"
+msgstr ""
+
+#: vc_elements/zkcounter.php:28
+msgid "Zero"
+msgstr ""
+
+#: vc_elements/zkcounter.php:35
+msgid "Select Number Cols"
+msgstr ""
+
+#: vc_elements/zkcounter.php:49
+msgid "Gradient"
+msgstr ""
+
+#: vc_elements/zkcounter.php:74 vc_elements/zkcounter.php:85
+#: vc_elements/zkcounter.php:97 vc_elements/zkcounter.php:109
+#: vc_elements/zkcounter.php:121 vc_elements/zkcounter.php:128
+#: vc_elements/zkcounter.php:139 vc_elements/zkcounter.php:142
+#: vc_elements/zkcounter.php:143
+msgid "Counter 1"
+msgstr ""
+
+#: vc_elements/zkcounter.php:78 vc_elements/zkcounter.php:159
+#: vc_elements/zkcounter.php:244 vc_elements/zkcounter.php:329
+#: vc_elements/zkcounter.php:414 vc_elements/zkcounter.php:499
+#: vc_elements/zkfancybox.php:33 vc_elements/zkfancyimg.php:84
+#: vc_elements/zkheading.php:316 vc_elements/zkheading.php:330
+#: vc_elements/zkheading.php:338 vc_elements/zkhoverbox.php:56
+#: vc_elements/zkhoverbox.php:103 vc_elements/zkprocess.php:97
+#: vc_elements/zkteam.php:227
+msgid "Description"
+msgstr ""
+
+#: vc_elements/zkcounter.php:89 vc_elements/zkcounter.php:170
+#: vc_elements/zkcounter.php:255 vc_elements/zkcounter.php:340
+#: vc_elements/zkcounter.php:425 vc_elements/zkcounter.php:510
+msgid "Digit"
+msgstr ""
+
+#: vc_elements/zkcounter.php:101 vc_elements/zkcounter.php:182
+#: vc_elements/zkcounter.php:267 vc_elements/zkcounter.php:352
+#: vc_elements/zkcounter.php:437 vc_elements/zkcounter.php:522
+msgid "Prefix"
+msgstr ""
+
+#: vc_elements/zkcounter.php:113 vc_elements/zkcounter.php:194
+#: vc_elements/zkcounter.php:279 vc_elements/zkcounter.php:364
+#: vc_elements/zkcounter.php:449 vc_elements/zkcounter.php:534
+msgid "Suffix"
+msgstr ""
+
+#: vc_elements/zkcounter.php:132 vc_elements/zkcounter.php:217
+#: vc_elements/zkcounter.php:302 vc_elements/zkcounter.php:387
+#: vc_elements/zkcounter.php:472 vc_elements/zkcounter.php:557
+msgid "Icon Color"
+msgstr ""
+
+#: vc_elements/zkcounter.php:155 vc_elements/zkcounter.php:166
+#: vc_elements/zkcounter.php:178 vc_elements/zkcounter.php:190
+#: vc_elements/zkcounter.php:202 vc_elements/zkcounter.php:213
+#: vc_elements/zkcounter.php:224 vc_elements/zkcounter.php:227
+#: vc_elements/zkcounter.php:228
+msgid "Counter 2"
+msgstr ""
+
+#: vc_elements/zkcounter.php:240 vc_elements/zkcounter.php:251
+#: vc_elements/zkcounter.php:263 vc_elements/zkcounter.php:275
+#: vc_elements/zkcounter.php:287 vc_elements/zkcounter.php:298
+#: vc_elements/zkcounter.php:309 vc_elements/zkcounter.php:312
+#: vc_elements/zkcounter.php:313
+msgid "Counter 3"
+msgstr ""
+
+#: vc_elements/zkcounter.php:325 vc_elements/zkcounter.php:336
+#: vc_elements/zkcounter.php:348 vc_elements/zkcounter.php:360
+#: vc_elements/zkcounter.php:372 vc_elements/zkcounter.php:383
+#: vc_elements/zkcounter.php:394 vc_elements/zkcounter.php:397
+#: vc_elements/zkcounter.php:398
+msgid "Counter 4"
+msgstr ""
+
+#: vc_elements/zkcounter.php:410 vc_elements/zkcounter.php:421
+#: vc_elements/zkcounter.php:433 vc_elements/zkcounter.php:445
+#: vc_elements/zkcounter.php:457 vc_elements/zkcounter.php:468
+#: vc_elements/zkcounter.php:479 vc_elements/zkcounter.php:482
+#: vc_elements/zkcounter.php:483
+msgid "Counter 5"
+msgstr ""
+
+#: vc_elements/zkcounter.php:495 vc_elements/zkcounter.php:506
+#: vc_elements/zkcounter.php:518 vc_elements/zkcounter.php:530
+#: vc_elements/zkcounter.php:542 vc_elements/zkcounter.php:553
+#: vc_elements/zkcounter.php:564 vc_elements/zkcounter.php:567
+#: vc_elements/zkcounter.php:568
+msgid "Counter 6"
+msgstr ""
+
+#: vc_elements/zkemptyspace.php:7
+msgid "Blank space with custom height for each screen size"
+msgstr ""
+
+#: vc_elements/zkemptyspace.php:11
+msgid "Add Custom Screen Size"
+msgstr ""
+
+#: vc_elements/zkemptyspace.php:21
+msgid "Add your screen size"
+msgstr ""
+
+#: vc_elements/zkemptyspace.php:23
+msgid ""
+"Enter max-width of your screen size, ex: 1920px (Note: CSS measurement units "
+"allowed)."
+msgstr ""
+
+#: vc_elements/zkemptyspace.php:28
+msgid "Empty space height"
+msgstr ""
+
+#: vc_elements/zkemptyspace.php:30
+msgid "Enter empty space height (Note: CSS measurement units allowed)."
+msgstr ""
+
+#: vc_elements/zkfancybox.php:4
+msgid "MeloKids Fancy Box"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:15
+msgid "Title Of Fancy Icon Box"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:21
+msgid "Title Color"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:24
+msgid "Custom Title Color"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:36
+msgid "Description Of Fancy Icon Box"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:54 vc_elements/zkfancyimg.php:117
+#: vc_elements/zkheading.php:361 vc_elements/zkhoverbox.php:111
+msgid "Choose your link"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:68 vc_elements/zkfancybox.php:71
+#: vc_elements/zkfancybox.php:72 vc_elements/zkfancybox.php:80
+#: vc_elements/zkfancybox.php:98 vc_elements/zkfancybox.php:110
+#: vc_elements/zkfancybox.php:122 vc_elements/zkfancybox.php:134
+#: vc_elements/zkfancybox.php:155
+msgid "Icon Settings"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:77
+msgid "Icon Size"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:79
+msgid ""
+"Enter your icon size. Alternatively enter size in pixels (Example: 200x100 "
+"(Width x Height))."
+msgstr ""
+
+#: vc_elements/zkfancybox.php:89
+msgid "Icon Shape"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:92
+msgid "Square"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:93
+msgid "Rounded"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:94
+msgid "Circle"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:97
+msgid "Choose a shape for icon"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:107
+msgid "Icon Font Size"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:109
+msgid "Enter your icon font size, in PX. Ex: 40px"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:119
+msgid "Icon Text Color"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:121
+msgid "Choose icon text color."
+msgstr ""
+
+#: vc_elements/zkfancybox.php:131
+msgid "Icon Background Color"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:133
+msgid "Choose background color. Default is Accent Color added in theme"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:164 vc_elements/zkfancyimg.php:51
+#: vc_elements/zkhoverbox.php:12
+msgid "Image Item"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:166 vc_elements/zkfancybox.php:174
+#: vc_elements/zkfancybox.php:187 vc_elements/zkfancybox.php:200
+msgid "Image Settings"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:170
+msgid "Make image as icon"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:171
+msgid "If YES, the icon will removed and use image as icon!"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:183 vc_elements/zkposts.php:118
+#: vc_elements/zkposts_grid.php:154 vc_elements/zkposts_masonry.php:181
+#: vc_elements/zkpricing.php:65
+msgid "Thumbnail Size"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:196 vc_elements/zkpricing.php:78
+msgid "Custom Thumbnail Size"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:216 vc_elements/zkfancybox.php:226
+#: vc_elements/zkfancybox.php:236 vc_elements/zkfancybox.php:243
+#: vc_elements/zkfancyimg.php:30 vc_elements/zkfancyimg.php:37
+#: vc_elements/zkfancyimg.php:47 vc_elements/zkhoverbox.php:44
+#: vc_elements/zknewsletter.php:85
+msgid "Template"
+msgstr ""
+
+#: vc_elements/zkfancybox.php:240 vc_elements/zkfancyimg.php:34
+#: vc_elements/zkhoverbox.php:32 vc_elements/zkprocess.php:33
+#: vc_elements/zkuserstools.php:163
+msgid "Element Class"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:9
+msgid "MeloKids Fancy Image"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:57 vc_elements/zkhoverbox.php:17
+#: vc_elements/zkinstagram.php:41
+msgid "Image Size"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:58
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by you). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height)). Leave empty to use default size"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:73
+msgid "Title Image"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:74
+msgid "If has title image, title text will hide"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:95
+msgid "Regular Price"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:106
+msgid "Sales Price"
+msgstr ""
+
+#: vc_elements/zkfancyimg.php:127
+msgid "Choose your Brand"
+msgstr ""
+
+#: vc_elements/zkheading.php:16
+msgid "Add Custom Heading"
+msgstr ""
+
+#: vc_elements/zkheading.php:21
+msgid "Text source"
+msgstr ""
+
+#: vc_elements/zkheading.php:24
+msgid "Custom text"
+msgstr ""
+
+#: vc_elements/zkheading.php:27
+msgid "Select text source."
+msgstr ""
+
+#: vc_elements/zkheading.php:31
+msgid "Text Align"
+msgstr ""
+
+#: vc_elements/zkheading.php:35
+msgid "Text Left"
+msgstr ""
+
+#: vc_elements/zkheading.php:36
+msgid "Text Right"
+msgstr ""
+
+#: vc_elements/zkheading.php:37
+msgid "Text Center"
+msgstr ""
+
+#: vc_elements/zkheading.php:38
+msgid "Text Justify"
+msgstr ""
+
+#: vc_elements/zkheading.php:41
+msgid "Select text alignment."
+msgstr ""
+
+#: vc_elements/zkheading.php:56 vc_elements/zkproduct.php:43
+#: vc_elements/zkproductscarousel.php:100 vc_elements/zkshop.php:108
+#: vc_elements/zkvideo.php:116
+msgid "Extra class name"
+msgstr ""
+
+#: vc_elements/zkheading.php:62
+msgid "Text"
+msgstr ""
+
+#: vc_elements/zkheading.php:65 vc_elements/zkheading.php:265
+#: vc_elements/zkheading.php:315
+msgid ""
+"Note: If you are using non-latin characters be sure to activate them under "
+"Settings/Visual Composer/General Settings."
+msgstr ""
+
+#: vc_elements/zkheading.php:74 vc_elements/zkheading.php:225
+msgid "A part of text"
+msgstr ""
+
+#: vc_elements/zkheading.php:81 vc_elements/zkheading.php:232
+msgid "Font Style"
+msgstr ""
+
+#: vc_elements/zkheading.php:85 vc_elements/zkheading.php:236
+msgid "Default Italic"
+msgstr ""
+
+#: vc_elements/zkheading.php:86 vc_elements/zkheading.php:237
+msgid "Bold"
+msgstr ""
+
+#: vc_elements/zkheading.php:87 vc_elements/zkheading.php:238
+msgid "Bold Italic"
+msgstr ""
+
+#: vc_elements/zkheading.php:105 vc_elements/zkheading.php:256
+msgid "Choose color of text"
+msgstr ""
+
+#: vc_elements/zkheading.php:117
+msgid "URL (Link)"
+msgstr ""
+
+#: vc_elements/zkheading.php:119
+msgid "Add link to custom heading."
+msgstr ""
+
+#: vc_elements/zkheading.php:139 vc_elements/zkheading.php:284
+#: vc_elements/zkheading.php:334
+msgid "Letter Spacing"
+msgstr ""
+
+#: vc_elements/zkheading.php:142 vc_elements/zkheading.php:287
+#: vc_elements/zkheading.php:337
+msgid "Enter letter spacing. Ex: 2px or -2px"
+msgstr ""
+
+#: vc_elements/zkheading.php:148 vc_elements/zkheading.php:293
+msgid "Use theme default font family?"
+msgstr ""
+
+#: vc_elements/zkheading.php:150 vc_elements/zkheading.php:295
+msgid "Use font family from the theme."
+msgstr ""
+
+#: vc_elements/zkheading.php:168
+msgid "Add an image before the text"
+msgstr ""
+
+#: vc_elements/zkheading.php:176 vc_elements/zkpricing.php:53
+msgid "Choose your image"
+msgstr ""
+
+#: vc_elements/zkheading.php:178 vc_elements/zkpricing.php:55
+msgid "Choose an image."
+msgstr ""
+
+#: vc_elements/zkheading.php:179 vc_elements/zkpricing.php:56
+#: vc_elements/zkpricing.php:69 vc_elements/zkpricing.php:82
+#: vc_elements/zkpricing.php:101 vc_elements/zkprocess.php:102
+#: vc_elements/zkteam.php:211
+msgid "Image"
+msgstr ""
+
+#: vc_elements/zkheading.php:189
+msgid "Add a icon before the text"
+msgstr ""
+
+#: vc_elements/zkheading.php:195 vc_elements/zkheading.php:196
+#: vc_elements/zkheading.php:214
+msgid "Title Icon"
+msgstr ""
+
+#: vc_elements/zkheading.php:206
+msgid "Enter icon font size."
+msgstr ""
+
+#: vc_elements/zkheading.php:207
+msgid "Select icon color."
+msgstr ""
+
+#: vc_elements/zkheading.php:219 vc_elements/zkheading.php:266
+#: vc_elements/zkheading.php:280 vc_elements/zkheading.php:288
+#: vc_elements/zkheading.php:296 vc_elements/zkheading.php:307
+msgid "Sub Title"
+msgstr ""
+
+#: vc_elements/zkheading.php:312
+msgid "Description text"
+msgstr ""
+
+#: vc_elements/zkheading.php:348 vc_elements/zkheading.php:357
+#: vc_elements/zkheading.php:364 vc_elements/zkpricing.php:189
+msgid "Button"
+msgstr ""
+
+#: vc_elements/zkheading.php:353
+msgid "Button size"
+msgstr ""
+
+#: vc_elements/zkheading.php:369
+msgid "CSS box"
+msgstr ""
+
+#: vc_elements/zkhoverbox.php:4
+msgid "MeloKids Hover Box"
+msgstr ""
+
+#: vc_elements/zkhoverbox.php:99 vc_elements/zkhoverbox.php:106
+#: vc_elements/zkhoverbox.php:113 vc_elements/zkhoverbox.php:131
+#: vc_elements/zkhoverbox.php:145
+msgid "Hover"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:6
+msgid "Add your Instagram image"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:12
+msgid "Layout"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:21
+msgid "Number Image"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:27
+msgid "Number Columns"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:44
+msgid "Thumbnail (150x150)"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:45
+msgid "Small (320x320)"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:46
+msgid "Large (640x640)"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:47
+msgid "Original (640x640)"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:50
+msgid ""
+"Auto-detect means that the plugin automatically sets the image resolution "
+"based on the size of your feed."
+msgstr ""
+
+#: vc_elements/zkinstagram.php:60
+msgid "Author Text"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:62
+msgid "Follow Us Now"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:73
+msgid "Show like count?"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:81
+msgid "Show comment count?"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:87
+msgid "Open Link in?"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:90
+msgid "Current window"
+msgstr ""
+
+#: vc_elements/zkinstagram.php:91
+msgid "New Window "
+msgstr ""
+
+#: vc_elements/zknewsletter.php:8
+msgid "Add Newsletter Form."
+msgstr ""
+
+#: vc_elements/zknewsletter.php:13
+msgid "Choose Layout mode you want to show"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:16
+msgid "Newsletter"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:17
+msgid "Newsletter Minimal"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:24
+msgid "Show lists as"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:27
+msgid "Checkbox"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:28
+msgid "Dropdown"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:38
+msgid "First dropdown entry label"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:48
+msgid "Lists field label"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:49
+msgid "Seperate by comma (,)"
+msgstr ""
+
+#: vc_elements/zknewsletter.php:60
+msgid "Enter button text"
+msgstr ""
+
+#: vc_elements/zkposts.php:9
+msgid "Add your posts"
+msgstr ""
+
+#: vc_elements/zkposts.php:15 vc_elements/zkposts_grid.php:17
+#: vc_elements/zkposts_masonry.php:17 vc_elements/zkposts_special.php:17
+msgid "Post Type"
+msgstr ""
+
+#: vc_elements/zkposts.php:19 vc_elements/zkposts_grid.php:21
+#: vc_elements/zkposts_masonry.php:21 vc_elements/zkposts_special.php:21
+msgid "Choose post type you want to show"
+msgstr ""
+
+#: vc_elements/zkposts.php:23 vc_elements/zkposts_grid.php:25
+#: vc_elements/zkposts_masonry.php:25 vc_elements/zkposts_special.php:25
+msgid "Narrow data source"
+msgstr ""
+
+#: vc_elements/zkposts.php:35 vc_elements/zkposts_grid.php:37
+#: vc_elements/zkposts_masonry.php:37 vc_elements/zkposts_special.php:37
+msgid "Enter categories, tags or custom taxonomies."
+msgstr ""
+
+#: vc_elements/zkposts.php:41 vc_elements/zkposts_grid.php:43
+#: vc_elements/zkposts_masonry.php:43 vc_elements/zkposts_special.php:43
+msgid "Show Sticky Post?"
+msgstr ""
+
+#: vc_elements/zkposts.php:46 vc_elements/zkposts_grid.php:48
+#: vc_elements/zkposts_masonry.php:48
+msgid "Post per page"
+msgstr ""
+
+#: vc_elements/zkposts.php:49 vc_elements/zkposts_grid.php:51
+#: vc_elements/zkposts_masonry.php:51
+msgid "Number of item to show"
+msgstr ""
+
+#: vc_elements/zkposts.php:58 vc_elements/zkposts_grid.php:60
+#: vc_elements/zkposts_masonry.php:60 vc_elements/zkposts_special.php:53
+msgid "Sticky Post"
+msgstr ""
+
+#: vc_elements/zkposts.php:66 vc_elements/zkposts_grid.php:68
+#: vc_elements/zkposts_masonry.php:68
+msgid "Content Alignment"
+msgstr ""
+
+#: vc_elements/zkposts.php:95 vc_elements/zkpricing.php:105
+#: vc_elements/zkprocess.php:49 vc_elements/zktestimonial.php:134
+msgid "Layout Type"
+msgstr ""
+
+#: vc_elements/zkposts.php:111 vc_elements/zkposts_grid.php:147
+#: vc_elements/zkposts_masonry.php:174
+msgid "Show image"
+msgstr ""
+
+#: vc_elements/zkposts.php:114 vc_elements/zkposts.php:126
+#: vc_elements/zkposts.php:138 vc_elements/zkposts.php:146
+#: vc_elements/zkposts.php:155 vc_elements/zkposts.php:163
+#: vc_elements/zkposts.php:171 vc_elements/zkposts.php:179
+#: vc_elements/zkposts.php:187 vc_elements/zkposts.php:195
+#: vc_elements/zkposts.php:204 vc_elements/zkposts.php:215
+#: vc_elements/zkposts.php:223 vc_elements/zkposts.php:232
+#: vc_elements/zkposts_grid.php:141 vc_elements/zkposts_grid.php:150
+#: vc_elements/zkposts_grid.php:162 vc_elements/zkposts_grid.php:174
+#: vc_elements/zkposts_grid.php:182 vc_elements/zkposts_grid.php:191
+#: vc_elements/zkposts_grid.php:199 vc_elements/zkposts_grid.php:207
+#: vc_elements/zkposts_grid.php:215 vc_elements/zkposts_grid.php:223
+#: vc_elements/zkposts_grid.php:231 vc_elements/zkposts_grid.php:240
+#: vc_elements/zkposts_grid.php:251 vc_elements/zkposts_grid.php:259
+#: vc_elements/zkposts_grid.php:268 vc_elements/zkposts_masonry.php:168
+#: vc_elements/zkposts_masonry.php:177 vc_elements/zkposts_masonry.php:189
+#: vc_elements/zkposts_masonry.php:201 vc_elements/zkposts_masonry.php:209
+#: vc_elements/zkposts_masonry.php:218 vc_elements/zkposts_masonry.php:226
+#: vc_elements/zkposts_masonry.php:234 vc_elements/zkposts_masonry.php:242
+#: vc_elements/zkposts_masonry.php:250 vc_elements/zkposts_masonry.php:258
+#: vc_elements/zkposts_masonry.php:267 vc_elements/zkposts_masonry.php:278
+#: vc_elements/zkposts_masonry.php:286 vc_elements/zkposts_masonry.php:295
+msgid "Item Settings"
+msgstr ""
+
+#: vc_elements/zkposts.php:130 vc_elements/zkposts_grid.php:166
+#: vc_elements/zkposts_masonry.php:193
+msgid "Custom Thumbnail size"
+msgstr ""
+
+#: vc_elements/zkposts.php:131 vc_elements/zkposts_grid.php:167
+#: vc_elements/zkposts_masonry.php:194
+msgid ""
+"Alternatively enter size in pixels (Example: 200x100 (Width x Height)). You "
+"can enter multi image size separate by comma (,)."
+msgstr ""
+
+#: vc_elements/zkposts.php:177 vc_elements/zkposts_grid.php:213
+#: vc_elements/zkposts_masonry.php:240
+msgid "Show View"
+msgstr ""
+
+#: vc_elements/zkposts.php:201 vc_elements/zkposts_grid.php:237
+#: vc_elements/zkposts_masonry.php:264
+msgid "Show Description"
+msgstr ""
+
+#: vc_elements/zkposts.php:214 vc_elements/zkposts_grid.php:250
+#: vc_elements/zkposts_masonry.php:277
+msgid "Enter the number of word you want to show"
+msgstr ""
+
+#: vc_elements/zkposts.php:221 vc_elements/zkposts_grid.php:257
+#: vc_elements/zkposts_masonry.php:284
+msgid "Show Tags"
+msgstr ""
+
+#: vc_elements/zkposts.php:229 vc_elements/zkposts_grid.php:265
+#: vc_elements/zkposts_masonry.php:292
+msgid "Show Readmore"
+msgstr ""
+
+#: vc_elements/zkposts.php:253
+msgid "Masonry Template"
+msgstr ""
+
+#: vc_elements/zkposts.php:273
+msgid "Masonry Image Size"
+msgstr ""
+
+#: vc_elements/zkposts.php:274
+msgid ""
+"Alternatively enter size in pixels (Example: 200x100 (Width x Height)). You "
+"can enter multi item size separate by comma (,)."
+msgstr ""
+
+#: vc_elements/zkposts.php:285
+msgid "Space between each item"
+msgstr ""
+
+#: vc_elements/zkposts.php:286
+msgid "Please enter numeric only!"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:11 vc_elements/zkposts_special.php:11
+msgid "Posts, pages or custom posts in grid"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:121 vc_elements/zkposts_masonry.php:148
+#: vc_elements/zkposts_special.php:82
+msgid "Show Pagination"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:131 vc_elements/zkposts_masonry.php:158
+msgid "Heading Tag"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:274 vc_elements/zkposts_grid.php:284
+#: vc_elements/zkposts_masonry.php:301 vc_elements/zkposts_masonry.php:311
+#: vc_elements/zkposts_special.php:92 vc_elements/zkposts_special.php:102
+msgid "Hover Effect"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:277 vc_elements/zkposts_masonry.php:304
+#: vc_elements/zkposts_special.php:95
+msgid "Swing animation"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:278 vc_elements/zkposts_masonry.php:305
+#: vc_elements/zkposts_special.php:96
+msgid "Slide animation"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:279 vc_elements/zkposts_masonry.php:306
+#: vc_elements/zkposts_special.php:97
+msgid "Slide - Push animation"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:280 vc_elements/zkposts_masonry.php:307
+#: vc_elements/zkposts_special.php:98
+msgid "Rotate animation"
+msgstr ""
+
+#: vc_elements/zkposts_grid.php:281 vc_elements/zkposts_masonry.php:308
+#: vc_elements/zkposts_special.php:99
+msgid "Flip animation"
+msgstr ""
+
+#: vc_elements/zkposts_masonry.php:11
+msgid "Posts, pages or custom posts in masonry grid"
+msgstr ""
+
+#: vc_elements/zkpricing.php:7
+msgid "Add your pricing"
+msgstr ""
+
+#: vc_elements/zkpricing.php:11
+msgid "Element Title"
+msgstr ""
+
+#: vc_elements/zkpricing.php:19
+msgid "Currency code"
+msgstr ""
+
+#: vc_elements/zkpricing.php:20
+msgid "Enter your currency code"
+msgstr ""
+
+#: vc_elements/zkpricing.php:27
+msgid "Price"
+msgstr ""
+
+#: vc_elements/zkpricing.php:28
+msgid "Enter your price"
+msgstr ""
+
+#: vc_elements/zkpricing.php:35
+msgid "Price Plan"
+msgstr ""
+
+#: vc_elements/zkpricing.php:36
+msgid "Enter your plan. Per week / month / year"
+msgstr ""
+
+#: vc_elements/zkpricing.php:44
+msgid "Add Image ?"
+msgstr ""
+
+#: vc_elements/zkpricing.php:47
+msgid "Add an image"
+msgstr ""
+
+#: vc_elements/zkpricing.php:90
+msgid "Image position"
+msgstr ""
+
+#: vc_elements/zkpricing.php:96
+msgid "Select image position."
+msgstr ""
+
+#: vc_elements/zkpricing.php:109
+msgid "Featured"
+msgstr ""
+
+#: vc_elements/zkpricing.php:112
+msgid "Choose layout type."
+msgstr ""
+
+#: vc_elements/zkpricing.php:140
+msgid "Featured Space"
+msgstr ""
+
+#: vc_elements/zkpricing.php:143
+msgid "Add Large space to bottom?"
+msgstr ""
+
+#: vc_elements/zkpricing.php:146 vc_elements/zkpricing.php:163
+msgid "Feature List"
+msgstr ""
+
+#: vc_elements/zkpricing.php:150
+msgid "Add your feature"
+msgstr ""
+
+#: vc_elements/zkpricing.php:154 vc_elements/zkprocess.php:70
+#: vc_elements/zkprocess.php:71
+msgid "Development"
+msgstr ""
+
+#: vc_elements/zkpricing.php:157 vc_elements/zkprocess.php:74
+#: vc_elements/zkprocess.php:75
+msgid "Design"
+msgstr ""
+
+#: vc_elements/zkpricing.php:160 vc_elements/zkprocess.php:78
+#: vc_elements/zkprocess.php:79
+msgid "Marketing"
+msgstr ""
+
+#: vc_elements/zkpricing.php:168
+msgid "Feature Text"
+msgstr ""
+
+#: vc_elements/zkpricing.php:186
+msgid "Choose Link"
+msgstr ""
+
+#: vc_elements/zkprocess.php:7
+msgid "Add your processes"
+msgstr ""
+
+#: vc_elements/zkprocess.php:66
+msgid "Add your process"
+msgstr ""
+
+#: vc_elements/zkprocess.php:82 vc_elements/zkprocess.php:83
+msgid "Photography"
+msgstr ""
+
+#: vc_elements/zkprocess.php:86
+msgid "Your Process"
+msgstr ""
+
+#: vc_elements/zkprocess.php:107
+msgid "Image Position"
+msgstr ""
+
+#: vc_elements/zkprocess.php:110
+msgid "Top / Left"
+msgstr ""
+
+#: vc_elements/zkprocess.php:111
+msgid "Bottom / Right"
+msgstr ""
+
+#: vc_elements/zkprocess.php:133
+msgid "Process Link"
+msgstr ""
+
+#: vc_elements/zkproduct.php:16
+msgid "Show a product"
+msgstr ""
+
+#: vc_elements/zkproduct.php:20
+msgid "Select identificator"
+msgstr ""
+
+#: vc_elements/zkproduct.php:21
+msgid "Enter product Title  or product SKU or product ID to see suggestions"
+msgstr ""
+
+#: vc_elements/zkproduct.php:32
+msgid "Custom product Name"
+msgstr ""
+
+#: vc_elements/zkproduct.php:33
+msgid "This option will overwrite product name in this element"
+msgstr ""
+
+#: vc_elements/zkproduct.php:38
+msgid "Custom product image"
+msgstr ""
+
+#: vc_elements/zkproduct.php:39
+msgid "This option will overwrite product image in this element"
+msgstr ""
+
+#: vc_elements/zkproduct.php:45 vc_elements/zkproductscarousel.php:102
+#: vc_elements/zkshop.php:110 vc_elements/zkvideo.php:118
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: vc_elements/zkproduct.php:65
+msgid "Add To Cart Button"
+msgstr ""
+
+#: vc_elements/zkproduct.php:66
+msgid "Link to Details"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:16 vc_elements/zkshop.php:16
+msgid "Show Archive products"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:22 vc_elements/zkshop.php:21
+msgid ""
+"The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:30 vc_elements/zkshop.php:39
+msgid "Order By"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:31 vc_elements/zkshop.php:40
+msgid "Select how to sort retrieved products"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:37 vc_elements/zkshop.php:46
+msgid "ID"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:38 vc_elements/zkshop.php:47
+msgid "Menu Order"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:39 vc_elements/zkshop.php:48
+msgid "Popular"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:40 vc_elements/zkshop.php:49
+msgid "Randomly"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:41 vc_elements/zkshop.php:50
+msgid "Average product rating"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:48 vc_elements/zkshop.php:57
+msgid "Sort order"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:49 vc_elements/zkshop.php:58
+msgid "Designates the ascending or descending order"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:52 vc_elements/zkshop.php:61
+msgid "Ascending "
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:53 vc_elements/zkshop.php:62
+msgid "Descending "
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:60 vc_elements/zkshop.php:69
+msgid "Product Categories"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:61 vc_elements/zkshop.php:70
+msgid "Enter categories you want to show"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:76 vc_elements/zkshop.php:85
+msgid "Products to show"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:77 vc_elements/zkshop.php:86
+msgid "What product to show"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:80 vc_elements/zkshop.php:89
+msgid "All products"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:81 vc_elements/zkshop.php:90
+msgid "Featured products"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:82 vc_elements/zkshop.php:91
+msgid "On-sale products"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:83 vc_elements/zkshop.php:92
+msgid "Best Selling products"
+msgstr ""
+
+#: vc_elements/zkproductscarousel.php:84 vc_elements/zkshop.php:93
+msgid "Top rated products"
+msgstr ""
+
+#: vc_elements/zkshop.php:29
+msgid "Products columns"
+msgstr ""
+
+#: vc_elements/zkshop.php:30
+msgid ""
+"The columns attribute controls how many columns wide the products should be "
+"before wrapping."
+msgstr ""
+
+#: vc_elements/zkshop.php:102
+msgid "Show Paginate"
+msgstr ""
+
+#: vc_elements/zksocial.php:7
+msgid "Add your social networks"
+msgstr ""
+
+#: vc_elements/zksocial.php:27
+msgid "Text Colored"
+msgstr ""
+
+#: vc_elements/zksocial.php:38
+msgid "From Theme Options"
+msgstr ""
+
+#: vc_elements/zksocial.php:42
+msgid ""
+"Choose what social source display. Default from Theme Option, or custom in "
+"this element!"
+msgstr ""
+
+#: vc_elements/zksocial.php:43 vc_elements/zksocial.php:112
+msgid "Socials"
+msgstr ""
+
+#: vc_elements/zksocial.php:48
+msgid "Add your socials link"
+msgstr ""
+
+#: vc_elements/zksocial.php:52
+msgid "Faceboook"
+msgstr ""
+
+#: vc_elements/zksocial.php:66
+msgid "Linkedin"
+msgstr ""
+
+#: vc_elements/zksocial.php:73
+msgid "Youtube"
+msgstr ""
+
+#: vc_elements/zksocial.php:80
+msgid "Skype Chat"
+msgstr ""
+
+#: vc_elements/zksocial.php:91
+msgid "Social Name"
+msgstr ""
+
+#: vc_elements/zksocial.php:97
+msgid "Social url"
+msgstr ""
+
+#: vc_elements/zksocial.php:104
+msgid "Add icon?"
+msgstr ""
+
+#: vc_elements/zktaxonomy.php:4
+msgid "MeloKids Taxonomy"
+msgstr ""
+
+#: vc_elements/zktaxonomy.php:12
+msgid "Choose an Taxonomy"
+msgstr ""
+
+#: vc_elements/zktaxonomy.php:19
+msgid "Separator"
+msgstr ""
+
+#: vc_elements/zkteam.php:7
+msgid "Add your team member"
+msgstr ""
+
+#: vc_elements/zkteam.php:35
+msgid "Overlay Animation In Style"
+msgstr ""
+
+#: vc_elements/zkteam.php:42
+msgid "Overlay Animation Out Style"
+msgstr ""
+
+#: vc_elements/zkteam.php:65
+msgid "Member image size"
+msgstr ""
+
+#: vc_elements/zkteam.php:69 vc_elements/zkteam.php:77
+#: vc_elements/zkteam.php:88 vc_elements/zkteam.php:261
+msgid "Members"
+msgstr ""
+
+#: vc_elements/zkteam.php:85
+msgid "Make Member image as Black & White"
+msgstr ""
+
+#: vc_elements/zkteam.php:92
+msgid "Add Member"
+msgstr ""
+
+#: vc_elements/zkteam.php:222
+msgid "Position"
+msgstr ""
+
+#: vc_elements/zkteam.php:232
+msgid "Member Page"
+msgstr ""
+
+#: vc_elements/zkteam.php:234
+msgid "Enter link to member details page."
+msgstr ""
+
+#: vc_elements/zkteam.php:238
+msgid "Member Social"
+msgstr ""
+
+#: vc_elements/zkteam.php:243
+msgid "Social icon"
+msgstr ""
+
+#: vc_elements/zkteam.php:254
+msgid "Enter social link"
+msgstr ""
+
+#: vc_elements/zkteam.php:265
+msgid "Layout Style"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:7
+msgid "Add clients testimonial"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:78
+msgid "Add your testimonial"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:82
+msgid "John Smith"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:88
+msgid "Author name"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:95
+msgid "Author Position"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:97
+msgid "Project Manager"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:102
+msgid "Author URL"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:108
+msgid "Author Image"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:114
+msgid "Author signature image"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:124
+msgid "Testimonial text"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:125
+msgid "Press double ENTER to get line-break"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:127
+msgid ""
+"Donec euismod sem ac urna finibus, sit amet efficitur erat tem pus. Ut "
+"dapibus dictum turpis, vel faucibus erat posuere vitae icitur erat tem puna"
+msgstr ""
+
+#: vc_elements/zktestimonial.php:130
+msgid "Testimonial Item"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:11
+msgid "Show Wishlist?"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:13 vc_elements/zkuserstools.php:19
+#: vc_elements/zkuserstools.php:24 vc_elements/zkuserstools.php:36
+#: vc_elements/zkuserstools.php:47 vc_elements/zkuserstools.php:50
+#: vc_elements/zkuserstools.php:51
+msgid "Wishlist"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:28
+msgid "Wishlist Page"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:64
+msgid "Show Cart?"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:66 vc_elements/zkuserstools.php:72
+#: vc_elements/zkuserstools.php:77 vc_elements/zkuserstools.php:88
+#: vc_elements/zkuserstools.php:91 vc_elements/zkuserstools.php:92
+msgid "Cart"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:99
+msgid "MeloKids User Tools"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:103
+msgid "Show My account, My wishlist, Search, Shopping Cart"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:141
+msgid "Grey"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:147
+msgid "Row Gutters"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:173
+msgid "Show My Account?"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:175 vc_elements/zkuserstools.php:181
+#: vc_elements/zkuserstools.php:186 vc_elements/zkuserstools.php:198
+#: vc_elements/zkuserstools.php:209 vc_elements/zkuserstools.php:212
+#: vc_elements/zkuserstools.php:213
+msgid "My Account"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:190
+msgid "Account Page"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:222
+msgid "Show Search?"
+msgstr ""
+
+#: vc_elements/zkuserstools.php:224 vc_elements/zkuserstools.php:230
+#: vc_elements/zkuserstools.php:235 vc_elements/zkuserstools.php:246
+#: vc_elements/zkuserstools.php:249 vc_elements/zkuserstools.php:250
+msgid "Search"
+msgstr ""
+
+#: vc_elements/zkvideo.php:7
+msgid "Add a custom Videos"
+msgstr ""
+
+#: vc_elements/zkvideo.php:11
+msgid "Video Source"
+msgstr ""
+
+#: vc_elements/zkvideo.php:14 vc_elements/zkvideo.php:25
+msgid "Online Video"
+msgstr ""
+
+#: vc_elements/zkvideo.php:15 vc_elements/zkvideo.php:38
+msgid "Uploaded Video"
+msgstr ""
+
+#: vc_elements/zkvideo.php:16
+msgid "Hosted Video"
+msgstr ""
+
+#: vc_elements/zkvideo.php:17
+msgid "Embed code"
+msgstr ""
+
+#: vc_elements/zkvideo.php:26
+#, php-format
+msgid ""
+"Enter link to video, EX: https://www.youtube.com/watch?v=lMJXxhRFO1k (Note: "
+"read more about available formats at WordPress <a href=\"%s\" target=\"_blank"
+"\">codex page</a>)."
+msgstr ""
+
+#: vc_elements/zkvideo.php:39
+msgid "choose your uploaded video"
+msgstr ""
+
+#: vc_elements/zkvideo.php:51
+msgid "MP4"
+msgstr ""
+
+#: vc_elements/zkvideo.php:52
+msgid ""
+"Enter your MP4 video file url, ex: http://clips.vorwaerts-gmbh.de/"
+"big_buck_bunny.mp4"
+msgstr ""
+
+#: vc_elements/zkvideo.php:65
+msgid "OGV"
+msgstr ""
+
+#: vc_elements/zkvideo.php:66
+msgid ""
+"Enter your OGV video file url, ex: http://clips.vorwaerts-gmbh.de/"
+"big_buck_bunny.ogv"
+msgstr ""
+
+#: vc_elements/zkvideo.php:78
+msgid "OGG"
+msgstr ""
+
+#: vc_elements/zkvideo.php:79
+msgid ""
+"Enter your OGV video file url, ex: https://www.w3schools.com/html/mov_bbb.ogg"
+msgstr ""
+
+#: vc_elements/zkvideo.php:91
+msgid "WEBM"
+msgstr ""
+
+#: vc_elements/zkvideo.php:92
+msgid ""
+"Enter your WEBM video file url, ex: http://clips.vorwaerts-gmbh.de/"
+"big_buck_bunny.webm"
+msgstr ""
+
+#: vc_elements/zkvideo.php:104
+msgid "Embed video"
+msgstr ""
+
+#: vc_elements/zkvideo.php:105
+msgid "Enter your embed code."
+msgstr ""
+
+#: vc_elements/zkvideo.php:134
+msgid "Poster"
+msgstr ""
+
+#: vc_templates/zkbusinesstime.php:18
+msgid "Closed"
+msgstr ""
+
+#: vc_templates/zkbusinesstime.php:27
+msgid "We're Closed"
+msgstr ""
+
+#: vc_templates/zkbusinesstime.php:27
+msgid "( See best time to call )"
+msgstr ""
+
+#: vc_templates/zkclients.php:40
+msgid "Please add a client logo!"
+msgstr ""
+
+#: vc_templates/zkfancyimg.php:13 vc_templates/zkfancyimg.php:52
+#: vc_templates/zkhoverbox.php:12
+msgid "Explore More"
+msgstr ""
+
+#: vc_templates/zkfancyimg.php:37 vc_templates/zkfancyimg.php:65
+#: vc_templates/zkproduct.php:38 vc_templates/zkproduct.php:44
+#: vc_templates/zkproduct.php:130 vc_templates/zkproduct.php:136
+msgid "by"
+msgstr ""
+
+#: vc_templates/zkheading.php:43
+msgid "Please add a text!"
+msgstr ""
+
+#: vc_templates/zkhoverbox.php:27
+msgid "Please add a image first"
+msgstr ""
+
+#: vc_templates/zkposts.php:182 vc_templates/zkposts_grid.php:183
+#: vc_templates/zkposts_masonry.php:188 vc_templates/zkposts_special.php:153
+msgid "No item found with your query!"
+msgstr ""
+
+#: vc_templates/zkpricing.php:14
+msgid "Get Started"
+msgstr ""
+
+#: vc_templates/zkteam.php:48
+msgid "Please add a member!"
+msgstr ""
+
+#: vc_templates/zktestimonial.php:35
+msgid "Please add a testimonial text!"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:32
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:35
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:45
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://dev.joomexp.com/wordpress/melokids/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The 2019 theme for WordPress is a fully responsive theme that looks great on "
+"any device. Features include a front page template with its own widgets, an "
+"optional display font, styling for post formats on both index and single "
+"views, and an optional no-sidebar page template. Make it yours with a custom "
+"menu, header image, and background."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ZookaStudio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/zookastudio"
+msgstr ""

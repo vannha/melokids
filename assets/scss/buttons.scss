@@ -1,0 +1,175 @@
+/* Button */
+$btn_inside_space: 18px 26px 17px;
+/*
+ * All style for  Button
+*/
+.button,
+.zk-btn,
+.zk-btn-default,
+.vc_general.vc_btn3.zk-btn,
+.vc_general.vc_btn3.zk-btn-default,
+input[type="submit"],
+.added_to_cart{
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 1;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+	padding: $btn_inside_space;
+	white-space: nowrap;
+	font-family: $btn_font_family;
+	font-size: $btn_font_size;
+	font-weight: $btn_font_weight;
+	text-transform: $btn_font_transform;
+	letter-spacing: $btn_font_spacing;
+	text-overflow: ellipsis;
+	color: $btn_default_color; 
+	
+	border-style: $btn_default_border_style;
+	border-width: $btn_default_border_width;
+	border-color: $btn_default_border_color;
+
+	background-color: $btn_default_bg_color;
+	background-image: $btn_default_bg_image;
+	background-size: $btn_default_bg_size;
+	background-position: $btn_default_bg_position;
+	background-attachment: $btn_default_bg_attachment;
+
+	@include border-radius($btn_default_border_radius);
+	@include transition();
+	&:hover{
+		color: $btn_default_color_hover;
+		border-color: $btn_default_bg_hover;
+
+		background-color: $btn_default_bg_hover;
+		@if ($btn_default_bg_hover_image == "inherit"){
+			background-image: $btn_default_bg_image;
+		} @else {
+			background-image: $btn_default_bg_hover_image;
+		}
+		background-size: $btn_default_bg_hover_size;
+		background-position: $btn_default_bg_hover_position;
+		background-attachment: $btn_default_bg_hover_attachment;
+		
+	}
+	&.zk-btn-alt{
+		color: $btn_default_bg_color;
+    	background-color: transparent;
+    	background-image: none;
+    	&:hover{
+    		color: $btn_default_color_hover;
+    		background-color: $btn_default_bg_hover;
+    	}
+    	&.zk-btn-white{
+			color: $white;
+			background-color: transparent;
+			border-color: $white;
+			&:hover{
+				color: $btn_default_bg_color;
+	    		background-color: $white;
+			}
+		}
+    }
+    &.zk-btn-white{
+		color: $HeadingColor;
+		background-color: $white;
+		border-color: $white;
+		&:hover{
+			color: $btn_default_color_hover;
+    		background-color: $btn_default_bg_hover;
+    		border-color: $btn_default_bg_hover;
+		}
+	}
+}
+
+.zk-btn-primary,
+.vc_general.vc_btn3.zk-btn-primary{
+	cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: $btn_inside_space;
+
+    font-family: $btn_primary_font_family;
+    font-size: $btn_primary_font_size;
+    font-weight: $btn_primary_font_weight;
+    text-transform: $btn_primary_font_transform;
+    letter-spacing: $btn_primary_font_spacing;
+    
+    color: $btn_primary_color;
+    
+    border-style: $btn_primary_border_style;
+    border-width: $btn_primary_border_width;
+    border-color: $btn_primary_border_color;
+
+    background-color: $btn_primary_bg_color;
+    background-image: $btn_primary_bg_image;
+    background-size: $btn_primary_bg_size;
+    background-position: $btn_primary_bg_position;
+    background-attachment: $btn_primary_bg_attachment;
+
+    @include border-radius($btn_primary_border_radius);
+    @include transition();
+    &:hover{
+            color: $btn_primary_color_hover;
+            border-color: $btn_primary_bg_hover;
+
+            background-color: $btn_primary_bg_hover;
+            @if ($btn_primary_bg_hover_image == "inherit"){
+    			background-image: $btn_primary_bg_image;
+    		} @else {
+    			background-image: $btn_primary_bg_hover_image;
+    		}
+            background-size: $btn_primary_bg_hover_size;
+            background-position: $btn_primary_bg_hover_position;
+            background-attachment: $btn_primary_bg_hover_attachment;
+            
+    }
+    &.zk-btn-alt{
+		color: $btn_primary_bg_color;
+    	background-color: transparent;
+    	background-image: none;
+    	&:hover{
+    		color: $btn_primary_color_hover;
+    		background-color: $btn_primary_bg_hover;
+    	}
+    }
+}
+
+.zk-btn-simple{
+	display: inline-block;
+	text-align: center;
+	font-family: $btn_font_family;
+	font-size: $btn_font_size;
+	font-weight: $btn_font_weight;
+	text-transform: $btn_font_transform;
+	letter-spacing: $btn_font_spacing;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	@include transition();
+}
+
+/* Button Size */
+.zk-btn-sm{
+	font-size: #{$btn_font_size - 2};
+}
+.zk-btn-md{
+	font-size: #{$btn_font_size};
+}
+.zk-btn-lg{
+	font-size: #{$btn_font_size + 1};
+}
+.zk-btn-xl{
+	font-size: #{$btn_font_size + 2};
+	padding: 23px 55px 22px;
+	font-family: $EdmonsB;
+	@media (max-width: $screen-lg-min){
+		padding: 15px 25px 14px;
+	}
+}

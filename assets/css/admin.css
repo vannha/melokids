@@ -1,0 +1,49 @@
+/* Admin Font */
+.edmondsansbold{
+	font-family: 'edmondsansbold';
+}
+.edmondsansmedium,
+.Melokids-Small-Heading,
+.Melokids-Large-Heading{
+	font-family: 'edmondsansmedium';
+}
+.edmondsansregular{
+	font-family: 'edmondsansregular';
+}
+
+/* Theme Options */
+img{max-width:100%}.img-select ul{margin:0 -10px;display:block;overflow:hidden}.img-select li{float:left;width:calc(50% - 20px);padding:10px;margin:0;display:block}.img-select li:nth-child(2n+1){clear:left}.img-select li img{border:2px solid #ccc}.img-select li.active img{border-color:#305288}.redux-container{overflow:inherit!important}
+#melokids_theme_options-melokids_archive_content_layout.redux-container-image_select ul.redux-image-select{
+	margin: -15px !important;
+}
+#melokids_theme_options-melokids_archive_content_layout.redux-container-image_select li.redux-image-select{
+	padding: 0 !important;
+	width: 50%;
+	float: left;
+}
+#melokids_theme_options-melokids_archive_content_layout.redux-container-image_select li.redux-image-select > label{
+	padding: 15px;
+}
+#melokids_theme_options-melokids_archive_content_layout.redux-container-image_select li.redux-image-select img{ max-width: calc(100% - 8px);}
+.redux-main .select2-default{width:100%!important}.select2-container-multi .select2-choices li.select2-search-field{float:none!important}.menu-item-settings{overflow: hidden;}
+
+/* VC Elements */
+.wpb_element_wrapper.zkcarousel{
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px dotted #e6e6e6;
+	border-top: 0;
+}
+div[data-vc-shortcode="zkbusinesstime"] .vc_param_group-list .vc_param_group-add_content{
+	display: none;
+}
+
+/* WooCommerce */
+.dashicons-wc-shop:before{
+	font-family: WooCommerce!important;
+    content: '\e03d';
+}
+.dashicons-wc-single:before{
+    font-family: WooCommerce!important;
+    content: '\e006';
+}

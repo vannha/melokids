@@ -1,0 +1,41 @@
+.widget_layered_nav_filters{
+	.filtered{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.wc-filter-icon{
+		display: none;
+	}
+	&.theme-style{
+
+	}
+	&:not(.theme-style){
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -10px;
+			li{
+				padding: 0 10px;
+				display: flex;
+				align-items: center;
+				&:before{
+					content: 'x \00a0\00a0';
+					width: 15px;
+					height: 15px;
+					line-height: 15px;
+					text-align: center;
+					display: inline-block;
+					background: red;
+					color: white;
+					margin-right: 10px;
+					@include border-radius(50%);
+					[dir='rtl'] &{
+						margin-right: 0;
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+	}
+}

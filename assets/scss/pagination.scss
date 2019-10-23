@@ -1,0 +1,55 @@
+.pagination{
+	margin-top: 35px;
+    text-align: center;
+    border-top: $MainBorder;
+    border-bottom: $MainBorder;
+    padding: 32px 0 41px;
+}
+.nav-links{
+	@include d-flex();
+	justify-content: center;
+	margin: -10px;
+}
+.page-numbers{
+	margin: 10px;
+	min-width: 34px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: $SmallSize;
+	font-family: $EdmonsB;
+	color: $MetaColor;
+	background: transparent;
+	border-bottom: 2px solid transparent;
+	letter-spacing: 0.94px;
+	@include transition();
+	&.current,
+	&:hover{
+		color: $HeadingColor;
+		border-bottom-color: #99A9B4;
+	}
+}
+
+/* Page Link */
+.page-links{
+	margin-bottom: 25px;
+}
+.page-link-number{
+	padding: 0 11px;
+	margin: 0 5px;
+	display: inline-block;
+	color: $white;
+	background: $accent_color;
+	cursor: not-allowed;
+	@include transition();
+	&:hover{
+		background: $primary_color;
+	}
+}
+a .page-link-number{
+	background: $primary_color;
+	cursor: pointer;
+	&:hover{
+		background: $accent_color;
+	}
+}

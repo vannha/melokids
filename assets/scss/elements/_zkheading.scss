@@ -1,0 +1,37 @@
+/* MeloKids Heading */
+.zk-heading{
+	span.style1{
+		font-family: $EdmonsM;
+		font-weight: normal;
+	}
+	span.style2{
+		font-style: italic;
+	}
+	span.style3{
+		font-family: $EdmonsB;
+	}
+	span.style4{
+		font-family: $EdmonsB;
+		font-style: italic;
+	}
+	.heading{
+		margin: 0;
+	}
+
+	.sub-heading{
+		span.style1{
+			font-family: $EdmonsR;
+		}
+	}
+
+	&.layout2{
+		.heading,
+		span.style1{
+			font-family: $EdmonsR;
+		}
+	}
+}
+
+.heading-btn{
+	margin-top: 27px;
+}

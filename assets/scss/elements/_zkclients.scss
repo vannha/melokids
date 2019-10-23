@@ -1,0 +1,19 @@
+.zk-clients-wrap{
+	.owl-stage{
+		@include d-flex();
+		align-items: center;
+	}
+	.owl-carousel .owl-item{
+		img{
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			@include opacity(0.4);
+		}
+		&:hover{
+			img{
+				@include opacity(1);
+			}
+		}
+	}
+}

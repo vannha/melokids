@@ -1,0 +1,21 @@
+/* MeloKids Business Time */
+.zk-business-time{
+	background: $white;
+	.far{
+		font-size: 20px;
+	}
+	.msg{
+		font-size: 18px;
+		font-family: $EdmonsB;
+		color: $HeadingColor;
+		+ a{
+			text-decoration: underline;
+		}
+	}
+	.time{
+		white-space: nowrap;
+	}
+}
+.zk-business-time-popup{
+	padding: 20px;
+}

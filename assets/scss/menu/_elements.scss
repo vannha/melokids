@@ -1,0 +1,14 @@
+.wpb_content_element{
+	.widgettitle{
+		text-transform: uppercase;
+		font-family: $EdmonsM;
+	    letter-spacing: 2px;
+	    font-size: 16px;
+	}
+}
+
+li > a:empty{
+	&:after{
+		content: 'Untitled';
+	}
+}

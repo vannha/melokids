@@ -1,0 +1,390 @@
+
+/* MeloKids Button */
+.zk-button-wrapper{
+}
+
+/* MeloKids CountDown */
+.countdown-amount,
+.countdown-label{
+	display: block;
+	text-align: center;
+}
+.countdown-amount{
+	font-size: $h1Size;
+}
+
+/* MeloKids Counter */
+
+/* MeloKids Fancy Box */
+.zk-fancybox{}
+.zk-fancy-icon,
+.zk-fancy-img{
+	margin-bottom: 30px;
+}
+.zk-fancy-icon{
+	@include border-radius(5px);
+	&.square{
+		@include border-radius(0);
+	}
+	&.rounded{
+		@include border-radius(10px);
+	}
+	&.circle{
+		@include border-radius(50%);
+	}
+}
+.zk-fancy-content{
+	> *{
+		margin-bottom: 15px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* MeloKids Hover Box */
+.hoverbox-wrap{
+	position: relative;
+	overflow: hidden;
+	> img{
+		width: 100%;
+	}
+}
+.hover-box{
+	&.static{
+		@include overlay($align : flex-end);
+		margin-bottom: 60px;
+	}
+	&.hover{
+		@include overlay($background: rgba($primary_color, 0.95), $color: $white);
+		a.overlay{
+			z-index: 10;
+		}
+	}
+	.on-static{
+		min-width: 300px;
+		min-height: 90px;
+		@include d-flex();
+		align-items: center;
+		background: $white;
+		padding: 15px;
+		> *{
+			width: 100%;
+		}
+	}
+	.static-title{
+		text-transform: uppercase;
+		font-family: $EdmonsM;
+		margin: 0;
+		letter-spacing: 5px;
+		+ div {
+			margin-top: 15px;
+		}
+	}
+	.hover-title{
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		font-family: $EdmonsM;
+		color: $white;
+		margin-bottom: 0;
+		+ div{
+			margin-top: 15px;
+		}
+		@media (min-width: $screen-md-min){
+			font-size: 45px;
+		}
+	}
+	.hover-link {
+		margin-top: 25px;
+		a{
+			color: $white;
+			font-family: $EdmonsB;
+			letter-spacing: 3px;
+			font-size: 14px;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+}
+
+/* MeloKids Posts */
+.masonry-sizer{
+	width: 0;
+	height: 0;
+	display: block;
+	visibility: hidden;
+	@include opacity(0);
+}
+.zk-posts{
+	.entry-media{
+		margin-bottom: 29px;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h3{
+		margin: 1px 0 15px;
+	}
+}
+.zk-posts-grid{
+	.layout-1{
+		.zk-grid-item{
+			margin-bottom: 50px;
+			h3{
+				font-size: 23px;
+			}
+		}
+		+ .pagination{
+			margin-top: 40px;
+		}
+	}
+	.layout-2{
+		.zk-grid-item{
+			margin-bottom: 20px;
+			&:after{
+				content: '';
+				display: block;
+				border-top: $MainBorder;
+				position: absolute;
+				left: 20px;
+				right: 20px;
+				bottom: 0;
+			}
+			.entry-media{
+				margin-bottom: 20px;
+			}
+			&:last-child:after{
+				display: none;
+			}
+		}
+		.entry-meta{
+			margin-bottom: 10px;
+		}
+		.entry-excerpt{
+			padding-top: 7px;
+		}
+		+ .pagination{
+			margin-top: 49px;
+		}
+	}
+	.layout-3{
+		.zk-grid-item{
+			margin-bottom: 0;
+			.item-inner{
+				padding-bottom: 33px;
+				border-bottom: $MainBorder;
+			}
+		}
+		.entry-media{
+			margin-bottom: 15px;
+		}
+		.item-title{
+			margin: 4px 0 18px;
+		}
+		+ .pagination{
+			margin-top: 45px;
+		}
+	}
+}
+
+.zk-posts-masonry{
+	.layout-1{
+		.zk-masonry-item{
+			margin-bottom: 60px;
+		}
+		+ .pagination{
+			margin-top: 20px;
+		}
+	}
+}
+
+.zk-posts-special{
+	.first-post{
+		padding-bottom: 65px;
+		margin-bottom: 60px;
+		border-bottom: $MainBorder;
+		.entry-media{
+			margin-bottom: 0;
+			@media (max-width: $screen-sm-max){
+				margin-bottom: 30px;
+			}
+		}
+		@media (min-width: $screen-lg-min){
+			h2{
+				letter-spacing: 3px;
+				padding-top: 15px;
+				padding-bottom: 6px;
+			}
+			.entry-excerpt{
+				padding-bottom: 35px;
+			}
+		}
+	}
+	.large-item{
+		margin-bottom: 50px;
+	}
+	.small-item{
+		margin-top: 12px;
+		margin-bottom: 12px;
+		padding-top: 35px;
+		border-top: $MainBorder;
+		.zk-special-item{
+			padding-top: 30px;
+		}
+	}
+}
+
+/* MeloKids Pricing */
+.zk-pricing{
+	&.featured{
+		.el-title,
+		.pricing-price{
+			color: $accent_color;
+		}
+	}
+}
+
+/* MeloKids Testimonial */
+.zk-testimonial-item{
+	padding: 10px 0 20px;
+	.zk-testimonial-content{
+		font-size: 18px;
+		color: $HeadingColor;
+	}
+	.author-info{
+		padding-top: 52px;
+	}
+	.author-name{
+		font-size: 15px;
+		letter-spacing: 2px;
+		padding: 0;
+		margin: 0;
+		font-family: $EdmonsR;
+	}
+	
+}
+.zk-testimonial-wrap .layout-1 .owl-item:after{
+	position: absolute;
+	right: -55px;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background: $MainBorderColor;
+	content: '';
+	display: block;
+}
+
+/* MeloKids Taxonomies */
+.zk-taxonomies{
+
+}
+
+
+/* MeloKids Newsletter */
+.zk-newsletter{
+	// Minimal Sytle
+	&.minimal{
+		// Layout 1
+		&.layout-1{
+			.tnp-form{
+				margin: -11px;
+				@include d-flex();
+			}
+			.tnp-email,
+			.tnp-submit{
+				margin: 11px;
+				height: 62px !important;
+				width: 100%;
+			}
+			@media (min-width: $screen-md-min){
+				.tnp-form{
+					max-width: 638px;
+				}
+				.tnp-email{
+					width: calc( 63.95% - 22px) !important;
+				}
+				.tnp-submit{
+					width: calc(36.05% - 22px);
+				}
+			}
+		}
+		// Layout 2
+		&.layout-2{
+			.tnp-form{
+				position: relative;
+			}
+			input[type="email"]{
+				padding-right: 73px;
+				[dir="rtl"] &{
+					padding-right: 15px;
+					padding-left: 73px;
+				}
+			}
+			.tnp-form:after,
+			input[type="submit"]{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				width: 73px;
+				padding: 0;
+				margin: 0;
+				text-align: center;
+				background: transparent;
+				border: none;
+				[dir="rtl"] &{
+					left: 0;
+					right: auto;
+				}
+			}
+			input[type="submit"]{
+				font-size: 0;
+				z-index: 1;
+			}
+
+			.tnp-form:after{
+				font-size: 25px;
+				content: "\f0e0";
+				font-family: $FontAwesomeR;
+				line-height: 64px;
+			}
+		}
+	}
+}
+
+/* MeloKids Socials */
+.zk-social{
+	margin: -8px;
+	> a{
+		padding: 8px;
+	}
+	&.layout-2{
+		a{
+			display: block;
+		}
+		span{
+			padding-right: 20px;
+		}
+	}
+	&.white{
+		a{
+			color: $white;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+
+	&.text-colored a{
+		@include melokids_socials_color('color');
+	}
+}
+.rtl .zk-social{
+	&.layout-2{
+		span{
+			padding-left: 20px;
+			padding-right: 0;
+		}
+	}
+}

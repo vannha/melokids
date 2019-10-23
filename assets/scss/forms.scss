@@ -1,0 +1,275 @@
+/**
+ * All Style for form tags
+ *
+*/
+
+$FF_Height: 64px;
+$FF_InnerSpace: 10px 15px;
+$FF_BorderColor: $primary_color;
+$FF_BorderColorHover: $FF_BorderColor;
+$FF_Border: 1px solid $FF_BorderColor;
+
+$FF_Shadow: 0 0 0 1px transparent;
+$FF_ShadowHover: 0 0 3px 1px $FF_BorderColorHover;
+$FF_Radius: 0;
+$FF_BG: transparent;
+$FF_SelectBG: $FF_BG;
+$FF_FontSize: $body_font_size;
+$FF_PlaceholderColor: $MetaColor;
+$FF_font_family: $body_font_family;
+
+/* Placeholder text color -- selectors need to be separate to work. */
+body ::-webkit-input-placeholder {
+	color: $FF_PlaceholderColor;
+}
+body :-moz-placeholder {
+	color: $FF_PlaceholderColor;
+}
+
+body ::-moz-placeholder {
+	color: $FF_PlaceholderColor;
+}
+
+body :-ms-input-placeholder {
+	color: $FF_PlaceholderColor;
+}
+
+input, textarea, select, button{
+	font-family: $FF_font_family;
+}
+//:not([type='checkbox']):not([type='radio']):not([type='button']):not([type='submit'])
+input,
+select,
+textarea{
+	border: $FF_Border;
+	padding: $FF_InnerSpace;
+	vertical-align: top;
+	font-size: $FF_FontSize;
+	-webkit-appearance: none;
+	@include css3-prefix('box-shadow', $FF_Shadow);
+	-webkit-border-radius: $FF_Radius;
+	@include border-radius($FF_Radius);
+	@include transition();
+	&:hover,
+	&:focus,
+	&:active{
+		@include css3-prefix('box-shadow', $FF_ShadowHover);
+	}
+}
+/* height */
+//:not([type='checkbox']):not([type='radio']):not([type='button']):not([type='submit'])
+input,
+select{
+	height: $FF_Height;
+}
+//:not([type='checkbox']):not([type='radio']):not([type='button']):not([type='submit'])
+input{
+	width: 100%;
+	max-width: 100%;
+}
+input.numInput{
+	height: auto !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    text-align: center;
+}
+textarea{
+	min-height: 150px;
+	max-height: 200px;
+	width: 100%;
+	max-width: 100%;
+}
+/* remove spin */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button,
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-outer-spin-button,
+input[type='week']::-webkit-inner-spin-button,
+input[type='week']::-webkit-outer-spin-button{
+	-webkit-appearance: none; 
+  	margin: 0; 
+}
+/* Color */
+input[type='color']{
+	padding: 0 !important;
+}
+/* Upload */
+input[type='file']::-webkit-file-upload-button{
+	border: none;
+	-webkit-appearance: none;
+	height: 100%;
+}
+
+/* Select */ 
+select{
+	width: 100%;
+	max-width: 100%;
+	background: $FF_SelectBG url(../images/select-arrow.png) right center no-repeat;
+}
+
+/* Check Box */
+label{
+	cursor: pointer;
+	position: relative;
+}
+.zk-checkbox-wrap{
+	position: relative;
+	height: 20px;
+	width: 34px;
+	display: inline-block;
+	&:first-child{
+		margin-right: 15px;
+	}
+	&:last-child{
+		margin-left: 15px;
+	}
+}
+input[type=checkbox] {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	top: 4px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+
+	+ span {
+		position: relative;
+		display: block;
+		padding-left: 50px;
+		&:before {
+			content: "";
+			display: block;
+			height: 16px;
+			width: 30px;
+			border: 2px solid $primary_color;
+			background: $primary_color;
+			border-radius: 15px;
+			box-sizing: content-box;
+			@include transition();
+			position: absolute;
+			top: 4px;
+			left: 0;
+		}
+
+		&:after {
+			content: "";
+			display: block;
+			width: 14px;
+			height: 14px;
+			background: white;
+			position: absolute;
+			top: 7px;
+			left: 3px;
+			border-radius: 50%;
+			transition: all ease-in-out .3s;
+			[dir='rtl'] &{
+				left: auto;
+				right: 3px;
+			}
+		}
+		[dir="rtl"] &{
+			padding-left: 0;
+			padding-right: 50px;
+			&:before{
+				left: auto;
+				right: 0;
+			}
+		}
+	}
+}
+
+input[type=checkbox]:checked + span:after {
+	left: 17px;
+	[dir='rtl'] &{
+		left: auto;
+		right: 17px;
+	}
+}
+
+input[type=checkbox]:checked + span:before {
+	border-color: $accent_color;
+	background: $accent_color;
+}
+
+
+input[name="post_password"]{
+	margin-bottom: 30px;
+}
+
+/* Radio */
+.zk-radio-wrap{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+	&:first-child{
+		margin-right: 15px;
+	}
+	&:last-child{
+		margin-left: 15px;
+	}
+	input[type='radio']{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		z-index: 2;
+		+ span {
+			&:before {
+				content: "";
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				border: 2px solid $white;
+				box-shadow: 0 0 0 2px $primary_color;
+				background: $white;
+				margin-left: 4px;
+				margin-right: .5em;
+				border-radius: 100%;
+				transform: translateY(2px);
+				@include transition();
+			}
+		}
+
+		&:checked + span {
+			&:before {
+				box-shadow: 0 0 0 2px $accent_color;
+				background: $accent_color;
+			}
+		}
+	}
+}
+
+input[type='radio']{
+	position: absolute;
+	//width: 100%;
+	//height: 100%;
+	opacity: 0;
+	z-index: 2;
+	cursor: pointer;
+	+ label {
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			border: 2px solid $white;
+			box-shadow: 0 0 0 2px $primary_color;
+			background: $white;
+			margin-left: 4px;
+			margin-right: .5em;
+			border-radius: 100%;
+			transform: translateY(2px);
+			@include transition();
+		}
+	}
+
+	&:checked + label {
+		&:before {
+			box-shadow: 0 0 0 2px $accent_color;
+			background: $accent_color;
+		}
+	}
+}
+

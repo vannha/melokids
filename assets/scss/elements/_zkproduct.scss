@@ -1,0 +1,137 @@
+/* Melokids Single product */
+.zk-product{
+	position: relative;
+	overflow: hidden;
+	h5{
+		margin: 0 0 11px;
+		text-transform: uppercase;
+		letter-spacing: 3.6px;
+		font-family: $EdmonsM;
+	}
+	.pterm {
+		color: $HeadingColor;
+		a{
+			color: $HeadingColor;
+			text-decoration: underline;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+	> a{
+		display: block;
+	}
+	img:not(.brand-logo){
+		width: 100%;
+		@include transition();
+	}
+	.header,
+	.add_to_cart_inline{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+	}
+	.p-price{
+		font-size: 20px;
+		color: $accent_color;
+		font-family: $EdmonsB;
+		margin-left: -5px;
+		margin-right: -5px;
+		align-items: center;
+		@include d-flex();
+		del,
+		ins{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		del{
+			order: 2;
+			font-size: $body_font_size;
+			color: $body_font_color;
+		}
+		ins{
+			background: transparent;
+		}
+	}
+	.simple-link{
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 3px;
+		font-family: $EdmonsB;
+	}
+	&:hover img.bg-scale{
+		@include transform( scale(1.2) );
+	}
+
+	&.layout-1{
+		.product-info{
+			position: absolute;
+			left: 14%;
+			right: 14%;
+			bottom: 5.88%;
+			background: $white;
+			padding: 34px 15px 29px;
+		}
+	}
+	&.layout-2{
+		.product-info{
+			position: absolute;
+			left: 0;
+			right: 0%;
+			bottom: 0;
+			top: 0;
+			background: transparent;
+			padding: 20px;
+			@include d-flex();
+			@media (min-width: $screen-md-min){
+				padding: 85px 67px 50px;
+			}
+			> * {
+				width: 100%;
+			}
+		}
+	}
+	&.layout-3 .hover-box{
+		&.static{
+			margin-bottom: 25.3%;
+			margin-left: 17.86%;
+			margin-right: 17.86%;
+		}
+		.on-static{
+			padding-top: 30px;
+			padding-bottom: 32px;
+		}
+		h5{
+			line-height: 25px;
+			margin-bottom: 7px;
+		}
+
+		&.hover{
+			padding: 22.2% 11% 13.2%;
+			align-items: flex-start;
+			.entry-excerpt{
+				padding-top: 8px;
+			}
+		}
+		.on-hover{
+			height: 100%;
+			@include d-flex();
+		}
+		a.simple-link{
+			color: $white;
+			&:hover{
+				color: $accent_color;
+			}
+		}
+	}
+}
+.zk-products-wrap{
+	.owl-dots{
+		margin-top: 87px;
+	}
+}
+
+.text-center img{
+	margin-left: auto;
+	margin-right: auto;
+}

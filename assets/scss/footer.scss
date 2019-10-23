@@ -1,0 +1,12 @@
+#zk-footer{
+	margin-top: 100px;
+	&.default{
+		background: #000;
+		color: white;
+		padding: 30px;
+		
+		a{
+			color: white;
+		}
+	}
+}
