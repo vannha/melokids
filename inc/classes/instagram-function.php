@@ -15,7 +15,7 @@ function melokids_instagram( $username ) {
             $transient_prefix = 'u';
             break;
     }
-    var_dump(wp_remote_get( $url ));
+    var_dump(wp_remote_get( $url )); die('xxx');
     if ( false === ( $instagram = get_transient( 'insta-a10-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ) ) ) ) {
 
         $remote = wp_remote_get( $url );
