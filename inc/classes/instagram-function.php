@@ -15,7 +15,6 @@ function melokids_instagram( $username ) {
             $transient_prefix = 'u';
             break;
     }
-    var_dump(wp_remote_get( $url )); die('xxx');
     if ( false === ( $instagram = get_transient( 'insta-a10-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ) ) ) ) {
 
         $remote = wp_remote_get( $url );
@@ -81,7 +80,7 @@ function melokids_instagram( $username ) {
             //set_transient( 'insta-a10-' . $transient_prefix . '-' . sanitize_title_with_dashes( $username ), $instagram, apply_filters( 'null_instagram_cache_time', HOUR_IN_SECONDS * 2 ) );
         }
     }
-
+    var_dump($instagram);
     if ( ! empty( $instagram ) ) {
 
         return unserialize( base64_ef4_decode( $instagram ) );
