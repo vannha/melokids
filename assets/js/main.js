@@ -410,7 +410,7 @@ jQuery(document).ready(function($) {
      * Scroll page 
      * @author Chinh Duong Manh
     */
-    /*$('body').on('click', '.zk-scroll, .woocommerce-review-link, .is-one-page', function () {
+    $('body').on('click', '.zk-scroll, .woocommerce-review-link, .is-one-page', function () {
         "use strict";
         var target = $(this.hash),
             offset = $('.header-sticky').innerHeight();
@@ -419,7 +419,7 @@ jQuery(document).ready(function($) {
             $('html,body').animate({scrollTop: target.offset().top - offset - adminbar_height}, 750);
             return false;
         }
-    });*/
+    });
     
     /* Show or hide Back to TOP  */
     function zk_back_to_top(){
