@@ -63,65 +63,6 @@ if(!function_exists('melokids_products_fitler')){
     }
 }
 
-/**
- * Output the product sorting options.
- * Custom html output layout 
- * Display as list
- */
-if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
-    add_action('melokids_wc_filter_sort', 'melokids_woocommerce_catalog_ordering_filter', 1);
-    function melokids_woocommerce_catalog_ordering_filter() {
-        if ( ! wc_get_loop_prop( 'is_paginated' ) || ! woocommerce_products_will_display() ) {
-            return;
-        }
-        $catalog_orderby_options = array(
-            'date'        => esc_html__( 'Arrivals', 'melokids' ),
-            'on_sale'     => esc_html__( 'Sales', 'melokids' ),
-            'bestselling' => esc_html__( 'Bestseller', 'melokids' ),
-        );
-
-        $default_orderby = wc_get_loop_prop( 'is_search' ) ? 'relevance' : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby', '' ) );
-        $orderby         = isset( $_GET['orderby'] ) ? wc_clean( wp_unslash( $_GET['orderby'] ) ) : $default_orderby; // WPCS: sanitization ok, input var ok, CSRF ok.
-
-        if ( ! array_key_exists( $orderby, $catalog_orderby_options ) ) {
-            $orderby = current( array_keys( $catalog_orderby_options ) );
-        }
-        ?>
-            <div class="filter-by-order">
-                <ul class="filter-orderby hozr justify-content-center <?php echo melokids_align();?>">
-                    <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
-                        <?php
-
-                        $link = get_permalink( wc_get_page_id( 'shop' ));
-
-                        $link = add_query_arg( 'orderby', $id, $link );
-
-                        ?>
-                        <li>
-                            <a href="<?php echo esc_url( $link ); ?>" data-order="<?php echo esc_attr( $id ); ?>"
-                               class="wc-widget-filter <?php if ( selected( $orderby, $id, false ) ) {
-                                   echo 'selected-order';
-                               } ?>"><?php echo esc_html( $name ); ?></a>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        <?php
-
-    }
-}
-
-
-/**
- * Products Filter
- * Add widget to filter area
- *
-*/
-/**
- * Output the product sorting options.
- * Custom html output layout 
- * Display as list
- */
 function melokids_get_shop_page_link( $keep_query = false ) {
     // Base Link decided by current page
     if ( defined( 'SHOP_IS_ON_FRONT' ) ) {
@@ -151,6 +92,65 @@ function melokids_get_shop_page_link( $keep_query = false ) {
 
     return $link;
 }
+/**
+ * Output the product sorting options.
+ * Custom html output layout 
+ * Display as list
+ */
+if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
+    add_action('melokids_wc_filter_sort', 'melokids_woocommerce_catalog_ordering_filter', 1);
+    function melokids_woocommerce_catalog_ordering_filter() {
+        if ( ! wc_get_loop_prop( 'is_paginated' ) || ! woocommerce_products_will_display() ) {
+            return;
+        }
+        $catalog_orderby_options = array(
+            'date'        => esc_html__( 'Arrivals', 'melokids' ),
+            'on_sale'     => esc_html__( 'Sales', 'melokids' ),
+            'bestselling' => esc_html__( 'Bestseller', 'melokids' ),
+        );
+
+        $default_orderby = wc_get_loop_prop( 'is_search' ) ? 'relevance' : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby', '' ) );
+        $orderby         = isset( $_GET['orderby'] ) ? wc_clean( wp_unslash( $_GET['orderby'] ) ) : $default_orderby; // WPCS: sanitization ok, input var ok, CSRF ok.
+
+        if ( ! array_key_exists( $orderby, $catalog_orderby_options ) ) {
+            $orderby = current( array_keys( $catalog_orderby_options ) );
+        }
+        ?>
+            <div class="filter-by-order">
+                <ul class="filter-orderby hozr justify-content-center <?php echo melokids_align();?>">
+                    <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
+                        <?php
+
+                        $link = melokids_get_shop_page_link( wc_get_page_id( 'shop' ));
+
+                        $link = add_query_arg( 'orderby', $id, $link );
+
+                        ?>
+                        <li>
+                            <a href="<?php echo esc_url( $link ); ?>" data-order="<?php echo esc_attr( $id ); ?>"
+                               class="wc-widget-filter <?php if ( selected( $orderby, $id, false ) ) {
+                                   echo 'selected-order';
+                               } ?>"><?php echo esc_html( $name ); ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php
+
+    }
+}
+
+
+/**
+ * Products Filter
+ * Add widget to filter area
+ *
+*/
+/**
+ * Output the product sorting options.
+ * Custom html output layout 
+ * Display as list
+ */
 if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_list' ) ) {
     /**
      * Products Filter
