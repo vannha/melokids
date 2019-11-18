@@ -122,6 +122,35 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
  * Custom html output layout 
  * Display as list
  */
+function melokids_get_shop_page_link( $keep_query = false ) {
+    // Base Link decided by current page
+    if ( defined( 'SHOP_IS_ON_FRONT' ) ) {
+        $link = home_url();
+    } elseif ( is_post_type_archive( 'product' ) || is_page( wc_get_page_id( 'shop' ) ) ) {
+        $link = get_post_type_archive_link( 'product' );
+    } elseif ( is_product_category() ) {
+        $link = get_term_link( get_query_var( 'product_cat' ), 'product_cat' );
+    } elseif ( is_product_tag() ) {
+        $link = get_term_link( get_query_var( 'product_tag' ), 'product_tag' );
+    } else {
+        $link = get_term_link( get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+    }
+
+    if ( $keep_query ) {
+
+        // Keep query string vars intact
+        foreach ( $_GET as $key => $val ) {
+
+            if ( 'orderby' === $key || 'submit' === $key ) {
+                continue;
+            }
+
+            $link = add_query_arg( $key, $val, $link );
+        }
+    }
+
+    return $link;
+}
 if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_list' ) ) {
     /**
      * Products Filter
@@ -170,7 +199,7 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_list' ) ) {
                 <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
                     <?php
 
-                    $link = get_permalink( wc_get_page_id( 'shop' ));
+                    $link = melokids_get_shop_page_link(true);
 
                     $link = add_query_arg( 'orderby', $id, $link );
 
