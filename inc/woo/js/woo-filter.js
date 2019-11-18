@@ -95,8 +95,8 @@ jQuery(document).ready(function ($) {
                 openFilters();
             }
         } );
-        $('.open-filter').on('click', function(e){
-            e.preventDefault();
+        $('.zk-filters-content a').on('click', function(e){
+            //e.preventDefault();
             var _filters = document.querySelector( '.zk-filters-content' );
             if ( _filters.classList.contains( 'filters-opened' ) ) {
                 closeFilters();
