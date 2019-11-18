@@ -4,7 +4,8 @@ jQuery(document).ready(function($){
         var $this = $(this),
             $id = $(this).attr('id'),
             $loading_class = 'loading';
-        $this.find('.wc-layered-nav-term > a','.wc-widget-filter').live('click',function(){
+        $this.find('.wc-layered-nav-term > a').live('click',function(){
+            console.log('xxx');
             $this.fadeTo('slow',0.3).addClass($loading_class);
             var $link = $(this).attr('href');
             window.history.pushState({url: "" + $link + ""}, "", $link);
