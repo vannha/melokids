@@ -1,10 +1,10 @@
-jQuery(document).ready(function($){
+/*jQuery(document).ready(function($){
     "use strict";
     $('.zk-main').each(function(){
         var $this = $(this),
             $id = $(this).attr('id'),
             $loading_class = 'loading';
-        $this.find('.wc-layered-nav-term > a','.wc-widget-filter').live('click',function(){
+        $this.find('.wc-layered-nav-term > a').live('click',function(){
             console.log('xxx');
             $this.fadeTo('slow',0.3).addClass($loading_class);
             var $link = $(this).attr('href');
@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
             return false;
         });
     })
-});
+});*/
 // filter page
 jQuery(document).ready(function ($) {
     "use strict";
