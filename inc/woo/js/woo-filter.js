@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function ($) {
     "use strict";
     var $window   = $( window );
-    //addActiveClassforColSwitcher();
+    addActiveClassforColSwitcher();
 
     $(document).on('click', '.zk-filters-grid a', function (e) {
         e.preventDefault();
@@ -46,7 +46,7 @@ jQuery(document).ready(function ($) {
 
         $(document).find('.products').removeClass( removeClasses ).addClass( addClasses );
         $(document).find( '.products' ).on( 'arrangeComplete', function() { 
-            //addActiveClassforColSwitcher();
+            addActiveClassforColSwitcher();
         } );
     } );
 
@@ -76,7 +76,7 @@ jQuery(document).ready(function ($) {
      * Filter Area
 	 * Open / Close filter area
 	*/
-    //filtersArea();
+    filtersArea();
     function filtersArea(){ 
         var _filters = document.querySelector( '.zk-filters-content' );
 
@@ -124,6 +124,6 @@ jQuery(document).ready(function ($) {
     };
     /* Ajax Complete */
     jQuery(document).ajaxComplete(function(event, xhr, settings){
-        //filtersArea();
+        filtersArea();
     });
 });
