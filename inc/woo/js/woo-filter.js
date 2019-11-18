@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+/*jQuery(document).ready(function($){
     "use strict";
     $('.zk-main').each(function(){
         var $this = $(this),
@@ -16,7 +16,7 @@ jQuery(document).ready(function($){
             return false;
         });
     })
-});
+});*/
 // filter page
 jQuery(document).ready(function ($) {
     "use strict";
