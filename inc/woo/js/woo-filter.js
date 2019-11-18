@@ -76,7 +76,7 @@ jQuery(document).ready(function ($) {
      * Filter Area
 	 * Open / Close filter area
 	*/
-    //filtersArea();
+    filtersArea();
     function filtersArea(){ 
         var _filters = document.querySelector( '.zk-filters-content' );
 
