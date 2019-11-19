@@ -162,7 +162,7 @@ if ( ! class_exists( 'MeloKids_Widget_Price_Filter' ) ) {
 			$links = array();
 
 			// Remember current filters/search
-			$link          = get_permalink( wc_get_page_id( 'shop' ));
+			$link          = melokids_get_shop_page_link( wc_get_page_id( 'shop' ));
 			$link_no_price = remove_query_arg( 'min_price', $link );
 			$link_no_price = remove_query_arg( 'max_price', $link_no_price );
 
