@@ -58,7 +58,7 @@
                 <?php foreach ($media_array as $item) { ?>
                     <div class="<?php echo trim(implode(' ', array('instagram-item', $span, 'overlay-wrap', 'text-center')));?>">
                         <a href="<?php echo esc_url( $item['link'] ); ?>" target="<?php echo esc_attr( $target );?>">
-                            <img src="<?php echo esc_url($item[$size]);?>" alt="<?php echo esc_attr($item['description']);?>" />
+                            <img src="<?php echo (is_array($item[$size])) ? esc_url($item[$size]['url']) : esc_url($item[$size]) ;?>" alt="<?php echo esc_attr($item['description']);?>" />
                         </a>
                         <a href="<?php echo esc_url( $item['link'] );?>" target="<?php echo esc_attr( $target );?>" class="overlay d-flex align-items-center animated zoomOut" data-animation-in="zoomIn" data-animation-out="zoomOut">
                             <div class="overlay-inner col-12 text-center">
