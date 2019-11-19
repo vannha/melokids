@@ -5,6 +5,7 @@
     	'limit="'.$limit.'"',
     	'columns="'.$columns.'"'
     );
+    if($orderby === 'df') $orderby = '';
 	if(!empty($orderby)) $shortcode_atts[]  = 'orderby="'.$orderby.'"';
 	if(!empty($order)) $shortcode_atts[]    = 'order="'.$order.'"';
 	if(!empty($paginate)) $shortcode_atts[] = 'paginate="'.$paginate.'"';

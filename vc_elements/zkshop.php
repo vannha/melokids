@@ -40,7 +40,7 @@ vc_map(array(
             'description' => esc_html__('Select how to sort retrieved products','melokids'),
             'param_name'  => 'orderby',
             'value'       => array(
-                esc_html__('Default','melokids')                => '',
+                esc_html__('Default','melokids')                => 'df',
                 esc_html__('Title','melokids')                  => 'title',
                 esc_html__('Date','melokids')                   => 'date ',
                 esc_html__('ID','melokids')                     => 'id',
@@ -49,7 +49,7 @@ vc_map(array(
                 esc_html__('Randomly','melokids')               => 'rand',
                 esc_html__('Average product rating','melokids') => 'rating',
             ),
-            'std'        => '',
+            'std'        => 'df',
             'admin_label' => true,
         ),
         array(
