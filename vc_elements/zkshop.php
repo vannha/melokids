@@ -40,16 +40,16 @@ vc_map(array(
             'description' => esc_html__('Select how to sort retrieved products','melokids'),
             'param_name'  => 'orderby',
             'value'       => array(
-                esc_html__('Default','melokids')                => 'df',
+                esc_html__('Default','melokids')                => '',
                 esc_html__('Title','melokids')                  => 'title',
-                esc_html__('Date','melokids')                   => 'date ',
+                esc_html__('Date','melokids')                   => 'date',
                 esc_html__('ID','melokids')                     => 'id',
                 esc_html__('Menu Order','melokids')             => 'menu_order',
                 esc_html__('Popular','melokids')                => 'popularity',
                 esc_html__('Randomly','melokids')               => 'rand',
                 esc_html__('Average product rating','melokids') => 'rating',
             ),
-            'std'        => 'df',
+            'std'        => '',
             'admin_label' => true,
         ),
         array(
@@ -86,7 +86,7 @@ vc_map(array(
             'description' => esc_html__('What product to show','melokids'),
             'param_name'  => 'product_show',
             'value'       => array(
-                esc_html__('All products','melokids')          => '',
+                esc_html__('All products','melokids')          => 'all',
                 esc_html__('Featured products','melokids')     => 'featured',
                 esc_html__('On-sale products','melokids')      => 'on_sale',
                 esc_html__('Best Selling products','melokids') => 'best_selling',
