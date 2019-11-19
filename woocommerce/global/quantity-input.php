@@ -12,15 +12,10 @@
  *
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @package WooCommerce/Templates
- * @version 3.4.0
- *
- * In Melokids Theme just added an acction to call Stock Message after Quantity form
- * Hook : melokids_woocommerce_after_quantity_input
- *
+ * @version 3.6.0
  */
 
 defined( 'ABSPATH' ) || exit;
-
 if ( $max_value && $min_value === $max_value ) {
 	?>
 	<div class="quantity hidden">
@@ -32,6 +27,7 @@ if ( $max_value && $min_value === $max_value ) {
 	$labelledby = ! empty( $args['product_name'] ) ? sprintf( __( '%s quantity', 'melokids' ), strip_tags( $args['product_name'] ) ) : '';
 	?>
 	<div class="quantity">
+		<?php do_action( 'woocommerce_before_quantity_input_field' ); ?>
 		<label class="screen-reader-text" for="<?php echo esc_attr( $input_id ); ?>"><?php esc_html_e( 'Quantity', 'melokids' ); ?></label>
 		<input
 			type="number"
@@ -51,3 +47,4 @@ if ( $max_value && $min_value === $max_value ) {
 	</div>
 	<?php
 }
+

@@ -32,6 +32,18 @@ License: GNU GPL, Version 2 (or later)
 Source: http://www.zooka.io
 
 == Changelog ==
+/* 19th Nov 2019 */
+Released: V1.0.2
+- UPDATE
+	- Compatible WordPress 5.2.3
+	- Compatible WooCoomerce 3.8.0
+	- Compatible WPBakery Page Builder 6.0.5
+	- Compatible Slider Revolution 6.1.5
+	- Compatible Slider Revolution 6.1.5
+- FIX
+	+ Save element shop list option
+	+ Instagram
+	+ WooCommerce Filter
 /* 31th Jan 2019 */
 Released: V1.0.1 
 - FIX
