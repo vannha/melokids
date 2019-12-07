@@ -79,7 +79,7 @@ function melokids_loop_shop_columns( $columns ) {
         'crop'   => 1,
     );
 } );*/
-
+die('xxx');
 /**
  * Unset image width theme support.
  */
