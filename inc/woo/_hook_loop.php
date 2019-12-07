@@ -177,7 +177,7 @@ if(!function_exists('melokids_woocommerce_template_loop_product_thumbnail')){
     function melokids_woocommerce_template_loop_product_thumbnail(){
     ?>
     <div class="loop-thumb text-center"><?php
-        //echo woocommerce_get_product_thumbnail();
+        echo woocommerce_get_product_thumbnail();
         melokids_loop_product_thumnail_attrs();
         melokids_loop_product_thumnail_overlay();
     ?></div>
