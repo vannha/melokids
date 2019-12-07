@@ -83,14 +83,14 @@ function melokids_loop_shop_columns( $columns ) {
  * Unset image width theme support.
  */
 function melokids_modify_wc_theme_support() {
-    $theme_support = get_theme_support( 'melokids' );
+    $theme_support = get_theme_support( 'woocommerce' );
     $theme_support = is_array( $theme_support ) ? $theme_support[0] : array();
  
     unset( $theme_support['single_image_width'], $theme_support['thumbnail_image_width'] );
  
-    remove_theme_support( 'melokids' );
+    remove_theme_support( 'woocommerce' );
 
-    add_theme_support( 'melokids', $theme_support );
+    add_theme_support( 'woocommerce', $theme_support );
 
     update_option( 'woocommerce_single_image_width', '870' );
     update_option( 'woocommerce_thumbnail_image_width', '440' );
