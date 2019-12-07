@@ -172,12 +172,12 @@ remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_pro
 remove_action('woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail', 10);
 remove_action('woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 10);
 
-//add_action('woocommerce_before_shop_loop_item_title', 'melokids_woocommerce_template_loop_product_thumbnail', 10);
+add_action('woocommerce_before_shop_loop_item_title', 'melokids_woocommerce_template_loop_product_thumbnail', 10);
 if(!function_exists('melokids_woocommerce_template_loop_product_thumbnail')){
     function melokids_woocommerce_template_loop_product_thumbnail(){
     ?>
     <div class="loop-thumb text-center"><?php
-        echo woocommerce_get_product_thumbnail();
+        //echo woocommerce_get_product_thumbnail();
         melokids_loop_product_thumnail_attrs();
         melokids_loop_product_thumnail_overlay();
     ?></div>
