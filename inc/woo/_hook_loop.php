@@ -99,8 +99,7 @@ function melokids_modify_wc_theme_support() {
     update_option( 'woocommerce_thumbnail_cropping_custom_width', '440' );
     update_option( 'woocommerce_thumbnail_cropping_custom_height', '509' );
 }
- 
-add_action( 'after_setup_theme', 'melokids_modify_wc_theme_support', 10 );
+//add_action( 'after_setup_theme', 'melokids_modify_wc_theme_support', 10 );
 
 
 /**
