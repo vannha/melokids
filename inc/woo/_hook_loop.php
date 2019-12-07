@@ -55,30 +55,30 @@ function melokids_loop_shop_columns( $columns ) {
  * @source https://docs.woocommerce.com/document/image-sizes-theme-developers/
 */
 /* Loop Thumbnail Size */
-add_filter( 'woocommerce_get_image_size_thumbnail', function( $size ) {
+/*add_filter( 'woocommerce_get_image_size_thumbnail', function( $size ) {
     return array(
         'width'  => 440,
         'height' => 509,
         'crop'   => 1,
     );
-} ); 
+} ); */
 
 /* Single Thumbnail Size */
-add_filter( 'woocommerce_get_image_size_single', function( $size ) {
+/*add_filter( 'woocommerce_get_image_size_single', function( $size ) {
     return array(
         'width'  => 570, // 870
         'height' => 360, // 550
         'crop'   => 1,
     );
-} );
+} );*/
 /* Gallery Thumbnail Size */
-add_filter( 'woocommerce_get_image_size_gallery_thumbnail', function( $size ) {
+/*add_filter( 'woocommerce_get_image_size_gallery_thumbnail', function( $size ) {
     return array(
         'width'  => 177,
         'height' => 235,
         'crop'   => 1,
     );
-} );
+} );*/
 
 /**
  * Unset image width theme support.

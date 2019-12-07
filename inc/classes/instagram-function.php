@@ -93,7 +93,6 @@ function melokids_instagram( $username ) {
                 $image['images']['original']            = preg_replace( "/^http:/i", "", $image['images']['standard_resolution'] );
 
                 $instagram[] = array(
-                    'xxx'           => 'xxxx',
                     'description'   => $image['caption']['text'],
                     'link'          => $image['link'],
                     'time'          => $image['created_time'],
