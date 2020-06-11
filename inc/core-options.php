@@ -1204,6 +1204,37 @@ if(!function_exists('melokids_woocommerce_opts')){
                         'type'      => 'text',
                         'validate'  => 'numeric',
                         'default'   => '0',
+                    ),
+                    array(
+                        'id'       => 'loop_product_image',
+                        'type'     => 'info',
+                        'style'    => 'success',
+                        'title'    => esc_html__('Products Images', 'melokids'),
+                        'subtitle' => esc_html__('Custom products image size, ...', 'melokids'),
+                    ),
+                    array(
+                        'title'    => esc_html__('Main Images', 'melokids'),
+                        'subtitle' => esc_html__('Enter the Main image size', 'melokids'),
+                        'id'       => 'product_single_image_size',
+                        'type'     => 'dimensions',
+                        'units'    => array('px'),
+                        'default'  => array(),
+                    ),
+                    array(
+                        'title'    => esc_html__('Loop Images', 'melokids'),
+                        'subtitle' => esc_html__('Enter the Loop image size', 'melokids'),
+                        'id'       => 'product_loop_image_size',
+                        'type'     => 'dimensions',
+                        'units'    => array('px'),
+                        'default'  => array(),
+                    ),
+                    array(
+                        'title'    => esc_html__('Gallery Images Size', 'melokids'),
+                        'subtitle' => esc_html__('Enter the gallery image size (regenerate-thumbnails after change)', 'melokids'),
+                        'id'       => 'product_gallery_thumbnail_size',
+                        'type'     => 'dimensions',
+                        'units'    => array('px'),
+                        'default'  => array()
                     )
                 )
             )

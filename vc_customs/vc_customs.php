@@ -222,18 +222,19 @@ function melokids_vc_shortcode_output($html = '', $sc_obj = '', $atts = [])
         case 'vc_row':
             $styles = [];
             /* Text Color */
-            if (isset($text_color)) $styles[] = 'color:' . $text_color;
+            if (isset($text_color) && empty($row_close)) $styles[] = 'color:' . $text_color;
             /* Background Color */
-            if (isset($bgc_color)) $styles[] = 'background-color:' . $bgc_color;
-            
-            /* Add custom style */
-            if(!empty($styles)) $modify['attrs']['style'] = implode(';', $styles );
 
+            if (isset($bgc_color) && empty($row_close)) $styles[] = 'background-color:' . $bgc_color;
+             
+            /* Add custom style */
+            if(!empty($styles) ) $modify['attrs']['style'] = implode(';', $styles );
+ 
             /* parallax overlay color */
             if (isset($parallax_overlay) && !empty($parallax_overlay)) 
               $modify['first-child'] = '<div class="parallax_overlay" style="background-color:' . esc_attr($parallax_overlay) . '"></div>'; 
-            if(isset($row_close) && !empty($row_close))
-                $modify['last-child'] = '<div class="close-row '.melokids_align2().' far fa-times-circle transition"></div>'; //ex: '<div class="d-none">Row last child</div>';
+            //if(isset($row_close) && !empty($row_close))
+                //$modify['last-child'] = '<div class="close-row '.melokids_align2().' far fa-times-circle transition"></div>'; //ex: '<div class="d-none">Row last child</div>';
             // row before
             $modify['before'] = ''; //ex: '<div class="d-none">Row Before</div>';
             $modify['after'] = ''; //ex: '<div class="d-none">Row after</div>';
@@ -254,17 +255,17 @@ function melokids_vc_shortcode_output($html = '', $sc_obj = '', $atts = [])
         case 'vc_row_inner':
             $styles = [];
             /* Text Color */
-            if (isset($text_color)) $styles[] = 'color:' . $text_color;
+            if (isset($text_color) && empty($row_close)) $styles[] = 'color:' . $text_color;
             /* Background Color */
-            if (isset($bgc_color)) $styles[] = 'background-color:' . $bgc_color;
+            if (isset($bgc_color) && empty($row_close)) $styles[] = 'background-color:' . $bgc_color;
             /* Add custom style */
             if(!empty($styles)) $modify['attrs']['style'] = implode(';', $styles );
 
             /* parallax overlay color */
             if (isset($parallax_overlay) && !empty($parallax_overlay))
                 $modify['first-child'] = '<div class="parallax_overlay" style="background-color:' . esc_attr($parallax_overlay) . '"></div>';
-            if(isset($row_close) && !empty($row_close))
-                $modify['last-child'] = '<div class="close-row '.melokids_align2().' far fa-times-circle transition"></div>';
+            //if(isset($row_close) && !empty($row_close))
+                //$modify['last-child'] = '<div class="close-row '.melokids_align2().' far fa-times-circle transition"></div>';
             break;
         case 'vc_column':
             $styles = [];

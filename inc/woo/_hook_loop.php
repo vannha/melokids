@@ -55,42 +55,50 @@ function melokids_loop_shop_columns( $columns ) {
  * @source https://docs.woocommerce.com/document/image-sizes-theme-developers/
 */
 /* Loop Thumbnail Size */
-/*add_filter( 'woocommerce_get_image_size_thumbnail', function( $size ) {
+add_filter( 'woocommerce_get_image_size_thumbnail', function( $size ) {
+    $loop_image_w = melokids_get_theme_opt('product_loop_image_size',['width' => '440'])['width'];
+    $loop_image_h = melokids_get_theme_opt('product_loop_image_size',['height' => '509'])['height'];
     return array(
-        'width'  => 440,
-        'height' => 509,
+        'width'  => $loop_image_w,
+        'height' => $loop_image_h,
         'crop'   => 1,
     );
-} ); */
+} ); 
 
 /* Single Thumbnail Size */
-/*add_filter( 'woocommerce_get_image_size_single', function( $size ) {
+add_filter( 'woocommerce_get_image_size_single', function( $size ) {
+    $single_image_w = melokids_get_theme_opt('product_single_image_size',['width' => '570'])['width'];
+    $single_image_h = melokids_get_theme_opt('product_single_image_size',['height' => '360'])['height'];
+    
     return array(
-        'width'  => 570, // 870
-        'height' => 360, // 550
+        'width'  => $single_image_w, //570, // 870
+        'height' => $single_image_h, //360, // 550
         'crop'   => 1,
     );
-} );*/
+} );
 /* Gallery Thumbnail Size */
-/*add_filter( 'woocommerce_get_image_size_gallery_thumbnail', function( $size ) {
+add_filter( 'woocommerce_get_image_size_gallery_thumbnail', function( $size ) {
+    $gallery_thumbnail_w = str_replace('px','',melokids_get_theme_opt('product_gallery_thumbnail_size',['width' => '177'])['width']);
+    $gallery_thumbnail_h = str_replace('px','',melokids_get_theme_opt('product_gallery_thumbnail_size',['height' => '235'])['height']);
     return array(
-        'width'  => 177,
-        'height' => 235,
+        'width'  => $gallery_thumbnail_w, //177,
+        'height' => $gallery_thumbnail_h, //235,
         'crop'   => 1,
     );
-} );*/
+} );
+
 /**
  * Unset image width theme support.
  */
 function melokids_modify_wc_theme_support() {
-    $theme_support = get_theme_support( 'woocommerce' );
+    $theme_support = get_theme_support( 'melokids' );
     $theme_support = is_array( $theme_support ) ? $theme_support[0] : array();
  
     unset( $theme_support['single_image_width'], $theme_support['thumbnail_image_width'] );
  
-    remove_theme_support( 'woocommerce' );
+    remove_theme_support( 'melokids' );
 
-    add_theme_support( 'woocommerce', $theme_support );
+    add_theme_support( 'melokids', $theme_support );
 
     update_option( 'woocommerce_single_image_width', '870' );
     update_option( 'woocommerce_thumbnail_image_width', '440' );
@@ -99,7 +107,8 @@ function melokids_modify_wc_theme_support() {
     update_option( 'woocommerce_thumbnail_cropping_custom_width', '440' );
     update_option( 'woocommerce_thumbnail_cropping_custom_height', '509' );
 }
-//add_action( 'after_setup_theme', 'melokids_modify_wc_theme_support', 10 );
+ 
+add_action( 'after_setup_theme', 'melokids_modify_wc_theme_support', 10 );
 
 
 /**
@@ -203,7 +212,7 @@ if(!function_exists('melokids_woocommerce_show_product_loop_badges')){
     function melokids_woocommerce_show_product_loop_badges(){
         global $post, $product;
         $terms = get_the_terms($product->get_id(), 'pa_badge');
-        if(!is_wp_error($terms)){
+        if(!is_wp_error($terms) && !empty($terms)){
             $count = count($terms);
         } else {
             $count = 0;
@@ -435,7 +444,7 @@ if(!function_exists('melokids_woocommerce_add_to_cart_fragment')){
 if(!function_exists('melokids_woocommerce_add_to_cart_data_fragment')){
     add_filter('woocommerce_add_to_cart_fragments', 'melokids_woocommerce_add_to_cart_data_fragment', 10, 1 );
     function melokids_woocommerce_add_to_cart_data_fragment( $fragments ) {
-    	if(!class_exists('WooCommerce')) return;
+        if(!class_exists('WooCommerce')) return;
         ob_start();
         ?>
         <span class="data-cart-count" data-count="<?php echo WC()->cart->cart_contents_count; ?>"></span>

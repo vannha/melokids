@@ -196,7 +196,7 @@ if(!function_exists('melokids_woocommerce_single_product_brand')){
 		global $post, $product;
 		if(empty($product_id)) $product_id = $product->get_id();
         $terms = get_the_terms($product_id, 'pa_brand');
-        if(!is_wp_error($terms)){
+        if(!is_wp_error($terms) && !empty($terms)){
             $count = count($terms);
         } else {
             $count = 0;
