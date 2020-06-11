@@ -56,8 +56,8 @@ function melokids_loop_shop_columns( $columns ) {
 */
 /* Loop Thumbnail Size */
 add_filter( 'woocommerce_get_image_size_thumbnail', function( $size ) {
-    $loop_image_w = melokids_get_theme_opt('product_loop_image_size',['width' => '440'])['width'];
-    $loop_image_h = melokids_get_theme_opt('product_loop_image_size',['height' => '509'])['height'];
+    $loop_image_w = melokids_get_opts('product_loop_image_size',['width' => '440'])['width'];
+    $loop_image_h = melokids_get_opts('product_loop_image_size',['height' => '509'])['height'];
     return array(
         'width'  => $loop_image_w,
         'height' => $loop_image_h,
@@ -67,8 +67,8 @@ add_filter( 'woocommerce_get_image_size_thumbnail', function( $size ) {
 
 /* Single Thumbnail Size */
 add_filter( 'woocommerce_get_image_size_single', function( $size ) {
-    $single_image_w = melokids_get_theme_opt('product_single_image_size',['width' => '570'])['width'];
-    $single_image_h = melokids_get_theme_opt('product_single_image_size',['height' => '360'])['height'];
+    $single_image_w = melokids_get_opts('product_single_image_size',['width' => '570'])['width'];
+    $single_image_h = melokids_get_opts('product_single_image_size',['height' => '360'])['height'];
     
     return array(
         'width'  => $single_image_w, //570, // 870
@@ -78,8 +78,8 @@ add_filter( 'woocommerce_get_image_size_single', function( $size ) {
 } );
 /* Gallery Thumbnail Size */
 add_filter( 'woocommerce_get_image_size_gallery_thumbnail', function( $size ) {
-    $gallery_thumbnail_w = str_replace('px','',melokids_get_theme_opt('product_gallery_thumbnail_size',['width' => '177'])['width']);
-    $gallery_thumbnail_h = str_replace('px','',melokids_get_theme_opt('product_gallery_thumbnail_size',['height' => '235'])['height']);
+    $gallery_thumbnail_w = str_replace('px','',melokids_get_opts('product_gallery_thumbnail_size',['width' => '177'])['width']);
+    $gallery_thumbnail_h = str_replace('px','',melokids_get_opts('product_gallery_thumbnail_size',['height' => '235'])['height']);
     return array(
         'width'  => $gallery_thumbnail_w, //177,
         'height' => $gallery_thumbnail_h, //235,
