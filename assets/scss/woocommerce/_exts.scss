@@ -87,8 +87,9 @@ form.cart {
 				content: "\f004";
 			}
 			&.woosw-added:before{
-				font-family: $FontAwesomeR;
+				font-family: $FontAwesome;
 				margin-right: 0;
+			    font-weight: bold;
 			}
 		}
 	}
