@@ -246,7 +246,7 @@ function melokids_front_end_scripts()
     wp_enqueue_style('melokids');
 }
 
-add_action('wp_enqueue_scripts', 'melokids_front_end_scripts',999);
+add_action('wp_enqueue_scripts', 'melokids_front_end_scripts', 99);
 
 /**
  * load admin scripts.
