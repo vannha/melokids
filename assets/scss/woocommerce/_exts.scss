@@ -83,7 +83,7 @@ form.cart {
 			}
 		}
 		&.woosw-btn{
-			&:before{
+			&.woosw-added:before{
 				content: "\f004";
 			}
 			&.woosw-added:before{
