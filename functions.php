@@ -228,7 +228,7 @@ function melokids_front_end_scripts()
     wp_enqueue_style('font-awesome5-all', get_template_directory_uri() . '/assets/css/fontawesome5/css/all.css', '', '5.1.0');
     wp_enqueue_style('font-awesome5-brand', get_template_directory_uri() . '/assets/css/fontawesome5/css/brands.css', '', '5.1.0');
     wp_enqueue_style('font-awesome5-light', get_template_directory_uri() . '/assets/css/fontawesome5/css/light.css', '', '5.1.0');
-    wp_enqueue_style('font-awesome5-regular', get_template_directory_uri() . '/assets/css/fontawesome5/css/regular.css', '', '5.1.0');
+    wp_enqueue_style('font-awesome5-regular', get_template_directory_uri() . '/assets/css/fontawesome5/css/regular.css', '', '7.1.0');
     wp_enqueue_style('font-awesome5-solid', get_template_directory_uri() . '/assets/css/fontawesome5/css/solid.css', '', '5.1.0');
     wp_enqueue_style('font-awesome5-svg-with-js', get_template_directory_uri() . '/assets/css/fontawesome5/css/svg-with-js.css', '', '5.1.0');
     wp_enqueue_style('font-awesome5-v4-shims', get_template_directory_uri() . '/assets/css/fontawesome5/css/v4-shims.css', '', '5.1.0');
