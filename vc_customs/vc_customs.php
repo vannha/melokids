@@ -177,7 +177,7 @@ function melokids_css_classes_for_vc_row_and_vc_column( $class_string, $tag ) {
 /**
  * Custom VC shortcode output
  */
-add_filter('vc_shortcode_output', 'melokids_vc_shortcode_output', 10, 3);
+//add_filter('vc_shortcode_output', 'melokids_vc_shortcode_output', 10, 3);
 function melokids_vc_shortcode_output($html = '', $sc_obj = '', $atts = [])
 {
     extract($atts);
