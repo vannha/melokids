@@ -5,7 +5,7 @@
 if(!function_exists('melokids_enable_export_mode')){
 	add_filter('ef5_ie_export_mode', 'melokids_enable_export_mode');
 	function melokids_enable_export_mode() {
-	    return false;
+	    return true;
 	}
 }
 /**
