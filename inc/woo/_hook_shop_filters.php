@@ -104,8 +104,12 @@ function melokids_get_current_page_url() {
     } elseif ( is_product_tag() ) {
         $link = get_term_link( get_query_var( 'product_tag' ), 'product_tag' );
     } else {
-        $queried_object = get_queried_object();
-        $link = get_term_link( $queried_object->slug, $queried_object->taxonomy );
+        if (is_page()) {
+            $link = get_page_link(get_the_ID());
+        }else{
+            $queried_object = get_queried_object();
+            $link = get_term_link( $queried_object->slug, $queried_object->taxonomy );
+        }
     }
 
     // Min/Max.
@@ -187,6 +191,7 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
                         //$link = melokids_get_shop_page_link( wc_get_page_id( 'shop' ));
                         //$link = add_query_arg( 'orderby', $id, $link );
                         $link = melokids_get_current_page_url();
+                        $link = add_query_arg( 'orderby', $id, $link );
                         var_dump($link);
 
                         ?>
