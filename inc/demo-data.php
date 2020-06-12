@@ -5,7 +5,7 @@
 if(!function_exists('melokids_enable_export_mode')){
 	add_filter('ef5_ie_export_mode', 'melokids_enable_export_mode');
 	function melokids_enable_export_mode() {
-	    return false;
+	    return true;
 	}
 }
 /**
@@ -17,6 +17,14 @@ function melokids_options_name()
 {
     //Example name of theme option is "cms_theme_options"
     return 'theme_options';
+}
+/* move default post / page to trash */
+function melokids_get_id_by_title($post_title, $post_type = 'page'){
+    $page = get_page_by_title( $post_title, OBJECT , $post_type );
+    if(isset($page->ID))
+        return $page->ID;
+    else 
+        return 0;
 }
 /**
  * Remove default post / page / extra page from required plugin
