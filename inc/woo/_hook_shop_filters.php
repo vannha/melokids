@@ -98,7 +98,7 @@ function melokids_get_shop_page_link( $keep_query = false ) {
  * Display as list
  */
 if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
-    add_action('melokids_wc_filter_sort', 'melokids_woocommerce_catalog_ordering_filter', 1);
+   // add_action('melokids_wc_filter_sort', 'melokids_woocommerce_catalog_ordering_filter', 1);
     function melokids_woocommerce_catalog_ordering_filter() {
         if ( ! wc_get_loop_prop( 'is_paginated' ) || ! woocommerce_products_will_display() ) {
             return;
