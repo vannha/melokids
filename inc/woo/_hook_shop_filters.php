@@ -187,6 +187,7 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
                         //$link = melokids_get_shop_page_link( wc_get_page_id( 'shop' ));
                         //$link = add_query_arg( 'orderby', $id, $link );
                         $link = melokids_get_current_page_url();
+                        var_dump($link);
 
                         ?>
                         <li>
