@@ -126,7 +126,12 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
                         $link = add_query_arg( 'orderby', $id, $link );
 
                         ?>
-                        
+                        <li>
+                            <a href="<?php echo esc_url( $link ); ?>" data-order="<?php echo esc_attr( $id ); ?>"
+                               class="wc-widget-filter <?php if ( selected( $orderby, $id, false ) ) {
+                                   echo 'selected-order';
+                               } ?>"><?php echo esc_html( $name ); ?></a>
+                        </li>
                     <?php endforeach; ?>
                 </ul>
             </div>
