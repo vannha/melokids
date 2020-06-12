@@ -119,7 +119,14 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
             <div class="filter-by-order">
                 <ul class="filter-orderby hozr justify-content-center <?php echo melokids_align();?>">
                     <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
+                        <?php
 
+                        $link = melokids_get_shop_page_link( wc_get_page_id( 'shop' ));
+
+                        //$link = add_query_arg( 'orderby', $id, $link );
+
+                        ?>
+                        
                     <?php endforeach; ?>
                 </ul>
             </div>
