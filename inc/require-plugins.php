@@ -8,10 +8,16 @@ function melokids_required_plugins() {
             'source'             => 'EF4-Framework.zip',
             'required'           => true,
         ),
-        array(
+       /* array(
             'name'               => esc_html__('SWA Import/Export','melokids'),
             'slug'               => 'swa-import-export',
             'source'             => 'swa-import-export.zip',
+            'required'           => true,
+        ),*/
+        array(
+            'name'               => esc_html__('EF5 Import/Export','melokids'),
+            'slug'               => 'ef5-import-export',
+            'source'             => 'ef5-import-export.zip',
             'required'           => true,
         ),
         array(
