@@ -192,7 +192,7 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_filter' ) ) {
                         //$link = add_query_arg( 'orderby', $id, $link );
                         $link = melokids_get_current_page_url();
                         $link = add_query_arg( 'orderby', $id, $link );
-                        var_dump($link);
+                        //var_dump($link);
 
                         ?>
                         <li>
