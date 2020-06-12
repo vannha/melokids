@@ -1,87 +1,53 @@
 <?php
-/**
- * Enable Export Sample Data 
-*/
-if(!function_exists('melokids_enable_export_mode')){
-	add_filter('ef5_ie_export_mode', 'melokids_enable_export_mode');
-	function melokids_enable_export_mode() {
-	    return false;
-	}
+if(!class_exists('EF4Framework') && !class_exists('SWA_Import_Export')) return;
+// docs: http://dev.joomexp.com/wordpress/cms-document/
+// Theme document link 
+add_filter('cms_documentation_link', 'function_add_documentation_link');
+function function_add_documentation_link($url)
+{
+    $url = 'http://docs.zooka.io/melokids/';
+    return $url;
 }
-/**
- * Define theme option name
- * Required!!!
-*/
-add_filter('ef5_ie_options_name', 'melokids_options_name');
-function melokids_options_name()
+// Ticket 
+add_filter('cms_ticket_link', 'function_add_cms_ticket_link');
+function function_add_cms_ticket_link($url)
+{
+    //type: email or url
+    //if type is email => link is email address
+    //$url = array('type' => 'email', 'link' => 'zooka.sp@gmail.com');
+    $url = array('type' => 'link', 'link' => 'http://support.zooka.io/support/tickets/new');
+    return $url;
+}
+
+// Enable Export Mode
+add_filter('swa_ie_export_mode', 'function_enable_export_mode');
+function function_enable_export_mode()
+{
+    return true;
+}
+
+// Replace theme option name
+add_filter('swa_ie_options_name', 'function_options_name');
+function function_options_name()
 {
     //Example name of theme option is "cms_theme_options"
     return 'theme_options';
 }
-/**
- * Remove default post / page / extra page from required plugin
- * like :  Hello Word, Sample Page, Privacy Policy, Newsletter, Wishlist, ...
-*/
-add_action('ef5-ie-import-start', 'melokids_move_trash', 1);
-if(!function_exists('melokids_move_trash')){
-    function melokids_move_trash(){
-        wp_trash_post(1);
-        wp_trash_post(2);
-        wp_trash_post(3);
-        wp_trash_post(melokids_get_id_by_title('Cart'));
-        wp_trash_post(melokids_get_id_by_title('Checkout'));
-        wp_trash_post(melokids_get_id_by_title('My account'));
-        wp_trash_post(melokids_get_id_by_title('Shop'));
-        wp_trash_post(melokids_get_id_by_title('Wishlist'));
-        wp_trash_post(melokids_get_id_by_title('Newsletter'));
-    }
-}
-/**
- * Remove default widgets after install WordPress
- * like : Search, Recent Posts, Recent Comments, Archives, Categories, Meta
-*/
-add_action('ef5-ie-import-start','melokids_removed_default_wp_widgets', 10, 2);
-function melokids_removed_default_wp_widgets(){
-    global $wp_registered_sidebars;
-    $widgets = get_option('sidebars_widgets');
-    foreach ($wp_registered_sidebars as $sidebar => $value) {
-        unset($widgets[$sidebar]);
-    }
-    update_option('sidebars_widgets',$widgets);
-}
-/**
- * Set Default page.
- *
- * get array page title and update options.
- *
- */
-function melokids_set_default_page(){
-    $pages = array(
-        'page_on_front'                 => 'Home',
-        'page_for_posts'                => 'Blog',
-        'page_for_privacy_policy'       => 'Privacy Policy',
-        'woocommerce_shop_page_id'      => 'Shop',
-        'woocommerce_cart_page_id'      => 'Cart',
-        'woocommerce_checkout_page_id'  => 'Checkout',
-        'woocommerce_myaccount_page_id' => 'My Account',
-        'woocommerce_terms_page_id'     => 'Terms and Conditions',
-    );
-    foreach ($pages as $key => $page){
-        $page = get_page_by_title($page);
-        if(!isset($page->ID))
-            return ;
-        update_option($key, $page->ID);
-    }
-}
-add_action('ef5-ie-import-finish', 'melokids_set_default_page');
 
-/**
- * Extra option 
- * Update option for Extensions option like: WooCommerce, Newsletter, ...
- *
-*/
-add_filter('ef5_ie_extra_options', 'melokids_extra_options_name');
-function melokids_extra_options_name($extra_options)
+// Export Post type 
+add_filter('swa_post_types', 'function_swa_post_types');
+function function_swa_post_types($post_type)
+{
+    $theme_post_type = [
+        'product'
+    ];
+    $post_type = array_merge($post_type, $theme_post_type);
+    return $post_type;
+}
+
+// Extra option 
+add_filter('swa_ie_extra_options', 'function_extra_options_name');
+function function_extra_options_name($extra_options)
 {
     $theme_extra_options = [
         'blogname',
@@ -112,8 +78,42 @@ function melokids_extra_options_name($extra_options)
     return $extra_options;
 }
 
+/* Remove default widget Before import sample data */
+add_action('swa-ie-import-start','melokids_removed_widgets', 10, 2);
+function melokids_removed_widgets(){
+    /* get all registered sidebars */
+    global $wp_registered_sidebars;
+    /*get saved widgets*/
+    $widgets = get_option('sidebars_widgets');
+    /*loop over the sidebars and remove all widgets*/
+    foreach ($wp_registered_sidebars as $sidebar => $value) {
+        unset($widgets[$sidebar]);
+    }
+    /*update with widgets removed*/
+    update_option('sidebars_widgets',$widgets);
+}
+
+/* move default post / page to trash */
+function melokids_get_id_by_title($post_title, $post_type = 'page'){
+    $page = get_page_by_title( $post_title, OBJECT , $post_type );
+    return $page->ID;
+}
+add_action('swa-ie-import-start', 'melokids_move_trash', 1);
+if(!function_exists('melokids_move_trash')){
+    function melokids_move_trash(){
+        wp_trash_post(1);
+        wp_trash_post(2);
+        wp_trash_post(3);
+        wp_trash_post(melokids_get_id_by_title('Cart'));
+        wp_trash_post(melokids_get_id_by_title('Checkout'));
+        wp_trash_post(melokids_get_id_by_title('My account'));
+        wp_trash_post(melokids_get_id_by_title('Shop'));
+        wp_trash_post(melokids_get_id_by_title('Wishlist'));
+        wp_trash_post(melokids_get_id_by_title('Newsletter'));
+    }
+}
 /* User and User Meta */
-add_action('ef5-ie-export-start','melokids_export_user_metadata',1,2);
+add_action('swa-ie-export-start','melokids_export_user_metadata',1,2);
 function melokids_export_user_metadata($folder_dir){
     global $wp_filesystem;
     $file = $folder_dir . 'user_data.json';
@@ -154,7 +154,7 @@ function melokids_export_user_metadata($folder_dir){
     $file_contents = json_encode($users_data);
     $wp_filesystem->put_contents( $file, $file_contents, FS_CHMOD_FILE);
 }
-add_action('ef5-ie-import-finish', 'melokids_import_user_metadata' ,1,2);
+add_action('swa-ie-import-finish', 'melokids_import_user_metadata' ,1,2);
 function melokids_import_user_metadata($folder_dir){
 
     if (file_exists($file = $folder_dir . 'user_data.json')){
