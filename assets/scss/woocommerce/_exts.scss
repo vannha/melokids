@@ -83,7 +83,7 @@ form.cart {
 			}
 		}
 		&.woosw-btn{
-			&.woosw-added:before{
+			&:before{
 				content: "\f004";
 			}
 			&.woosw-added:before{
@@ -93,6 +93,7 @@ form.cart {
 		}
 	}
 }
+
 .woosmart-btn{
 	> button,
 	> a {
