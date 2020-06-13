@@ -8,6 +8,16 @@ if(!function_exists('melokids_enable_export_mode')){
 	    return true;
 	}
 }
+// Export Post type 
+add_filter('ef5_post_types', 'function_swa_post_types');
+function function_swa_post_types($post_type)
+{
+    $theme_post_type = [
+        'product'
+    ];
+    $post_type = array_merge($post_type, $theme_post_type);
+    return $post_type;
+}
 /**
  * Define theme option name
  * Required!!!
