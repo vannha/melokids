@@ -67,31 +67,6 @@ function melokids_removed_default_wp_widgets(){
     }
     update_option('sidebars_widgets',$widgets);
 }
-/**
- * Set Default page.
- *
- * get array page title and update options.
- *
- */
-function melokids_set_default_page(){
-    $pages = array(
-        'page_on_front'                 => 'Home',
-        'page_for_posts'                => 'Blog',
-        'page_for_privacy_policy'       => 'Privacy Policy',
-        'woocommerce_shop_page_id'      => 'Shop',
-        'woocommerce_cart_page_id'      => 'Cart',
-        'woocommerce_checkout_page_id'  => 'Checkout',
-        'woocommerce_myaccount_page_id' => 'My Account',
-        'woocommerce_terms_page_id'     => 'Terms and Conditions',
-    );
-    foreach ($pages as $key => $page){
-        $page = get_page_by_title($page);
-        if(!isset($page->ID))
-            return ;
-        update_option($key, $page->ID);
-    }
-}
-add_action('ef5-ie-import-finish', 'melokids_set_default_page');
 
 /**
  * Extra option 
