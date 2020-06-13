@@ -266,8 +266,8 @@ if ( ! function_exists( 'melokids_woocommerce_catalog_ordering_list' ) ) {
                 <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
                     <?php
 
-                    $link = melokids_get_shop_page_link(true);
-
+                    //$link = melokids_get_shop_page_link(true);
+                    $link = melokids_get_current_page_url();
                     $link = add_query_arg( 'orderby', $id, $link );
 
                     ?>
