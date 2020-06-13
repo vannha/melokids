@@ -94,7 +94,7 @@ if ( ! class_exists( 'MeloKids_Widget_Price_Filter' ) ) {
 			}
 
 			$links = $this->generate_price_links( $min, $max, $min_price, $max_price );
-var_dump($links);
+
 			if ( ! empty( $links ) ) {
 				?>
 				<div class="melokids-price-filter">
