@@ -9,8 +9,8 @@ if(!function_exists('melokids_enable_export_mode')){
 	}
 }
 // Export Post type 
-add_filter('ef5_post_types', 'function_swa_post_types');
-function function_swa_post_types($post_type)
+add_filter('ef5_post_types', 'melokids_post_types');
+function melokids_post_types($post_type)
 {
     $theme_post_type = [
         'product'
