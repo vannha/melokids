@@ -48,7 +48,7 @@ if ( ! class_exists( 'MeloKids_Widget_Price_Filter' ) ) {
 		// Based on woo widget @version  2.3.0
 		function widget( $args, $instance ) {
 			global $wp, $wp_the_query;
-			if ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) ) {
+			if ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) && !is_page() ) {
 				return;
 			}
 			if ( ! $wp_the_query->post_count ) {
