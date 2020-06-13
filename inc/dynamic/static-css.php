@@ -31,7 +31,7 @@ class MeloKids_StaticCss
     {
 
         $dev_mode = (!defined('WP_DEBUG') || !WP_DEBUG) ? '0' : '1';
-        $dev_mode = '0';
+         
         if ('1' === $dev_mode) {
             $this->generate_file();
             $this->generate_file_magnific_popup();
